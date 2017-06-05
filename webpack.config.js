@@ -17,11 +17,11 @@ module.exports = {
     rules: [
       {
           test: /\.svg$/,
-          use: ['file-loader'],
+          loader: 'file-loader',
       },
       {
           test: /\.md$/,
-          use: ['react-markdown-loader'],
+          loader: 'react-markdown'
       },
       {
           test: /\.jsx?$/,
