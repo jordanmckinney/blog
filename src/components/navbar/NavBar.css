@@ -1,0 +1,22 @@
+.header {
+  background: #d6ffff;
+  height: 100px;
+}
+
+.navbar {
+  background: #cdf4d4;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+}

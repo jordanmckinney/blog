@@ -14,8 +14,25 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ }
+    rules: [
+      {
+          test: /\.svg$/,
+          use: ['file-loader'],
+      },
+      {
+          test: /\.md$/,
+          use: ['react-markdown-loader'],
+      },
+      {
+          test: /\.jsx?$/,
+          loader: 'babel-loader!eslint-loader',
+          exclude: /node_modules/,
+      },
+      {
+          test: /\.css$/,
+          loader: 'style-loader!css-loader',
+          exclude: /node_modules/
+      }
     ]
   },
 
