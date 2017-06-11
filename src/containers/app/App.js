@@ -6,9 +6,10 @@ import Projects from '../../containers/projects/Projects';
 import Writings from '../../containers/writing/Writing';
 import NavBar from '../../components/navbar/NavBar';
 
+import './App.css';
 
 const App = () => (
-  <Router>
+  <Router className="app">
     <div className="app">
       <NavBar />
       <Route exact path="/" component={Projects}/>
