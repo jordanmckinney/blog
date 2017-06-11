@@ -1,17 +1,15 @@
 .header-container {
-    margin-left: auto;
-    margin-right: auto;
+  background: #d6ffff;
 }
 
 .header {
-  background: #d6ffff;
   height: 100px;
 }
 
 .navbar {
-  background: #cdf4d4;
   display: flex;
   justify-content: space-around;
+  background: #cdf4d4;
 }
 
 .navbar a {
