@@ -28,6 +28,7 @@
     "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-fontawesome": "^1.6.1",
     "react-markdown": "^2.5.0",
     "react-markdown-loader": "^1.1.11",
     "react-router": "^4.1.1",
