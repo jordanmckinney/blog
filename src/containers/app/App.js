@@ -9,13 +9,13 @@ import NavBar from '../../components/navbar/NavBar';
 import './App.css';
 
 const App = () => (
-  <Router className="app">
+  <Router>
     <div className="app">
       <NavBar />
-      <Route exact path="/" component={Projects}/>
-      <Route path="/about" component={About}/>
-      <Route path="/writing" component={Writings}/>
-      <Route path="/projects" component={Projects}/>
+        <Route exact path="/" component={Projects}/>
+        <Route path="/about" component={About}/>
+        <Route path="/writing" component={Writings}/>
+        <Route path="/projects" component={Projects}/>
     </div>
   </Router>
 )

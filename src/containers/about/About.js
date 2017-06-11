@@ -9,7 +9,9 @@ const input = '# About Me\n\nI am a 4th year Computer Science student at UVIC. I
 
 const About = () => (
   <div>
-    <Article source={input} />
+    <div className="about-container">
+      <Article source={input} />
+    </div>
     <Footer />
   </div>
 )
