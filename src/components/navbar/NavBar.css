@@ -1,17 +1,30 @@
-.header-container {
-}
-
 .header {
   height: 100px;
 }
 
 .navbar {
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 20pt;
   display: flex;
   justify-content: space-around;
-  background: #cdf4d4;
+  /* background: #e5e5e5; */
 }
 
 .navbar a {
   color: black;
   text-decoration: none;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
 }
+
+.navbar a:hover {
+  color: #2d45ff;
+}
+
+.navbar a:focus {
+  color: #532dff;
+}
+

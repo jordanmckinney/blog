@@ -1,6 +1,15 @@
+::selection {
+  background: #c6cdff; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #c6cdff; /* Gecko Browsers */
+}
+
 .app {
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 800px) {

@@ -1,7 +1,9 @@
 .about-container {
   padding: 8px;
+  text-align: center;
 }
 
-.pics-of-me {
+.headshot {
+  border-radius: 50%;
   height: 8rem;
 }
