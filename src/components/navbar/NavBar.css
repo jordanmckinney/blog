@@ -7,11 +7,9 @@
   font-size: 20pt;
   display: flex;
   justify-content: space-around;
-  /* background: #e5e5e5; */
 }
 
-.navbar a {
-  color: black;
+a {
   text-decoration: none;
   -o-transition:.4s;
   -ms-transition:.4s;
@@ -20,11 +18,23 @@
   transition:.4s;
 }
 
-.navbar a:hover {
-  color: #2d45ff;
+.projects {
+  color: #00BFA5;
 }
 
-.navbar a:focus {
-  color: #532dff;
+.writing {
+  color: #304FFE;
+}
+
+.about {
+  color: #6200EA;
+}
+
+a:hover {
+  color: black;
+}
+
+a:focus {
+  /* color: black; */
 }
 

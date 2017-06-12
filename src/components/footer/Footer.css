@@ -1,17 +1,10 @@
 .footer {
   height: 20px;
-  /* background: #e5e5e5; */
   display: flex;
   justify-content: space-around;
 }
 
-.footer a {
-  text-decoration: none;
-  color: black;
-  text-decoration: none;
-}
-
-.footer .fa {
+.fa {
   color: black;
   -o-transition:.4s;
   -ms-transition:.4s;
@@ -20,6 +13,6 @@
   transition:.4s;
 }
 
-.footer .fa:hover {
-  color: #2d45ff;
+.fa:hover {
+  color: #E040FB;
 }

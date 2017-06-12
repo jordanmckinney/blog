@@ -5,8 +5,8 @@ import About from '../../containers/about/About';
 import Projects from '../../containers/projects/Projects';
 import Writings from '../../containers/writing/Writing';
 import NavBar from '../../components/navbar/NavBar';
-
 import './App.css';
+
 
 const App = () => (
   <Router>
