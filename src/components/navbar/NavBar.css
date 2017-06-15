@@ -7,6 +7,7 @@
   font-size: 20pt;
   display: flex;
   justify-content: space-around;
+  background-color: #1E2556;
 }
 
 a {
@@ -19,19 +20,23 @@ a {
 }
 
 .projects {
-  color: #00BFA5;
+  /* color: #00BFA5; */
+  color: #ff7449;
 }
 
 .writing {
-  color: #304FFE;
+  color: #ff7449;
+  /* color: #304FFE; */
 }
 
 .about {
-  color: #6200EA;
+  color: #ff7449;
+  /* color: #6200EA; */
 }
 
 a:hover {
-  color: black;
+  /* color: black; */
+  color: white;
 }
 
 a:focus {
