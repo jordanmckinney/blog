@@ -1,11 +1,22 @@
 .footer {
   height: 20px;
-  background: #f4dacd;
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
-.footer a {
-  text-decoration: none;
-  color: black;
+.fa {
+  color: #1E2556;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+.fa:hover {
+  color: #141a3d;
 }

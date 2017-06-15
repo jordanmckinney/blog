@@ -1,6 +1,9 @@
-.pics-of-me {
-  height: 8rem;
+.about-container {
+  text-align: center;
 }
 
-p {
+.headshot {
+  border-radius: 50%;
+  height: 8rem;
+  margin: 5px;
 }

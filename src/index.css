@@ -1,5 +1,24 @@
+html {
+    height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #1e2556; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #1e2556 0%, #255e99 50%, #255e99 63%, #1e2556 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e2556), color-stop(50%,#1e2556), color-stop(63%,#255e99), color-stop(100%,#255e99)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #1e2556 0%,#1e2556 50%,#255e99 63%,#255e99 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #1e2556 0%,#1e2556 50%,#255e99 63%,#255e99 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #1e5799 0%,#1e2556 50%,#255e99 63%,#255e99 100%); /* IE10+ */
+  /* background: linear-gradient(#1e5799 0%,#1e2556 50%,#255e99 63%,#255e99 100%); /1* W3C *1/ */
+  background: linear-gradient(#303d9b, #2aa5d6); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+body {
 }

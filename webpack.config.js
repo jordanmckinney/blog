@@ -16,7 +16,7 @@ module.exports = {
   module: {
     rules: [
       {
-          test: /\.svg$/,
+          test: /\.(woff2?|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
           loader: 'file-loader',
       },
       {
@@ -32,6 +32,13 @@ module.exports = {
           test: /\.css$/,
           loader: 'style-loader!css-loader',
           exclude: /node_modules/
+      },
+      {
+          test: /\.(jpe?g|png|gif)$/i,
+          loaders: [
+              'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
+              'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
+          ]
       }
     ]
   },

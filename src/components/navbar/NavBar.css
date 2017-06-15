@@ -1,22 +1,25 @@
 .header {
-  background: #d6ffff;
   height: 100px;
 }
 
 .navbar {
-  background: #cdf4d4;
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 20pt;
   display: flex;
   justify-content: space-around;
+  background-color: #1E2556;
 }
 
-.navbar a {
-  color: black;
+a {
   text-decoration: none;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+  color: #ff5b56;
 }
 
-@media (max-width: 600px) {
-    .navbar {
-        display: flex;
-        justify-content: space-around;
-    }
+a:hover {
+  color: #ff4242;
 }
