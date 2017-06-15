@@ -20,26 +20,22 @@ a {
 }
 
 .projects {
-  /* color: #00BFA5; */
-  color: #ff7449;
+  color: #ff5b56;
 }
 
 .writing {
-  color: #ff7449;
-  /* color: #304FFE; */
+  color: #ff5b56;
 }
 
 .about {
-  color: #ff7449;
-  /* color: #6200EA; */
+  color: #ff5b56;
 }
 
 a:hover {
-  /* color: black; */
-  color: white;
+  /* color: #00BFA5; */
+  /* color: #6200EA; */
+  /* color: #304FFE; */
+  /* color: #ff5b56; */
+  /* color: #ff7456; */
+  color: #ff4242;
 }
-
-a:focus {
-  /* color: black; */
-}
-
