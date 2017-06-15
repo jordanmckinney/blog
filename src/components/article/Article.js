@@ -4,9 +4,9 @@ import './Article.css';
 
 
 const Article = ({source}) => (
-        <div className="article">
-            <ReactMarkdown source={source} />
-        </div>
+    <div className="article">
+        <ReactMarkdown source={source} />
+    </div>
 )
 
 

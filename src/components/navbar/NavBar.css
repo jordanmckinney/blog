@@ -17,25 +17,9 @@ a {
   -moz-transition:.4s;
   -webkit-transition:.4s;
   transition:.4s;
-}
-
-.projects {
-  color: #ff5b56;
-}
-
-.writing {
-  color: #ff5b56;
-}
-
-.about {
   color: #ff5b56;
 }
 
 a:hover {
-  /* color: #00BFA5; */
-  /* color: #6200EA; */
-  /* color: #304FFE; */
-  /* color: #ff5b56; */
-  /* color: #ff7456; */
   color: #ff4242;
 }
