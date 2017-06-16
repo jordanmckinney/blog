@@ -1,4 +1,4 @@
-### React, webpack skeleton
+### Portfolio/Blog
 
 clone then:
 ```
