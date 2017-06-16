@@ -1,9 +1,9 @@
 .about-container {
-  text-align: center;
+  display: flex;
+  margin-top: 10px;
 }
 
 .headshot {
-  border-radius: 50%;
-  height: 8rem;
-  margin: 5px;
+  height: 17rem;
+  padding-right: 10px;
 }

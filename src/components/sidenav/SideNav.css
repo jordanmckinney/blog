@@ -1,0 +1,12 @@
+.sidenav {
+  font-family: open-sans;
+  color: #ff5b56;
+  background-color: #1E2556;
+  display: inline-block;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}

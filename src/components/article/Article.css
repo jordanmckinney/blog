@@ -1,7 +1,6 @@
 .article {
   padding: 8px;
-  text-align: left;
   color: #e0e0e0;
   background-color: #1E2556;
-  opacity: 0.9;
+  display: inline-block;
 }

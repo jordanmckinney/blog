@@ -1,40 +1,18 @@
 import React from 'react';
+import Article from '../../components/article/Article';
+import SideNav from '../../components/sidenav/SideNav';
 import {
   Route,
   Link
 } from 'react-router-dom'
 import './Writing.css';
 
-const Writing = ({ match }) => (
-  <div>
-    <h3>{match.params.topicId}</h3>
-  </div>
-)
+const input = 'I am a 4th year Computer Science student at UVIC. I am currently on an 8 month co-op at Bambora in Victoria.\nMy main interests are in Machine Learning, AI and Blockchain technology.\n\nI am a 4th year Computer Science student at UVIC. I am currently on an 8 month co-op at Bambora in Victoria.\nMy main interests are in Machine Learning, AI and Blockchain technology. I am a 4th year Computer Science student at UVIC. I am currently on an 8 month co-op at Bambora in Victoria.\nMy main interests are in Machine Learning, AI and Blockchain technology.'
 
-const Writings = ({ match }) => (
-  <div>
-    <ul>
-      <li>
-        <Link to={`${match.url}/essay_1`}>
-          On The Topic of Line Segments
-        </Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/essay_2`}>
-          Vampires in Hip Hop Culture
-        </Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/essay_3`}>
-          The Plight of Cuttlefish in Modern America
-        </Link>
-      </li>
-    </ul>
-
-    <Route path={`${match.url}/:topicId`} component={Writing}/>
-    <Route exact path={match.url} render={() => (
-      <h3>Please select a topic.</h3>
-    )}/>
+const Writings = () => (
+  <div className="writingContainer">
+      <SideNav />
+      <Article source={input}/>
   </div>
 )
 
