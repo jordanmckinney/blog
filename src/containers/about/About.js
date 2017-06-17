@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './About.scss';
 import Article from '../../components/article/Article';
 import Footer from '../../components/footer/Footer';
 import headshot from '../../images/headshot.jpg';
