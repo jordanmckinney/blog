@@ -1,13 +1,18 @@
+$font-stack: 'Mrs Sheppards', cursive;
+$navbar-background: #1E2556;
+$navbar-text-color: #ff5b56;
+$navbar-text-hover-color: #ff5b56;
+
 .header {
   height: 100px;
 }
 
 .navbar {
-  font-family: 'Mrs Sheppards', cursive;
+  font-family: $font-stack;
   font-size: 20pt;
   display: flex;
   justify-content: space-around;
-  background-color: #1E2556;
+  background-color: $navbar-background;
 
     a {
       text-decoration: none;
@@ -16,10 +21,10 @@
       -moz-transition:.4s;
       -webkit-transition:.4s;
       transition:.4s;
-      color: #ff5b56;
+      color: $navbar-text-color;
 
         &:hover {
-          color: #ff4242;
+          color: $navbar-text-hover-color;
         }
     }
 }

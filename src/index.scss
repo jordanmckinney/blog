@@ -1,5 +1,19 @@
+$grad-color-top: #303D9B;
+$grad-color-bottom: #2AA5D6;
+
 html {
   min-height: 100%;
+}
+
+@mixin gradient($color-top, $color-bottom) {
+  background: $color-bottom; /* Old browsers */
+  background: -moz-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -webkit-gradient($color-top, $color-bottom); /* W3C */
+  background: -webkit-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -o-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -ms-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: linear-gradient($color-top, $color-bottom); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-top', endColorstr='$color-bottom',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 body {
@@ -9,12 +23,5 @@ body {
   font-family: sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: #2aa5d6; /* Old browsers */
-  background: -moz-linear-gradient(#303d9b, #2aa5d6); /* W3C */
-  background: -webkit-gradient(#303d9b, #2aa5d6); /* W3C */
-  background: -webkit-linear-gradient(#303d9b, #2aa5d6); /* W3C */
-  background: -o-linear-gradient(#303d9b, #2aa5d6); /* W3C */
-  background: -ms-linear-gradient(#303d9b, #2aa5d6); /* W3C */
-  background: linear-gradient(#303d9b, #2aa5d6); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303d9b', endColorstr='#2aa5d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  @include gradient($grad-color-top, $grad-color-bottom);
 }

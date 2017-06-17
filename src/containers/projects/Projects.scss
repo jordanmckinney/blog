@@ -1,5 +1,7 @@
+$project-background-color:#1E2556;
+
 .projectContainer {
-    background-color: #1E2556;
+    background-color: $project-background-color;
     margin-top: 10px;
     height: 200px;
 }

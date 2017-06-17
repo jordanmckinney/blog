@@ -1,9 +1,11 @@
+$text-highlight-color: #C6CDFF;
+
 ::selection {
-  background: #c6cdff; /* WebKit/Blink Browsers */
+  background: $text-highlight-color; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #c6cdff; /* Gecko Browsers */
+  background: $text-highlight-color; /* Gecko Browsers */
 }
 
 .app {
