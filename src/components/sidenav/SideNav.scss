@@ -5,8 +5,9 @@
   display: inline-block;
   padding-right: 5px;
   margin-right: 10px;
+
+    ul {
+      list-style-type: none;
+    }
 }
 
-ul {
-  list-style-type: none;
-}

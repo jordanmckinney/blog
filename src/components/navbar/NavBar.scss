@@ -8,18 +8,20 @@
   display: flex;
   justify-content: space-around;
   background-color: #1E2556;
+
+    a {
+      text-decoration: none;
+      -o-transition:.4s;
+      -ms-transition:.4s;
+      -moz-transition:.4s;
+      -webkit-transition:.4s;
+      transition:.4s;
+      color: #ff5b56;
+
+        &:hover {
+          color: #ff4242;
+        }
+    }
 }
 
-a {
-  text-decoration: none;
-  -o-transition:.4s;
-  -ms-transition:.4s;
-  -moz-transition:.4s;
-  -webkit-transition:.4s;
-  transition:.4s;
-  color: #ff5b56;
-}
 
-a:hover {
-  color: #ff4242;
-}

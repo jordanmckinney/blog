@@ -15,8 +15,8 @@
   -moz-transition:.4s;
   -webkit-transition:.4s;
   transition:.4s;
-}
 
-.fa:hover {
-  color: #141a3d;
+  &:hover {
+    color: #141a3d;
+  }
 }
