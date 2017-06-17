@@ -21,7 +21,7 @@ module.exports = {
       },
       {
           test: /\.md$/,
-          loader: 'react-markdown'
+          loader: 'raw-loader'
       },
       {
           test: /\.jsx?$/,
