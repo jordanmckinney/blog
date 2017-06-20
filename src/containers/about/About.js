@@ -8,7 +8,6 @@ import AboutMe from '../../documents/AboutMe.md';
 const About = () => (
   <div>
     <div className="about-container">
-      <img src={headshot} className="headshot" alt="headshot" />
       <Article source={AboutMe} />
     </div>
     <Footer />

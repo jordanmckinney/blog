@@ -10,6 +10,7 @@
     "serve": "serve -s ./build"
   },
   "dependencies": {
+    "autoprefixer": "^7.1.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
@@ -28,6 +29,7 @@
     "image-webpack-loader": "^3.3.1",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
+    "postcss": "^6.0.2",
     "raw-loader": "^0.5.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",

@@ -35,7 +35,7 @@ module.exports = {
       },
       {
           test: /\.css$/,
-          loader: 'style-loader!css-loader',
+          loader: 'style-loader!postcss-loader!css-loader',
           exclude: /node_modules/
       },
       {
