@@ -1,13 +1,20 @@
 .sidenav {
-  font-family: open-sans;
-  color: #ff5b56;
-  background-color: #1E2556;
+  font-size: 14pt;
+  background-color: #e2e2e2;
   display: inline-block;
   padding-right: 5px;
   margin-right: 10px;
+  max-height: 600px;
 
-    ul {
+    li {
       list-style-type: none;
+
+      a {
+        text-decoration: none;
+        font-family: 'Baloo Bhaina';
+        padding-left: 4px;
+        color: black;
+      }
     }
 }
 

@@ -23,5 +23,5 @@ body {
   font-family: sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  @include gradient($grad-color-top, $grad-color-bottom);
+  // @include gradient($grad-color-top, $grad-color-bottom);
 }

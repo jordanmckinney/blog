@@ -1,4 +1,5 @@
-$icon-color: #1E2556;
+// $icon-color: #1E2556;
+$icon-color: black;
 $icon-hover-color: #141a3d;
 
 .footer {
@@ -9,6 +10,7 @@ $icon-hover-color: #141a3d;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+  background-color: #e2e2e2;
 }
 
 .fa {

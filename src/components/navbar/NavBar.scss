@@ -1,6 +1,6 @@
 $font-stack: 'Mrs Sheppards', cursive;
-$navbar-background: #1E2556;
-$navbar-text-color: #ff5b56;
+$navbar-background: #e2e2e2;
+$navbar-text-color: black;
 $navbar-text-hover-color: #ff4242;
 
 .header {
@@ -24,7 +24,7 @@ $navbar-text-hover-color: #ff4242;
       color: $navbar-text-color;
 
         &:hover {
-          color: $navbar-text-hover-color;
+          // color: $navbar-text-hover-color;
         }
     }
 }
