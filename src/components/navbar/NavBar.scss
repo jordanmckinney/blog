@@ -1,5 +1,5 @@
 $font-stack: 'Mrs Sheppards', cursive;
-$navbar-background: #e2e2e2;
+$navbar-background: #215cba;
 $navbar-text-color: black;
 $navbar-text-hover-color: #ff4242;
 
@@ -7,24 +7,28 @@ $navbar-text-hover-color: #ff4242;
   height: 100px;
 }
 
-.navbar {
-  font-family: $font-stack;
-  font-size: 20pt;
-  display: flex;
-  justify-content: space-around;
-  background-color: $navbar-background;
+.navbar-container{
+    background-color: $navbar-background;
+    padding-bottom: 30px;
+    .navbar {
+      font-family: $font-stack;
+      font-size: 20pt;
+      display: flex;
+      justify-content: space-around;
+      // background-color: $navbar-background;
 
-    a {
-      text-decoration: none;
-      -o-transition:.4s;
-      -ms-transition:.4s;
-      -moz-transition:.4s;
-      -webkit-transition:.4s;
-      transition:.4s;
-      color: $navbar-text-color;
+        a {
+          text-decoration: none;
+          -o-transition:.4s;
+          -ms-transition:.4s;
+          -moz-transition:.4s;
+          -webkit-transition:.4s;
+          transition:.4s;
+          color: $navbar-text-color;
 
-        &:hover {
-          // color: $navbar-text-hover-color;
+            &:hover {
+              // color: $navbar-text-hover-color;
+            }
         }
     }
 }

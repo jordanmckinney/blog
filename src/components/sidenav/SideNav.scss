@@ -1,18 +1,19 @@
 .sidenav {
   font-size: 14pt;
-  background-color: #e2e2e2;
+  // background-color: #e2e2e2;
   display: inline-block;
   padding-right: 5px;
   margin-right: 10px;
+  margin-top: 150px;
   max-height: 600px;
+  font-family: 'Signika';
 
     li {
       list-style-type: none;
+      padding-left: 4px;
 
       a {
         text-decoration: none;
-        font-family: 'Baloo Bhaina';
-        padding-left: 4px;
         color: black;
       }
     }
