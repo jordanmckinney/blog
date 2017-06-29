@@ -1,12 +1,11 @@
 import React from 'react';
-import './NavBar.scss';
+import './Header.scss';
 import { Link } from 'react-router-dom'
 
 
-const NavBar = () => (
-    <div className="navbar-container">
-        <div className="header"></div>
-        <div className="navbar">
+const Header = () => (
+    <div className="header-container">
+        <div className="header">
             <Link to="/projects" className="projects">Projects</Link>
             <Link to="/writing" className="writing">Writing</Link>
             <Link to="/about" className="about">About</Link>
@@ -14,4 +13,4 @@ const NavBar = () => (
     </div>
 )
 
-export default NavBar;
+export default Header;
