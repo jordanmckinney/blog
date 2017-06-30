@@ -3,8 +3,8 @@ $article-background: #f5f5f5;
 .article-container {
   display: flex;
   justify-content: space-around;
+
   .article {
-    padding: 8px;
     padding-top: 20px;
     background-color: $article-background;
     color: #333;

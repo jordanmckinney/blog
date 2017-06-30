@@ -1,12 +1,13 @@
 .sidenav {
   font-size: 14pt;
-  // background-color: #e2e2e2;
+  background-color: #e2e2e2;
   display: inline-block;
-  padding-right: 5px;
+  width: 85px;
   margin-right: 10px;
   margin-top: 150px;
   max-height: 600px;
   font-family: 'Signika';
+  float: left;
 
     li {
       list-style-type: none;
