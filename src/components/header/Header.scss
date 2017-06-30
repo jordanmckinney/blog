@@ -4,10 +4,11 @@ $header-container-background: #d8c3d7;
 $header-text-color: blue;
 $header-text-hover-color: blue;
 
-.header-container{
+.header-container {
     background-color: $header-container-background;
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 
     .header {
       font-family: $font-stack;

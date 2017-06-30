@@ -4,8 +4,10 @@ import './Article.scss';
 
 
 const Article = ({source}) => (
-    <div className="article">
-        <ReactMarkdown source={source} />
+    <div className="article-container">
+        <div className="article">
+            <ReactMarkdown source={source} />
+        </div>
     </div>
 )
 
