@@ -1,19 +1,21 @@
 $font-stack: 'Mrs Sheppards', cursive;
-$header-background: #92ccdd;
-$header-text-color: #fdc4ec;
-$header-text-hover-color: #ff4242;
+$header-background: #c7d0dd;
+$header-container-background: #d8c3d7;
+$header-text-color: blue;
+$header-text-hover-color: blue;
 
 .header-container{
-    background-color: $header-text-hover-color;
-    padding-bottom: 10px;
-    padding-top: 70px;
-    width: 100%;
+    background-color: $header-container-background;
+    display: flex;
+    justify-content: space-around;
+
     .header {
       font-family: $font-stack;
       font-size: 20pt;
       display: flex;
       justify-content: space-around;
       background-color: $header-background;
+      width: 600px;
 
         a {
           text-decoration: none;
@@ -24,15 +26,14 @@ $header-text-hover-color: #ff4242;
           transition:.4s;
           color: $header-text-color;
 
-            &:hover {
-              color: $header-text-hover-color;
-            }
+          &:hover {
+            color: $header-text-hover-color;
+          }
         }
     }
+    @media (max-width: 600px) {
+      .header {
+        width: 100%;
+      }
+    }
 }
-@media (max-width: 0px) {
-  .header-container {
-    width: 100%;
-  }
-}
-

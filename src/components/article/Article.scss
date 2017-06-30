@@ -1,11 +1,12 @@
-$article-background: #f9f9f9;
+$article-background: #f5f5f5;
 
 .article {
   padding: 8px;
   padding-top: 20px;
-  // background-color: $article-background;
+  background-color: $article-background;
   color: #333;
   font-size: 1.15em;
+  width: 800px;
 
   .inline-image {
     padding-right: 8px;
