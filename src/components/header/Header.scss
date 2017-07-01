@@ -1,22 +1,26 @@
 $font-stack: 'Mrs Sheppards', cursive;
-$header-background: #c7d0dd;
+// $header-background: #c7d0dd;
+$header-background: blue;
+// $header-background: white;
 $header-container-background: #d8c3d7;
-$header-text-color: blue;
+// $header-container-background: white;
+$header-text-color: black;
 $header-text-hover-color: blue;
 
 .header-container {
-    background-color: $header-container-background;
+    background-color: $header-background;
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 5px;
 
     .header {
       font-family: $font-stack;
       font-size: 20pt;
       display: flex;
       justify-content: space-around;
-      background-color: $header-background;
-      width: 600px;
+      // background-color: $header-background;
+      width: 700px;
 
         a {
           text-decoration: none;
@@ -32,9 +36,34 @@ $header-text-hover-color: blue;
           }
         }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       .header {
         width: 100%;
       }
     }
+}
+
+$grad-color-top: #93bcff;
+$grad-color-bottom: #7fafff;
+
+// html {
+//   min-height: 100%;
+// }
+
+@mixin gradient($color-top, $color-bottom) {
+  background: $color-bottom; /* Old browsers */
+  background: -moz-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -webkit-gradient($color-top, $color-bottom); /* W3C */
+  background: -webkit-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -o-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: -ms-linear-gradient($color-top, $color-bottom); /* W3C */
+  background: linear-gradient($color-top, $color-bottom); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-top', endColorstr='$color-bottom',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header-container {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  @include gradient($grad-color-top, $grad-color-bottom);
 }
