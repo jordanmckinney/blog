@@ -3,6 +3,7 @@ $project-background: #f5f5f5;
 .project-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
   .project{ width: 700px;
     height: 200px;
     border-radius: 2px;

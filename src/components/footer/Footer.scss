@@ -7,17 +7,15 @@ $footer-background: white;
     display: flex;
     justify-content: space-around;
     .footer {
-      width: 700px;
+      width: 400px;
       display: flex;
       justify-content: space-around;
       padding-top: 10px;
       padding-bottom: 10px;
-      padding-left: 120px;
-      padding-right: 120px;
       background-color: $footer-background;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 400px) {
       .footer {
         width: 100%;
       }
