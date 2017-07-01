@@ -4,8 +4,10 @@ $article-background: #f5f5f5;
 .article-container {
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
 
   .article {
+    display: flex;
     padding-top: 20px;
     background-color: $article-background;
     color: #333;
@@ -20,12 +22,18 @@ $article-background: #f5f5f5;
         width: 100%;
       }
     }
-
     h1 {
-        font-size: 35pt;
+      font-size: 35pt;
     }
-
     img {
+    }
+    #headshot {
+      margin-right: 14px;
+      margin-bottom: 8px;
+      margin-top: 8px;
+      float: left;
+      width: auto;
+      max-height: 300px;
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import SideNav, {Nav, NavIcon, NavText } from 'react-sidenav';
 import './Article.scss';
 
 
