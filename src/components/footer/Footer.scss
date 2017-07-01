@@ -12,8 +12,8 @@ $footer-background: white;
       justify-content: space-around;
       padding-top: 10px;
       padding-bottom: 10px;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 120px;
+      padding-right: 120px;
       background-color: $footer-background;
     }
 
@@ -21,7 +21,6 @@ $footer-background: white;
       .footer {
         width: 100%;
       }
-
     }
     .fa {
       color: $icon-color;

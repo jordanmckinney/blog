@@ -1,0 +1,17 @@
+$project-background: #f5f5f5;
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  .project{ width: 700px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: $project-background;
+
+    @media (max-width: 600px) {
+      .project {
+        width: 100%;
+      }
+    }
+  }
+}
