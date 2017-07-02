@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
-import ArticleNav from '../../components/articlenav/ArticleNav';
-import zshvimtmux from '../../documents/zshvimtmux.md';
+import SideNav from '../../components/sidenav/SideNav';
+import Ethereum from '../../documents/Ethereum.md';
 import {
   Route,
   Link
@@ -11,8 +11,8 @@ import './Writing.scss';
 
 const Writings = () => (
   <div className="writing-container">
-      <ArticleNav />
-      <Article source={zshvimtmux}/>
+      <SideNav />
+      <Article source={Ethereum}/>
   </div>
 )
 

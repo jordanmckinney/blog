@@ -1,4 +1,4 @@
-<center> <h1>Vim, Zsh, Tmux</h1> </center>
+<center> <h1>Ethereum</h1> </center>
 
 I used Sublime Text exclusively for quite a while and was pretty happy with it... That is, until I saw a truly skilled Vim user in action. I've been using Vim and Tmux for a few weeks now and have been gradually learning shortcuts and adding new customizations.
 
