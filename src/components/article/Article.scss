@@ -17,15 +17,17 @@ $article-background: #f5f5f5;
     border-radius: 2px;
     padding: 5px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       .article {
         width: 100%;
       }
     }
     h1 {
-      font-size: 35pt;
+      // font-size: 35pt;
     }
     img {
+        max-width: 100%;
+        border-radius: 3px;
     }
     #headshot {
       margin-right: 14px;
