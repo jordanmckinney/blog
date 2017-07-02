@@ -1,4 +1,4 @@
-<center> <h1>About Me</h1> </center>
+<center> <h2>About Me</h2> </center>
 
 <img src="/src/images/headshot.jpg" id="headshot" alt="headshot"/>
 

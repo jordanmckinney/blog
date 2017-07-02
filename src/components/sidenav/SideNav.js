@@ -12,7 +12,7 @@ const SideNav = () => (
         <li><Link to="/writing/bitcoin" className="article-link">Bitcoin</Link> </li>
         <li><Link to="/writing/ethereum" className="article-link">Ethereum</Link> </li>
       <li className="series-title">Blockchain Projects</li>
-        <li><Link to="/writing/projects/simple-blockchain" className="article-link">Dochain</Link> </li>
+        <li><Link to="/writing/projects/simple-blockchain" className="article-link">Doc Chain</Link> </li>
       </div>
     </div>
 )
