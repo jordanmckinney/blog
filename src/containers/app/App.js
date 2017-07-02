@@ -15,7 +15,7 @@ const App = () => (
         <Route exact path="/" component={Writings}/>
         <Route path="/about" component={About}/>
         <Route path="/writing" component={Writings}/>
-        <Route path="/writing/{story}" component={Writings}/>
+        <Route path="/writing/hashing" component={Writings}/>
         <Route path="/writing/blockchain" component={Writings}/>
         <Route path="/writing/bitcoin" component={Writings}/>
         <Route path="/writing/ethereum" component={Writings}/>

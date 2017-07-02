@@ -4,19 +4,27 @@
   padding:0px;
   // width: 55px;
   // margin-right: 10px;
-  // margin-top: 150px;
+  margin-top: 140px;
   // max-height: 600px;
-  // font-family: 'Signika';
+  font-family: 'Signika';
+  list-style-type: none;
+  font-size: medium;
+  a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+  }
 }
 
-.nav-text {
-    padding:0px;
-
-}
-#technology {
-    background-color:red;
+.series-title {
+  color: grey;
+  background-color: none;
 }
 
-.nav-item {
-    color:blue;
+.series-body {
+  color: blue;
+}
+
+li {
+  color: grey;
 }
