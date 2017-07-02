@@ -9,7 +9,6 @@ $article-background: #f5f5f5;
   .article {
     display: flex;
     margin-top: 20px;
-    padding-top: 20px;
     background-color: $article-background;
     color: #333;
     font-size: 1.15em;
@@ -28,7 +27,7 @@ $article-background: #f5f5f5;
     }
     img {
         max-width: 100%;
-        border-radius: 3px;
+        border-radius: 5px;
     }
     #headshot {
       margin-right: 14px;

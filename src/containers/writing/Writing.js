@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import SideNav from '../../components/sidenav/SideNav';
-import Ethereum from '../../documents/Ethereum.md';
+import Ethereum from '../../documents/posts/Ethereum.md';
 // import { Route, Link } from 'react-router-dom'
 import './Writing.scss';
 

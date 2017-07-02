@@ -1,4 +1,4 @@
-<center> <h2>Rand Quote</h2> </center> 
+<center><h2>Rand Quote</h2></center> 
 
 <i className="fa fa-twitter fa-lg"></i>
 
