@@ -1,5 +1,7 @@
 <center> <h2>DotFiles</h2> </center>
 
-I've been using Vim (now NeoVim), Zsh and Tmux exclusively for a few months now, and have put a lot of work into customizing these tools. All of my settings can be found [here](www.github.com/jordanmckinney/DotFiles).
+My [DotFiles](www.github.com/jordanmckinney/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using Vim/NeoVim, Zsh and Tmux for several months now, and have been continually making adjustments.
 
 <img src="/src/images/vimtmux.png" alt="Drawing" style="max-width: 100%;"/>
+
+<hr></hr>

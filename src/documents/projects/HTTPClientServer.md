@@ -1,6 +1,6 @@
 <center> <h2>HTTP Client & Server</h2> </center>
 
-A simple web client and web server written in C. The client takes a URI as its argument and performs an HTTP 1.0 `GET` request, printing the returned header data and response body.
+A simple web [client and server](https://github.com/jordanmckinney/http_client_server) written in C. The client takes a URI as its argument and performs an HTTP 1.0 `GET` request, printing the returned header data and response body.
 
 Sample client output:
 
@@ -24,3 +24,5 @@ Sample client output:
     {
       "origin": "XX.XX.1.172"
     }
+
+<hr></hr>

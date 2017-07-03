@@ -1,11 +1,8 @@
 .sidenav {
-  // font-size: 14pt;
-  background-color: #e2e2e2;
-  padding:0px;
-  // width: 55px;
-  // margin-right: 10px;
-  margin-top: 140px;
-  // max-height: 600px;
+  // background-color: #eaf2ff;
+  margin-right: 10px;
+  margin-top: 115px;
+  height: 0%;
   font-family: 'Signika';
   list-style-type: none;
   font-size: medium;
@@ -13,19 +10,10 @@
   a {
     text-decoration: none;
     font-size: large;
-    color: black;
+    color: #1E2556;
   }
-}
-
-.series-title {
-  color: grey;
-  background-color: none;
-}
-
-.series-body {
-  color: blue;
-}
-
-li {
-  color: grey;
+  .series-title {
+    color: #255E99;
+    background-color: none;
+  }
 }
