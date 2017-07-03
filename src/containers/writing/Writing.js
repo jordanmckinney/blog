@@ -12,7 +12,6 @@ class Writing extends React.Component {
     }
 
     render() {
-        console.log("TESTESTSETS")
         return (
           <div className="writing-container">
               <SideNav />
