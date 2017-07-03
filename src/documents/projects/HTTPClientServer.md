@@ -24,5 +24,3 @@ Sample client output:
     {
       "origin": "XX.XX.1.172"
     }
-
-<hr></hr>

@@ -11,6 +11,7 @@ const SideNav = () => (
         <li className="unpublished">Blockchain</li>
         <li className="unpublished">Bitcoin</li>
         <li className="unpublished">Ethereum</li>
+        <li className="unpublished">DAOs</li>
       </div>
     </div>
 )
