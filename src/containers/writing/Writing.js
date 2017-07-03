@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import SideNav from '../../components/sidenav/SideNav';
-import Ethereum from '../../documents/posts/Ethereum.md';
+import Hashing from '../../documents/posts/Hashing.md';
 // import { Route, Link } from 'react-router-dom'
 import './Writing.scss';
 
@@ -16,7 +16,7 @@ class Writing extends React.Component {
         return (
           <div className="writing-container">
               <SideNav />
-              <Article source={Ethereum}/>
+              <Article source={Hashing}/>
           </div>
         );
     }
