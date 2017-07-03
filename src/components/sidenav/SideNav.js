@@ -7,10 +7,10 @@ const SideNav = () => (
     <div className="sidenav">
       <li className="series-title">Blockchain Series</li>
       <div className="series-body">
-        <li><Link to="/writing/hashing" className="article-link">Hashing</Link> </li>
-        <li><Link to="/writing/blockchain" className="article-link">Blockchain</Link> </li>
-        <li><Link to="/writing/bitcoin" className="article-link">Bitcoin</Link> </li>
-        <li><Link to="/writing/ethereum" className="article-link">Ethereum</Link> </li>
+        <li><Link to="/writing/hashing" className="published">Hashing</Link> </li>
+        <li className="unpublished">Blockchain</li>
+        <li className="unpublished">Bitcoin</li>
+        <li className="unpublished">Ethereum</li>
       </div>
     </div>
 )
