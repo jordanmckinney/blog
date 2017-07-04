@@ -1,4 +1,4 @@
-.sidenav {
+.sidenav-visible {
   // background-color: #eaf2ff;
   margin-right: 10px;
   margin-top: 112px;
@@ -9,6 +9,9 @@
   font-size: medium;
   overflow-x: hidden;
   transition: 0.5s;
+  .close-button {
+    top: 0;
+  }
 
   .series-title {
     color: #a8b2c4;
@@ -27,4 +30,11 @@
       list-style-type: square;
     }
   }
+}
+.sidenav-hidden {
+  display: none;
+}
+
+i {
+  color: #333;
 }

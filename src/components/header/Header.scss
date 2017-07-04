@@ -1,11 +1,11 @@
 $font-stack: 'Mrs Sheppards', cursive;
 // $header-background: #c7d0dd;
-$header-background: #9BA2E3;
+$header-background: #1E2556;
 // $header-background: #9284ff;
 // $header-background: white;
 $header-container-background: #d8c3d7;
 // $header-container-background: white;
-$header-text-color: black;
+$header-text-color: #9492B2;
 $header-text-hover-color: #7e91fa;
 
 .header-container {
@@ -22,23 +22,28 @@ $header-text-hover-color: #7e91fa;
       justify-content: space-around;
       width: 700px;
 
-        a {
-          text-decoration: none;
-          -o-transition:.4s;
-          -ms-transition:.4s;
-          -moz-transition:.4s;
-          -webkit-transition:.4s;
-          transition:.4s;
-          color: $header-text-color;
+      #projects {
+        color:#5AD1FF;
+      }
+      #writing {
+        color:#5AD1FF;
+      }
+      #about {
+        color:#5AD1FF;
+      }
 
-          &:hover {
-            color: $header-text-hover-color;
-          }
+      a {
+        color: #9492B2;
+        text-decoration: none;
+        -o-transition:.4s;
+        -ms-transition:.4s;
+        -moz-transition:.4s;
+        -webkit-transition:.4s;
+        transition:.4s;
+
+        &:hover {
+          color: $header-text-hover-color;
         }
-    }
-    @media (max-width: 700px) {
-      .header {
-        width: 100%;
       }
     }
 }

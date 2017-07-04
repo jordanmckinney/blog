@@ -1,0 +1,20 @@
+$article-background: #f5f5f5;
+$container-background: #f5f5aa;
+
+.snippet-container {
+  display: flex;
+  justify-content: space-around;
+  // background-color: $container-background;
+  padding-top: 20px;
+  .snippet {
+    background-color: $article-background;
+    color: #333;
+    font-size: 1.15em;
+    width: 650px;
+    }
+
+    a {
+      // text-decoration: none;
+      color: #0076FE;
+    }
+}
