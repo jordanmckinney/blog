@@ -5,11 +5,14 @@ $article-background: #333;
   display: flex;
   justify-content: space-around;
   white-space: normal;
+  padding-bottom: 5px;
   .article {
     white-space: normal;
     margin-top: 20px;
     color: #333;
     font-size: 1.15em;
+    // letter-spacing: 0.1px;
+    // word-spacing: 6px;
     width: 650px;
     padding: 5px;
     }

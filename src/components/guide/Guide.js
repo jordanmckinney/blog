@@ -5,12 +5,11 @@ import './Guide.scss';
 const Guide = () => (
     <div className="guide-container">
       <div className="guide">
-        <a href="">HASHING</a>
-        <a href="">BLOCKCHAIN</a>
-        <a href="">BITCOIN</a>
-        <a href="">ETHEREUM</a>
-        <a href="">DAO</a>
-        <a href=""></a>
+        <a href="" className="guide-link">Hashing</a>
+        <a href="" className="guide-link">Blockchain</a>
+        <a href="" className="guide-link">Bitcoin</a>
+        <a href="" className="guide-link">Ethereum</a>
+        <a href="" className="guide-link">DAO</a>
       </div>
     </div>
 )
