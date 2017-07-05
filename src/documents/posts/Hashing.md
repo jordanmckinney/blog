@@ -4,4 +4,4 @@ A hash function is any function that can be used to map data of arbitrary size t
 
 Hash functions are related to (and often confused with) checksums, check digits, fingerprints, lossy compression, randomization functions, error-correcting codes, and ciphers. Although these concepts overlap to some extent, each has its own uses and requirements and is designed and optimized differently. The Hash Keeper database maintained by the American National Drug Intelligence Center, for instance, is more aptly described as a catalogue of file fingerprints than of hash values.
 
-<img src="/src/images/vimtmux.png" alt="Drawing" style="max-width: 100%;"/>
+<img src="/public/images/vimtmux.png" alt="Drawing" style="max-width: 100%;"/>
