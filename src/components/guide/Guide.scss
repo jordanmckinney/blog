@@ -4,6 +4,10 @@
 }
 
 .guide {
+    // background-color: #c1c1c1;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
 }
 
 h4 {
@@ -12,4 +16,19 @@ h4 {
 
 a {
     display: inline-block;
+}
+
+img {
+    margin: 5px;
+    height: 37px;
+}
+
+.fa-hashtag {
+    color:white;
+}
+.fa-link {
+    color:white;
+}
+.fa-btc {
+    color:white;
 }
