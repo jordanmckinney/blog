@@ -1,34 +1,16 @@
 .guide-container {
     display: flex;
     justify-content: space-around;
+    background-color: #a1a1a1;
 }
 
 .guide {
-    // background-color: #c1c1c1;
     display: flex;
     align-items: center;
-    padding-top: 20px;
-}
-
-h4 {
-    text-align: center;
 }
 
 a {
-    display: inline-block;
-}
-
-img {
-    margin: 5px;
-    height: 37px;
-}
-
-.fa-hashtag {
-    color:white;
-}
-.fa-link {
-    color:white;
-}
-.fa-btc {
-    color:white;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
 }
