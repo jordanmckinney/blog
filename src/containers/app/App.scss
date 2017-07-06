@@ -1,16 +1,16 @@
 $text-highlight-color: #C6CDFF;
 
 ::selection {
-  background: $text-highlight-color; /* WebKit/Blink Browsers */
+  background: $text-highlight-color;
 }
 
 ::-moz-selection {
-  background: $text-highlight-color; /* Gecko Browsers */
+  background: $text-highlight-color;
 }
 
 .app {
   margin-left: auto;
   margin-right: auto;
-  font-family: 'PT Serif', 'Bitter', 'Noto Serif', 'Roboto Slab', 'PT Sans', 'Roboto', sans-serif;
+  font-family: 'PT Serif', 'Bitter', 'Noto Serif', 'PT Sans', 'Roboto', sans-serif;
 }
 

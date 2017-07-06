@@ -1,3 +1,0 @@
-<center><h3><a href="#">DAO</a></h3></center>
-
-A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes...

@@ -1,43 +1,19 @@
-$font-stack: 'Lobster','Concert One', 'Lobster', 'Mrs Sheppards', cursive;
-// $header-background: #202234;
-// $header-background: #414463;
-// $header-background: #2c303d;
-$header-background: #31334A;
-// $header-background: #9284ff;
-// $header-container-background: #d8c3d7;
-// $header-container-background: #3c3f44;
-// $header-text-color: #616EFD;
-$header-text-color: #7e91fa;
-// $header-text-color: #d7d9dd;
-$header-text-hover-color: #7e91fa;
-
 .header-container {
-    background-color: $header-background;
+    background-color: #31334a;
     display: flex;
     justify-content: space-around;
     padding-top: 80px;
     padding-bottom: 15px;
 
     .header {
-      font-family: $font-stack;
+      font-family: 'Lobster', 'Mrs Sheppards', 'Open Sans', 'Arial';
       font-size: 20pt;
       display: flex;
       justify-content: space-around;
       width: 700px;
 
-      #projects {
-        color:#5AD1FF;
-      }
-      #writing {
-        color:#5AD1FF;
-      }
-      #about {
-        color:#5AD1FF;
-      }
-
       a {
-        // color: #9492B2;
-        color: $header-text-color;
+        color: #7e91fa;
         text-decoration: none;
         -o-transition:.4s;
         -ms-transition:.4s;
@@ -46,34 +22,8 @@ $header-text-hover-color: #7e91fa;
         transition:.4s;
 
         &:hover {
-          color: $header-text-hover-color;
+          color: #647cfc;
         }
       }
     }
 }
-
-// $grad-color-top: #cecece;
-// // $grad-color-top: white;
-// $grad-color-bottom: #cecece;
-
-// // html {
-// //   min-height: 100%;
-// // }
-
-// @mixin gradient($color-top, $color-bottom) {
-//   background: $color-bottom; /* Old browsers */
-//   background: -moz-linear-gradient($color-top, $color-bottom); /* W3C */
-//   background: -webkit-gradient($color-top, $color-bottom); /* W3C */
-//   background: -webkit-linear-gradient($color-top, $color-bottom); /* W3C */
-//   background: -o-linear-gradient($color-top, $color-bottom); /* W3C */
-//   background: -ms-linear-gradient($color-top, $color-bottom); /* W3C */
-//   background: linear-gradient($color-top, $color-bottom); /* W3C */
-//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-top', endColorstr='$color-bottom',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-// }
-
-// .header-container {
-//   font-family: sans-serif;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed;
-//   @include gradient($grad-color-top, $grad-color-bottom);
-// }

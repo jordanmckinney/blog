@@ -1,5 +1,4 @@
 import React from 'react';
-import './About.scss';
 import Article from '../../components/article/Article';
 import Footer from '../../components/footer/Footer';
 import AboutMe from '../../documents/posts/AboutMe.md';

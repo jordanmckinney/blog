@@ -1,36 +1,29 @@
-$icon-color: #1E2556;
-$icon-color: #333;
-$icon-hover-color: #141a3d;
-$footer-background: white;
-
 .footer-container {
+  display: flex;
+  justify-content: space-around;
+  .footer {
+    width: 400px;
     display: flex;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @media (max-width: 400px) {
     .footer {
-      width: 400px;
-      display: flex;
-      justify-content: space-around;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      background-color: $footer-background;
+      width: 100%;
     }
+  }
+  .fa {
+    color: #333;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
 
-    @media (max-width: 400px) {
-      .footer {
-        width: 100%;
-      }
+    &:hover {
+      color: black;
     }
-    .fa {
-      color: $icon-color;
-      -o-transition:.4s;
-      -ms-transition:.4s;
-      -moz-transition:.4s;
-      -webkit-transition:.4s;
-      transition:.4s;
-
-      &:hover {
-        color: $icon-hover-color;
-      }
-    }
+  }
 }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Article from '../../components/article/Article';
-import './Projects.scss';
 
 import DocChain from '../../documents/projects/DocChain.md';
 import TwitterBot from '../../documents/projects/TwitterBot.md';
@@ -12,12 +11,12 @@ import PersonalSite from '../../documents/projects/PersonalSite.md';
 
 const Projects = () => (
   <div className="projects-container">
-    <Article id="project" source={DocChain}/>
-    <Article id="project" source={PersonalSite}/>
-    <Article id="project" source={TwitterBot}/>
-    <Article id="project" source={MachineLearning}/>
-    <Article id="project" source={DotFiles}/>
-    <Article id="project" source={HTTPClientServer}/>
+    <Article source={DocChain}/>
+    <Article source={PersonalSite}/>
+    <Article source={TwitterBot}/>
+    <Article source={MachineLearning}/>
+    <Article source={DotFiles}/>
+    <Article source={HTTPClientServer}/>
   </div>
 )
 

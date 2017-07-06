@@ -1,27 +1,6 @@
-$grad-color-top: #303D9B;
-$grad-color-bottom: #2AA5D6;
-
-html {
-  min-height: 100%;
-}
-
-@mixin gradient($color-top, $color-bottom) {
-  background: $color-bottom; /* Old browsers */
-  background: -moz-linear-gradient($color-top, $color-bottom); /* W3C */
-  background: -webkit-gradient($color-top, $color-bottom); /* W3C */
-  background: -webkit-linear-gradient($color-top, $color-bottom); /* W3C */
-  background: -o-linear-gradient($color-top, $color-bottom); /* W3C */
-  background: -ms-linear-gradient($color-top, $color-bottom); /* W3C */
-  background: linear-gradient($color-top, $color-bottom); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-top', endColorstr='$color-bottom',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
 body {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  // @include gradient($grad-color-top, $grad-color-bottom);
 }

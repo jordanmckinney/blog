@@ -5,28 +5,14 @@ import './Guide.scss';
 const Guide = () => (
     <div className="guide-container">
       <div className="guide">
-        <a href="" className="guide-link">Hashing</a>
-        <a href="" className="guide-link">Blockchain</a>
-        <a href="" className="guide-link">Bitcoin</a>
-        <a href="" className="guide-link">Ethereum</a>
-        <a href="" className="guide-link">DAO</a>
+        <a href="" className="guide-link inactive">Hashing</a>
+        <a href="" className="guide-link inactive">Blockchain</a>
+        <a href="" className="guide-link inactive">Bitcoin</a>
+        <a href="" className="guide-link inactive">Ethereum</a>
+        <a href="" className="guide-link inactive">DAO</a>
       </div>
     </div>
 )
 
 
 export default Guide;
-
-        // <div className="guide">
-        //     <span className="fa-stack fa-lg">
-        //       <i className="fa fa-circle fa-stack-2x"></i>
-        //       <i className="fa fa-hashtag fa-stack-1x"></i>
-        //     </span>
-        //     <span className="fa-stack fa-lg">
-        //       <i className="fa fa-circle fa-stack-2x"></i>
-        //       <i className="fa fa-link fa-stack-1x"></i>
-        //     </span>
-        //     <img src="/public/images/BTC.svg" alt="hash"/>
-        //     <img src="/public/images/ETH-alt.svg" alt="ethereum"/>
-        //     <img src="/public/images/DAO-alt.svg" alt="ethereum"/>
-        // </div>

@@ -1,28 +1,25 @@
-$header-text-hover-color: #7e91fa;
-
 .guide-container {
-    display: flex;
-    justify-content: space-around;
-    // background-color: #7e91fa;
-    // background-color: #798dd1;
-    background-color: #70728c;
-}
-
-.guide {
+  display: flex;
+  justify-content: space-around;
+  background-color: #70728c;
+  .guide {
     display: flex;
     align-items: center;
+    .guide-link {
+      font-family: 'Magra', 'Open Sans', 'Arial';
+      font-size: 13pt;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        background-color: #9698b7;
+      }
+    }
+  }
+  .guide-link.inactive {
+    opacity: 0.5;
+  }
 }
 
-a {
-}
-.guide-link {
-    font-family: 'Magra';
-    font-size: 13pt;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-    &:hover {
-      background-color: #9698b7;
-    }
-}
-    // <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards|Open+Sans|Palanquin+Dark|Signika|Baloo+Bhaina|PT+Sans|Slabo+27px|Noto+Serif|Ropa+Sans" rel="stylesheet">
+
+
