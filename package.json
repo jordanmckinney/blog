@@ -44,6 +44,7 @@
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.6",
     "serve": "^5.2.1",
+    "simple-react-router": "^0.0.13",
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
