@@ -1,4 +1,6 @@
-### Portfolio/Blog
+### jordanmmck.com
+
+A personal portfolio/blog site.
 
 clone then:
 ```
