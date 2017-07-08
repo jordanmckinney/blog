@@ -1,9 +1,4 @@
 ### jordanmmck.com
 
-A personal portfolio/blog site.
+A personal portfolio/blog site made with React, yarn, webpack.
 
-clone then:
-```
-yarn install
-yarn start
-```
