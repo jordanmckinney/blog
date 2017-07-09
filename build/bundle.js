@@ -14257,7 +14257,7 @@ var Guide = function Guide() {
       { className: 'guide' },
       _react2.default.createElement(
         'a',
-        { href: '#/writing/hashing', className: 'guide-link inactive' },
+        { href: '#/writing/', className: 'guide-link' },
         'Hashing'
       ),
       _react2.default.createElement(
@@ -17391,7 +17391,7 @@ exports = module.exports = __webpack_require__(22)(undefined);
 
 
 // module
-exports.push([module.i, ".guide-container {\n  display: flex;\n  justify-content: space-around;\n  background-color: #70728c; }\n  .guide-container .guide {\n    display: flex;\n    align-items: center; }\n    .guide-container .guide .guide-link {\n      font-family: 'Magra', 'Open Sans', 'Arial';\n      font-size: 13pt;\n      padding: 10px;\n      text-decoration: none;\n      color: black; }\n      .guide-container .guide .guide-link:hover {\n        background-color: #9698b7; }\n  .guide-container .guide-link.inactive {\n    opacity: 0.5; }\n", ""]);
+exports.push([module.i, ".guide-container {\n  display: flex;\n  justify-content: space-around;\n  background-color: #70728c; }\n  .guide-container .guide {\n    display: flex;\n    align-items: center; }\n    .guide-container .guide .guide-link {\n      font-family: 'Magra', 'Open Sans', 'Arial';\n      font-size: 13pt;\n      padding: 10px;\n      text-decoration: none;\n      color: black; }\n      .guide-container .guide .guide-link:hover {\n        background-color: #9698b7; }\n  .guide-container .guide-link.inactive {\n    opacity: 0.5;\n    pointer-events: none; }\n", ""]);
 
 // exports
 
