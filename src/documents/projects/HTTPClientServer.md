@@ -4,23 +4,25 @@ A simple web [client and server](https://github.com/jordanmckinney/http_client_s
 
 Sample client output:
 
-    $ ./SimpClient
-    Open URI: http://httpbin.org/ip
+```
+$ ./SimpClient
+Open URI: http://httpbin.org/ip
 
-    ---Request begin---
-    GET /ip HTTP/1.0
-    Host: httpbin.org
+---Request begin---
+GET /ip HTTP/1.0
+Host: httpbin.org
 
-    ---Request end---
-    HTTP request sent, awaiting response...
+---Request end---
+HTTP request sent, awaiting response...
 
-    ---Response header---
-    HTTP/1.1 200 OK
-    Server: nginx
-    Date: Sat, 17 Sep 2016 22:04:34 GMT
-    (...)
+---Response header---
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 17 Sep 2016 22:04:34 GMT
+(...)
 
-    --- Response body ---
-    {
-      "origin": "XX.XX.1.172"
-    }
+--- Response body ---
+{
+  "origin": "XX.XX.1.172"
+}
+```
