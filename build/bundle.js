@@ -14258,7 +14258,7 @@ var Guide = function Guide() {
       _react2.default.createElement(
         'a',
         { href: '#/writing/', className: 'guide-link' },
-        'Technology'
+        'Tech'
       ),
       _react2.default.createElement(
         'a',
@@ -17400,7 +17400,7 @@ exports = module.exports = __webpack_require__(22)(undefined);
 
 
 // module
-exports.push([module.i, ".guide-container {\n  display: flex;\n  justify-content: space-around;\n  background-color: #70728c; }\n  .guide-container .guide {\n    display: flex;\n    align-items: center; }\n    .guide-container .guide .guide-link {\n      font-family: 'Magra', 'Open Sans', 'Arial';\n      font-size: 13pt;\n      padding: 10px;\n      text-decoration: none;\n      color: black; }\n      .guide-container .guide .guide-link:hover {\n        background-color: #9698b7; }\n  .guide-container .guide-link.inactive {\n    opacity: 0.5;\n    pointer-events: none; }\n", ""]);
+exports.push([module.i, ".guide-container {\n  display: flex;\n  justify-content: space-around;\n  background-color: #70728c; }\n  .guide-container .guide {\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    white-space: nowrap;\n    overflow: hidden;\n    width: 560px; }\n    @media (max-width: 560px) {\n      .guide-container .guide {\n        width: 100%; } }\n    .guide-container .guide .guide-link {\n      font-family: 'Magra', 'Open Sans', 'Arial';\n      font-size: 13pt;\n      padding-top: 10px;\n      padding-bottom: 10px;\n      text-decoration: none;\n      color: black; }\n      .guide-container .guide .guide-link:hover {\n        background-color: #9698b7; }\n  .guide-container .guide-link.inactive {\n    opacity: 0.5;\n    pointer-events: none; }\n", ""]);
 
 // exports
 
