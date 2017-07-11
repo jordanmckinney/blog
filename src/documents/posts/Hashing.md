@@ -1,5 +1,16 @@
-<center><h2>Hashing</h2></center>
+<center><h2>Hash Functions</h2></center>
 
+Why do we care? Because here is a mathematical unit of technology that has some unique properties.
+
+What is a hash function? Cryptographic vs regular hash functions. We can think of it as a black box that takes *any* chunk of data and maps it to a fixed size output.
+
+What are the properties? It produces a seemingly random output for any input. Random but repeatable. It's collission resistant.
+
+Example, SHA256. Takes any input, maps it to 256 bits. Link to 3blue1brown video about how big this space is. How many 256 bit colors would this be? Or a 256 pixel screen. Where each pixel is on or off.
+
+So what can we build with this machine?
+
+Simplest use, a fingerprint of some chunk of data.
+
+Wikipedia:
 A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. One use is a data structure called a hash table, widely used in computer software for rapid data lookup. Hash functions accelerate table or database lookup by detecting duplicated records in a large file. An example is finding similar stretches in DNA sequences. They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or equivalent alternatives) by knowing the stored hash value. This is used for assuring integrity of transmitted data, and is the building block for HMACs, which provide message authentication.
-
-Hash functions are related to (and often confused with) checksums, check digits, fingerprints, lossy compression, randomization functions, error-correcting codes, and ciphers. Although these concepts overlap to some extent, each has its own uses and requirements and is designed and optimized differently. The Hash Keeper database maintained by the American National Drug Intelligence Center, for instance, is more aptly described as a catalogue of file fingerprints than of hash values.<Paste>
