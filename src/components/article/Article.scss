@@ -13,6 +13,12 @@
     padding: 5px;
   }
 
+  pre {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #e8eaff;
+  }
+
   a {
     text-decoration: none;
     color: #306eff;
@@ -44,9 +50,6 @@
     pre {
       margin-left: 10px;
       margin-right: 10px;
-      padding: 20px;
-      border-radius: 6px;
-      background-color: #e8eaff;
     }
   }
 }
