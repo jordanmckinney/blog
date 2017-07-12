@@ -1,4 +1,16 @@
-<center><h2>Hash Functions</h2></center>
+<center><h2>Cryptographic Hash Functions</h2></center>
+
+A hash function is any function that maps data of arbitrary size to some fixed output size. So whether you give the hash function a 1GB file as input or a single character it will output, in the case of SHA256, 256 bits.
+
+Cryptographic hash functions also have the property of being 'one-way' functions. What that means is that if I give you some output it is practically impossible to figure out what the input was. All you can do is simply try a bunch of inputs until one produces the output you were expecting.
+
+An ideal Cryptographic hash function has the following properties:
+
+* Deterministic (same output for some input everytime)
+* Quick to compute
+* Hard to reverse
+* Sensitive to change in input (changing even a single bit should completely change the output
+* Collission resistant
 
 Why do we care? Because here is a mathematical unit of technology that has some unique properties.
 
@@ -12,5 +24,4 @@ So what can we build with this machine?
 
 Simplest use, a fingerprint of some chunk of data.
 
-Wikipedia:
-A hash function is any function that can be used to map data of arbitrary size to data of fixed size. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. One use is a data structure called a hash table, widely used in computer software for rapid data lookup. Hash functions accelerate table or database lookup by detecting duplicated records in a large file. An example is finding similar stretches in DNA sequences. They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or equivalent alternatives) by knowing the stored hash value. This is used for assuring integrity of transmitted data, and is the building block for HMACs, which provide message authentication.
+Hash table, hash set
