@@ -4,7 +4,7 @@ My goal with this series of posts is to gain a thorough and inuitive understandi
 
 This post zooms way out and talks about technology in general. This may be a bit of a tangent but I think it will be helpful in appreciating the technologies behind cryptocurrencies later on.
 
-<center><h3>Technology: Compose and Abstract</h3></center>
+<center><h3>Technology: Composition and Abstraction</h3></center>
 
 There are two 'layers' involved with technology. The physics layer consists of the raw materials available to us along with physical laws governing them. The technology layer is everything we build on top of the physics layer. What we can create in the technology layer is limited by the physics layer, and *further* limited by our incomplete understanding of the physics layer.
 
