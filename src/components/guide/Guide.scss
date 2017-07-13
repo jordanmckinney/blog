@@ -13,12 +13,16 @@
       width: 100%;
     }
     .guide-link {
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1;
       font-family: 'Magra', 'Open Sans', 'Arial';
       font-size: 13pt;
       padding-top: 10px;
       padding-bottom: 10px;
       text-decoration: none;
       color: black;
+      max-width:100px;
       &:hover {
         background-color: #9698b7;
       }
