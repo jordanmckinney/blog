@@ -4,7 +4,7 @@ My goal with this series of posts is to gain a thorough and inuitive understandi
 
 This post zooms way out and talks about technology in general. This may be a bit of a tangent but I think it will be helpful in appreciating the technologies behind cryptocurrencies later on.
 
-<center><h3>Technology: Composing and Abstracting</h3></center>
+<center><h3>Technology: Compose and Abstract</h3></center>
 
 There are two 'layers' involved with technology. The physics layer consists of the raw materials available to us along with physical laws governing them. The technology layer is everything we build on top of the physics layer. What we can create in the technology layer is limited by the physics layer, and *further* limited by our incomplete understanding of the physics layer.
 
@@ -12,9 +12,11 @@ Our technology advances gradually as we learn to more skillfully work with our m
 
 Metal has properties of hardness, ductility, malleability, and electrical conductivity. When we discovered metal we noticed the first three, more obvious properties pretty quickly and used them to great effect. Thousands of years later we found that electricity was also hiding inside our favorite material. Here was a brand new property unlike anything we had seen before. Unlike hardness, weight, flexibility, and other simpler properties this one was ethereal, almost like fire but less chaotic and ultimately much more powerful. Recently we have come to understand this property and the world has been utterly transformed.
 
-Each time we discover new properties, or better understand old ones we expand the physics layer that our technology can be built upon, we gain new building blocks. In the technology layer a similar process occurs. We find ways to combine the fundamental building blocks into new technology, but we also abstract these inventions into technological 'units' and then use *those* as our building blocks.
+Each time we discover new properties, or better understand old ones we expand the physics layer that our technology can be built upon, we gain new building blocks. In the technology layer a similar process occurs. We find ways to combine the fundamental building blocks into new technology, but we also abstract these inventions into technological 'units' and then use *those* as our building blocks. 
 
 Once someone invents the wheel, others can use this design and even improve upon it without having to reinvent it. Once someone combines gears, pulleys, pistons and fire into an engine we can all use the engine as a building block. We can then forget about how it works and just abstract it to a black box that has a certain properties. The engine has a certain size, outputs heat, requires fuel to run, and produces rotational power.
+
+This process of composition and abstraction is happening constantly, and at many different levels at the same time.
 
 <center><h3>Abstract Machines</h3></center>
 
