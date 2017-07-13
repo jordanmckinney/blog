@@ -1,8 +1,8 @@
-<center> <h2>Ethereum</h2> </center>
+<center> <h2>DAOs: The First Digital Lifeforms</h2> </center>
 
 In progress...
 
-At a large scale humans are a swarm of very similar animals. Just like we can take a herd of cows and we have learned some simple rules that apply to basically all cows. Even though each cow is unique. We know the tricks to get them behave how we want. 
+At a large scale humans are a swarm of very similar animals. Just like we can take a herd of cows and we have learned some simple rules that apply to basically all cows. Even though each cow is unique. We know the tricks to get them behave how we want.
 
 Humans are just a big swarm as well. From high up we look as similar to each other as one bee does to another. The bulk 99% of humans and their activity are very easy to figure out.
 
