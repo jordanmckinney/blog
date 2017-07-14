@@ -17414,7 +17414,7 @@ exports = module.exports = __webpack_require__(22)(undefined);
 
 
 // module
-exports.push([module.i, ".header-container {\n  background-color: #31334a;\n  display: flex;\n  justify-content: space-around;\n  padding-top: 80px;\n  padding-bottom: 15px; }\n  .header-container .header {\n    font-family: 'Lobster', 'Open Sans', 'Arial';\n    font-size: 20pt;\n    display: flex;\n    justify-content: space-around;\n    width: 700px; }\n    .header-container .header a {\n      color: #7e91fa;\n      text-decoration: none;\n      -o-transition: .4s;\n      -ms-transition: .4s;\n      -moz-transition: .4s;\n      -webkit-transition: .4s;\n      transition: .4s; }\n      .header-container .header a:hover {\n        color: #647cfc; }\n", ""]);
+exports.push([module.i, ".header-container {\n  background-color: #31334a;\n  display: flex;\n  justify-content: space-around;\n  padding-top: 80px;\n  padding-bottom: 15px; }\n  .header-container .header {\n    font-family: 'Lobster', 'Open Sans', 'Arial';\n    font-size: 20pt;\n    display: flex;\n    justify-content: space-around;\n    width: 700px; }\n    .header-container .header a {\n      color: #7e91fa;\n      text-decoration: none;\n      -o-transition: .4s;\n      -ms-transition: .4s;\n      -moz-transition: .4s;\n      -webkit-transition: .4s;\n      transition: .4s; }\n      .header-container .header a:hover {\n        color: #6377e8; }\n      .header-container .header a:focus {\n        color: #596ee5; }\n", ""]);
 
 // exports
 

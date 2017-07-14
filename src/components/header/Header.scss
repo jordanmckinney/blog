@@ -22,7 +22,11 @@
         transition:.4s;
 
         &:hover {
-          color: #647cfc;
+          color: #6377e8;
+          // color: #647cfc;
+        }
+        &:focus{
+          color: #596ee5;
         }
       }
     }
