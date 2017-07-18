@@ -1,14 +1,24 @@
 <center> <h2>Bitcoin</h2> </center>
 
+<center> <h2>Models: What is Bitcoin</h2> </center>
+
+Bitcoin is digital cash. It's pretty much anonymous, easy to send/receive. It isn't credit. If you have it you have it. It can't be repossessed from you. It isn't owned by the government but just used by the people. You own it. PS your 'cash' is already digital. The money in your bank accoun exists as an entry in a database. Only a small percentage of the total 'cash' supply exists as paper money.
+
+Bitcoin is a decentralised, dist ledger. Money is basically a dist ledger right now. Except that it's centralised and bordered and so on. Bitcoin is just a decentralised ledger. Same idea.
+
+Bitcoin is a global decentralised special purpose database. The system can be thought of as a global computer, but it is not general. the only computations this computer can do are those required to keep the ledger going... The CPU for this computer is a single threaded CPU distributed across all the nodes in the network. This computer has huge redundancy because literally every node does the whole computation to go from one state to another. The harddrive is the blockchain, the CPU is the sum of all the nodes. So the computing power of this computer is 1MB per 10 minutes. It can do that much computation. And the operations it does are simply ledger operations. So it's an insanely slow, not powerful computer.
+
 Bitcoin was testing POW as a sort of decentralised conensus algorithm. And the economic experiment where a currnecy has 0 intrinsic value and 0 govt/institution support. 
 
 The idea that you can use crypto systems if you simult think of them as econ systems and build the economics in as a fundamental layer.
 
-History
+
+<center> <h2>Mining</h2> </center>
+
 Created in 2009 by Satoshi Nakamoto. Initial Bitcoins were issued by mining?
 
-Concept
-Bitcoin functions as digital cash. The bitcoin system is a distributed, decentralised ledger. 
+The only way that new BTC are issued is by mining.
+The ways that BTC can become owned by an account is either by mining reward (out of thin air) or tx fee, or by tx. 
 
 Financial people today are the 'miners' they take a portion of the currency in order to keep it 'functioning'. The financial industry takes roughly 1/3 of GDP...
 

@@ -1,13 +1,19 @@
 <center><h2>Ethereum</h2></center>
 
-Ethereum is a global decentralised computer.
+<center> <h2>Models: What is Ethereum</h2> </center>
+
+Ethereum is a new computing platform... Ethereum is a global decentralised computer.
 
 Bitcoin is sort of a global computer but it is not general. It has a harddrive, the blockchain, and a 10min clock frequency but the harddrive is just a ledger and all you can really do is move value around the ledger.
+
+Ethereum was the logical next step. Use this blockchain harddrive idea but also build a fully general programming language on top of it.
 
 Ethereum is also a global computer, but it is a truly general global computer. So the harddrive is a blockchain with accounts that have balances, similar to bitcoin, but it also has special accounts that hold code. These things will run code when you send them money. So the 'state' which is held by the blockchain.
 
 This global computer has a harddrive which is a blockchain similar to Bitcoin's.
 So you basically have a bitcoin style blockchain along with a programming language. Each account is sort of an autonomous agent living on the blockchain. You can send tx to these agents and their code will execute. So it’s a decentralised computing environment where people can sort of upload an agent and then spend money to run it. BUT the agents can also interact with each other. The agents can directly control and manipulate currency units. So you could send an agent X ether and according to its code it may distribute them one way or another.
+
+While bitcoin is a special purpose distributed computer with a ledger-harddrive, Ethereum is a global distributed general purpose computer with a much more general harddrive.
 
 So imagine you could have a machine that can be given whatever rules you want, and you could always be sure that it would follow them. You could figure out some good rules and then no one could cheat it or stop it from running or anything like that. If the machine is some benefit to the people they could give it a high ranking and ensure it always gets run. They do this by allocating their token to it. Perhaps the machine actually gives some people more tokens. Perhaps there is some way to have people buy into the system in hopes of gaining money and somehow it is sustainable.
 
@@ -47,6 +53,9 @@ There will be great algorithmic improvements made to this system. This will be a
 
 So we can decentralise networking.
 
+<center> <h2>Smart Contracts</h2> </center>
+
+There are two kinds of accounts in ethereum. There are regular user accounts and smart contracts. These realy should be called ether agents or something. They are accounts that contain their source code as well as a key value store! So they can keep track of their own internal state. To animate them you send them a tx and set a gas price? Then the network executes the code and they take that ether depending on the number of steps and the total storage used. 
 
 So gas is a separate thing from ether. 1 gas is/was set at 1/100,000 ether. 10 Szabo. Then different computational operations cost 1, 5, 10, 20 etc gas. You want the gas cost of things to stay the same regardless of the price of ether. So you just change the price of gas itself. I think you can actually set your gas price now. So your smart contract has some total gas cost. 1150 gas to do some simple task. And you set your gas price as 10 Szabo then you’re saying I’ll pay 11,500 Szabo if you run my code. Or about .115 Ether. So your gas cost won’t change for this contract ever. But when you want to run it, maybe one a month for years, you make a tx where you set your gas price and you know how many steps so you know how much to send. The gas price would be entirely based on the market. Average gas price would fluctuate. 
 
@@ -59,6 +68,8 @@ A great picture of this could be, take all the nodes and line them up vertically
 All the computations you run only make changes to the blockchain. So it is safe to run them. The code will only allow valid stuff to be done to the blockchain, and some of these things are secured by crypto. But the code inside the smart contract is only aware of other accounts. It does not know about the host system at all. 
 
 Ethereum has the EVM to run contracts?, Solidity to write contracts in, tokens (ETH) and fuel (gas). So we can put a smart contract out ‘there’ and then send ETH to it. The eth is converted into ‘gas’ to run the program.
+
+A transaction on ethereum is when you send ether to another account or send ether to a smart contract. A message is when a smart contract sends to another smart contract.
 
 Some DApps
 Golem: ethereum based computation network. You can send computation jobs to the network and others who want to earn money can do the computations. Could this actually replace something like AWS? What about latency and stuff? I guess the question is what the cost of computation if I run it on my computer or if I run it on aws? I think aws charges quite a premium over the cost of electricity. So then this system could beat aws. 
@@ -98,4 +109,6 @@ Now what if you made a system of smart contracts. You could design arbitrary sys
 
 So ethereum is powerful technology with massive potential, but is that enough to ensure its success? Superior technologies sometimes arise but don't gain wide adoption for various reasons. Consumers are not actually rational actors. Maybe VISA and the like respond to this threat by upping their game and maybe they do some good stuff and people just stick with what they know. 
 
-The big reason I don't think this ecosystem fizzle out is because it has economic incentives on its side. If this were simply a 'better' system that has benefits to consumers like ease of use or privacy or other ideoloigcal things, then who knows if people will care enough. We are all lazy after all. But this realm has the ability to actually pay people to keep it going. A strong attractor like that I think will be enough to make this thing snowball and take over. 
+The big reason I don't think this ecosystem fizzle out is because it has economic incentives on its side. If this were simply a 'better' system that has benefits to consumers like ease of use or privacy or other ideoloigcal things, then who knows if people will care enough. We are all lazy after all. But this realm has the ability to actually pay people to keep it going. A strong attractor like that I think will be enough to make this thing snowball and take over.
+
+Naval quote: networks will be replaced with markets.
