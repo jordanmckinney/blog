@@ -185,3 +185,22 @@ So bitcoin is essentially a distributed database. It has a 1/600 Hz clock speed 
 
 OK so that’s great! We now have immutable databases at our disposal. Let’s go build stuff. Then people came up with other things besides databases. But to do each new thing required a whole new system to be constructed. Including a new blockchain, new currency etc. 
 
+The blockchain itself does not hold the state of the system. Otherwise it would all have to be 1MB. If every address were on there then 1MB would limit you quite a lot. Instead the only way to get a complete view of the state is to build the state from the genesis block onward. So you would start to build a list of accounts and as visited new blocks you would build up this set of accounts. There might be several gigabytes of account with balances. For bitcoin 1MB of changes can happen per 10 minutes. 
+
+This obviously limits the tx's per second. But what is actually important to this system is the state, not the block size for example. This system is good so long as it's state can be trusted and considered well used and secure and all that.
+
+Mining
+
+If I give you a number 0x000100000 and say you must find a number less than that. What I am saying is play the lottery as many times as you need to until you find a random number that collides with some subset of numbers in 0x0000fffff. 4 leading zeros. There are obviously more numbers in the no-win set. If there were the same number of slots in the win camp and lose camp it would take on average 2.
+
+How many tries does it take on average to get heads on a coin toss?
+1 try -> 1/2 the time
+2 try -> 1/4 the time
+3 try -> 1/8 the time
+4 try -> 1/16 the time
+So the avg times taken to flip heads it 1/2+1/2+3/8+4/16+5/32+6/64...
+This approaches 2.
+
+Another way to look at it is paint a small circle on a large flat surface. Then we randomly place dots on the board until a dot lands inside that random circle. The board size is the search space. Which is 2^256. The size of the circle is the target. Which on such a huge space can also be very huge without it becoming easy to find a collision.
+
+"Bitcoin uses incentives defined inside of a system in order to protect & secure that system's ongoing existence." - @VitalikButerin. Woah.

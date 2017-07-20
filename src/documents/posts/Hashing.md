@@ -52,3 +52,38 @@ Hash chain
 
 Hash graphs
 
+PUBLIC KEY CRYPTO
+
+So you create your private key and public key pair. You can now send out your public key to everyone. Then people can send you messages that no one can read except you. So they can send an encrypted message over public networks. So you could also have 2 way communication right? Alice sends out her public key. She can now get secure messages from Bob. Bob send out his and now Alice can safely send. OR is that true? If I send a message encrypted with Alice's public key and she gets it. She can't know it was from me. Unless we create a chain. 
+
+If we are to establish a connection how can I know it's between us? Once you start you can know that it's still between the same entities by putting the hash of the unencrypted previous message into the new message. That way Alice knew what the original message was and therefore the hash of it. So if she sends and then get a new message encrypted with her public key and she reads it and finds that hash then she knows the guy on the other end did in fact decrypt the message she sent. But there still needs to be some trust about sharing public keys? 
+
+You can also sign a document using your private key and it can be verified by other people that the private key holder did this.
+
+Dffie Hellman:
+
+A and B agree on a shared public color say yellow.
+A and B each choose a random secret color. A: light blue, B: orange
+A mixes light blue and yellow, then sends it
+B mixes orange and yellow, then sends it
+A mixes public yellow, private light blue and B's orange+yellow
+B mixes public yellow, private orange and A's light blue+yellow
+Now A and be actually have the same color. It's just a different order of mixing.
+
+C can only know yellow, and orange+yellow, lightblue+yellow
+If C could untangle either compound colors then they could crack it.
+
+So then you have a shared number. A big number. This can be the shared key with which you can encrypt messages from now on.
+
+I'm not sure why you can't just regular public key? A wants to talk to B.
+A publish pk_A, B publish pk_B. 
+A chooses large random number, puts in message m, enc with pk_B then send
+B opens message, stores number and sends their own m with a random number
+enc this with pk_A and send
+Now A and B each have 2 matching numbers. They could create a key with these.
+No one has either number.
+
+But how do you know the public key that hear about it the right one? Can you know?
+I don't see any difference. 
+
+A hash function is a function that takes one piece of information of any size and maps it to another piece of data of a fixed size i.e. a 1MB file or a 500KB file when run through a hash function would produce two separate ‘hashes’ 128 bits in length. A Cryptographic Hash Function is one that performs this function but also fulfils three important requirements: it does so in a way that no information is given on what input data produced the hash (non reversible), it does so in a way that a minor change in the input change gives a very different output hash, that the hash cannot be calculated except using the hash function (no shortcuts), that there is an extremely low probability that two different inputs will produce the same hash.
