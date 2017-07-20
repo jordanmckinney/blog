@@ -2,6 +2,7 @@
 
 A personal portfolio/blog site made with React, Yarn, Webpack.
 
+#### Blog
 MAIN TOPICS TO COVER:
 - [x] Technology
 - [ ] Hashing
