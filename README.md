@@ -1,8 +1,8 @@
-### [jordanmmck.com](http://www.jordanmmck.com/#/)
+## [jordanmmck.com](http://www.jordanmmck.com/#/)
 
 A personal portfolio/blog site made with React, Yarn, Webpack.
 
-#### Blog
+### Blog
 MAIN TOPICS TO COVER:
 - [x] Technology
 - [ ] Hashing
@@ -17,6 +17,7 @@ OTHER TOPICS:
 - [ ] Byzantine Fault Tolerance
 - [ ] Game Theory, Economics, Nash Equilibrium?
 
+### Site
 TODO:
 - [ ] fix routing, use BrowserHistory instead of HashHistory
 - [ ] add side bar for writing nav (ethereum.org)
