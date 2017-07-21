@@ -6,6 +6,7 @@ Properties - what are they?
 Uses - why do we care?
 
 
+There are two core technologies at the heart of cryptocurrencies.
 There are really just two technologies necessary to make bitcoin and other cryptocurrencies possible, hash functions and public key crypto. And they are very simple in concept. The implementation of them is less simple but I'm not going to go into that. We can just treat them as black boxes with certain properties.
 
 <center><h2>Hashing</h2></center>
@@ -48,7 +49,7 @@ Merkle Tree: Binary hash
 
 Hash chain: take the hash and re-hash it as many times as you want. Then that first hash served as a sort of seed whereby you could generate N more keys. So this ‘chain’ is still just one hash. It has just been hashed maybe some known number of times. Like h_99(password).
 
-Hash chain 
+Hash chain
 
 Hash graphs
 
