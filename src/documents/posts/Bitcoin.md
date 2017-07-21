@@ -204,3 +204,29 @@ This approaches 2.
 Another way to look at it is paint a small circle on a large flat surface. Then we randomly place dots on the board until a dot lands inside that random circle. The board size is the search space. Which is 2^256. The size of the circle is the target. Which on such a huge space can also be very huge without it becoming easy to find a collision.
 
 "Bitcoin uses incentives defined inside of a system in order to protect & secure that system's ongoing existence." - @VitalikButerin. Woah.
+
+At the heart of it you decide what kinds of behavior gets you closer to what you want, and reward that. Decide what kind of behavior gets you further from what you want and penalize that. You do this with the cryptocurrency inside the system. So you need some way of knowing for sure when participants *are* doing those good things. 
+
+The machine economy. Digital currency will allow us to build AIs/APIs/machines that function just like agents in an economy. Except that we can program their behavior. They will be able to form markets and bid up/down for various services/exchanges of info. What if someone builds an agent who gains huge amounts of ether/bitcoin but never shares it with any people? Could we have a billionaire AI that just hoards the money? That would be a problem.
+
+Internet of things. Billions/trillions of devices could be made to function in this economy of machines. What a frightening thing. How might this economy evolve? What happens when some entities have huge amounts of money? They still have goals right? So might they use their money to achieve their goals?
+
+A m2m economy could greatly improve the efficiency of the system. Our money system has made our economy millions of times more efficient. We have been able to reward the most useful parties and drive development/research/effort in directions the market likes.
+
+We are essentially opening up our economy to non-human agents for the first time. Currently we have atms which dispense cash without a human watching, but the atm is not an agent in that it is completely passive. The m2m economy will still have passive machines, but it will also have billions of new entities which bid, watch market prices, make decisions.
+
+Our economy will become machine dominated. What does that look like? Surely it will become dominated by machines. Machines will become the dominant actors in this economy. Perhaps their accounts will be owned by their human creators. The agent will use some percentage of its money to make more money and the human will take and use whatever is necessary. Even better the machine will intelligently use the funds so to risk 1% of the funds it will only require a certain probability of return, to risk 100% of funds it will require a 100% certainty of return.
+
+The human creator will withdraw money from this active account as he sees fit. So anything he doesn't want to risk losing should be withdrawn from the main account.
+
+The most successful agents in this economy will be those that trade with other AI agents. These trades can happen on a vastly differnt time scale. Trading with humans will always be slower. Ideally the humans eventually stop actually trading directly with this economy. Agents will sit between the human and the market. So the human decides what they want and the agents make trades based on this. No matter what your goal is it would never be beneficial for you to trade directly. So we will have a layer of agents running the economy and we will sit on top of this layer dictating to the agents what they should do with our money, or rather what we desire.
+
+This new economy will quickly become too complicated for humans to comprehend so we really won't have any choice but to let the machines run the thing.
+
+Of course until we are close to strong AI people will be the ones creating the agents. Though we can also leverage evolutionary principles to evolve the agents that we want.
+
+In this new arena in life, what are the pressures? Well we can always expect a cost for running computation. So that is the 'food/energy' of this new life. So agents should evolve to be lean in this regard. For this to work we need the agents to be able to modify their code. Really we will be doing that. Random mutation doesn't work because the code of today doesn't run at all given a small error. The blocks of evolution will have to be larger chunks if we are going to have anything like that. At first anyway it will be the human programmer making code changes. 
+
+Perhaps the machines could tweak some hyperparameters and use something like gradient descent to find the best settings.
+
+So the pressure will be to reduce the size of the agent, reduce the computational steps, maximize the money earned. These are the evolutionary pressures in this space. In nature energy is free in a sense, so nature can try lots of different things and it doesn't have any external cost. In this realm random experimentation costs money to do. Money that would otherwise go to some person. So there shuold be some balanced level of evolutionary experimentation going on. 
