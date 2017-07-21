@@ -7,6 +7,7 @@ Uses - why do we care?
 
 
 There are two core technologies at the heart of cryptocurrencies.
+
 There are really just two technologies necessary to make bitcoin and other cryptocurrencies possible, hash functions and public key crypto. And they are very simple in concept. The implementation of them is less simple but I'm not going to go into that. We can just treat them as black boxes with certain properties.
 
 <center><h2>Hashing</h2></center>
