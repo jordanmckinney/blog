@@ -1,89 +1,62 @@
 <center><h3>Cryptocurrency & Blockchain Series</h3></center>
 
-My goal with this series of posts is to gain a thorough and inuitive understanding of what cryptocurrencies are, the technology behind them and their potential implications. I will try to explain things from 'first-principles' approach and not gloss over any details.
+My goal with this series of posts is to gain a thorough and inuitive understanding of what cryptocurrencies are, the technology behind them and their potential implications. I will try to explain things from a 'first-principles' approach and not gloss over any details.
+
+<hr>
 
 <center><h3>Technology: Composition and Abstraction</h3></center>
 
-Human technological progress is driven by a continual process of composition and abstraction. Raw materials with useful properties are composed to form tools. The details of how the tool was made and how it works can then be abstracted away, and the tool can be used by others as a building block, or technological 'unit'. Like the original raw materials, these technological units have certain properties and can themselves be composed into new tools. These more complex tools can then be abstracted into new technological units, which can be composed into new tools, and so on.
+Human technological progress is driven by a continual process of composition and abstraction. Raw materials with useful properties are composed to form tools. The details of how the tool was made and how it works can then be abstracted awayand the tool can be used by others as a building block, or technological 'unit'. Like the original raw materials, these technological units have certain properties and can themselves be composed into new tools. These more complex tools can then be abstracted as new technological units, which can be composed into new tools, and so on.
 
-The internal combustion engine is composed of hundreds of less complex technological units. While it took a great deal of time and effort to invent this machine, once it was figured out others could use it as a building block. It is not necessary for the inventor to understand the details of how the combustion engine works in order for them to use it as a building block. The engine can be treated as a 'black box' with a simple set of properties. It has a certain weight and size, requires fuel to run, produces exhaust gas, heat and noise, but produces constant rotational power.
+The internal combustion engine is composed of hundreds of less complex technological units. While it took a great deal of time and effort to invent this machine, once it was figured out others could use it as a building block. It is not necessary for an inventor to understand the details of how the combustion engine works in order for them to use it as a building block. The engine can be abstracted as a 'black box' with a simple set of properties. It has a certain weight and size, requires fuel to run, outputs exhaust gas, heat and noise, but produces constant rotational power.
 
+This process of composition and abstraction has been going on continually for millenia and at many different levels of complexity.
 
-<center><h3>Abstract Machines</h3></center>
+<center><h4>Abstract Machines</h4></center>
 
-Each time we discover new physical properties, or better understand old ones we expand the physics layer that our technology can be built upon, we gain new building blocks. In the technology layer a similar process occurs. We find ways to combine the fundamental building blocks into new technology, but we also abstract these inventions into technological 'units' and then use *those* as our building blocks.
+When computers were invented we were presented with an entirely new technological *platform*. Everything computers do of course still belongs to the physical world, but the laws governing this new realm are completely unlike the laws of the physical world. On this platform we can bring completely abstract mathematical 'machinery' to life. Previously mathematical concepts could only be run on the hardware of human minds. Now we can run them on an industrial scale.
 
-Once someone invents the wheel, others can use this design and even improve upon it without having to reinvent it. Once someone combines gears, pulleys, pistons and fire into an engine we can all use the engine as a building block. We can then forget about how it works and just abstract it to a black box that has a certain properties. The engine has a certain size, outputs heat, requires fuel to run, and produces rotational power.
-
-This process of composition and abstraction is happening constantly, and at many different levels at the same time.
-
-
-When computers were invented we were presented with an entirely new technological *platform*. Everything computers do of course still belongs to the physical world, but we now had a platform where we could bring completely abstract mathematical 'machinery' to life. Previously mathematical concepts could only be run on the hardware of human minds. Now we run them at light speed.
-
-Naturally the same process of abstraction and composition is happening on this platform as had occurred in the macro physical realm. Simple units of logic are composed into mathematical operations, which are composed into functions, which are composed into programs. These mathematical constructions require only a little electrical power to run and perform tremendous feats of calculation on a time scale we really can't understand.
+Naturally the same process of abstraction and composition is happening on this platform as had occurred in the macro physical realm. Simple units of logic are composed into mathematical operations, which are composed into functions, which are composed into programs. These mathematical constructions require only a little electrical power to run and perform tremendous feats of calculation on a time scale foreign to us.
 
 The most fascinating thing about this new realm is that some of these mathematical machines are unlike *anything we could ever imagine* existing in the physical world. And we have only just begun this process of exploring the vast landscape of math in search of these abstract creatures that we can animate with electricity.
 
-Public key cryptography and cryptographic hash functions are two such animals that have recently found a very interesting use case in crpytocurrencies and the emerging field of cryptoeconomics. In the next post I look at some of the properties of hash functions and the interesting ways in which these properties have been used so far.
+Public key cryptography and cryptographic hash functions are two such animals that have found a very interesting use case in crpytocurrencies and the emerging field of cryptoeconomics. These technologies, when treated as technological units with certain properties, are very simple. And for the major features of the major cryptocurrencies, these are the only tools you need.
 
-
-<center><h2>Hashing & Public key Crypto</h2></center>
-
-Preamble - point of this post
-Intro - what is a hash function
-Properties - what are they?
-Uses - why do we care?
-
-
-There are two core technologies at the heart of cryptocurrencies.
-
-There are really just two technologies necessary to make bitcoin and other cryptocurrencies possible, hash functions and public key crypto. And they are very simple in concept. The implementation of them is less simple but I'm not going to go into that. We can just treat them as black boxes with certain properties.
+<hr>
 
 <center><h2>Hashing</h2></center>
 
-A hash function is just a function that maps an input of arbitrary size to a fixed size output. So you can give the function a single bit or a billion bits, either way it will produce the same size output. SHA-256 for example is the hash function behind Bitcoin's proof of work algorithm, it outputs 256 bits no matter the input size. 
+Cryptographic hash functions are 'one-way' functions that map data of arbitrary size to some fixed size output. So whether your input is 1 bit or 1 billion bits the output will be the same size.
 
-Cryptographic hash functions also have the property of being 'one-way' functions. What that means is that if I give you some output it is practically impossible to figure out what the input was. All you can do is simply try a bunch of inputs until one produces the output you were expecting.
+For example SHA-256 produces a 256-bit hash no matter the input. The hash of the previous paragraph using SHA-256 is:
+```
+0x1e05ce2168d2bc979f309695235f39ff023701c889c24d78ada0faf3faa6df5e
+```
+<p>A given input will always map to the same output, and the output should appear completely random. The hash value above is one of 2<sup>256</sup> possible outputs for SHA-256. There are something like 2<sup>260</sup> atoms in the universe so the chance of finding another input that produces that hash is basically zero.</p>
 
-An ideal Cryptographic hash function has the following properties:
+An ideal cryptographic hash function has the following properties:
 
-* Deterministic (same output for some input everytime)
-* Quick to compute
-* Hard to reverse
-* Sensitive to change in input (changing even a single bit should completely change the output
-* Collission resistant
+* Determinism: the same message always produces the same output
+* Quickness: it is quick to compute the hash for some input
+* Irreversibility: given some hash you can't figure out what the input was except by randomly guessing it and hashing the guess to see if it matches the target hash
+* Avalanche effect: even a small change to the input should completely alter the output
+* Collision resistance: it is infeasible to find two messages that hash to the same value
 
-Why do we care? Because here is a mathematical unit of technology that has some unique properties.
+OK, so we have a mathematical machine or technological unit with these properties. What useful things can we build with it?
 
-Example, SHA256. Takes any input, maps it to 256 bits. Link to 3blue1brown video about how big this space is. How many 256 bit colors would this be? Or a 256 pixel screen. Where each pixel is on or off.
+The simplest application is **digital fingerprinting**. Take some chunk of data and hash it. The hash value will be (for all practical purposes) unique to that document, like a fingerprint.
 
-So what can we build with this machine?
+A website can then publish just the hash of a file and users can download the file, hash it themselves, and check that their hash matches the published hash. If it matches then their file is legit. This is much better than going through your file peice by peice and asking the server if each piece is correct.
 
-Simplest use, a fingerprint of some chunk of data.
+This concept can be extended to **hash lists** to allow trustless peer to peer file sharing. Take a file, break it up into many small pieces. Hash each piece. Publish this relatively small hash list somewhere trusted. Now a peer in the network can accept a file piece from anyone, hash it, if the hash is found in the list then keep the piece, else discard. This is basically what Bittorrent does.
 
-Hash table, hash set
+Even better we could hash the hash list itself to get a top hash. We can then just publish the top hash and allow the peers to share hash lists. When a peer sends you the hash list, hash it, check if it matches the published top hash. If it matches great, keep that list and start accepting data blocks, else discard.
 
-Well you could put them all in a line like and array and point them outward to a much larger array. To do this you don’t actually need an array holding every output that they hash function could in principle output, this would not be very useful. But if you put a simple mod between the output and target array then you can use any size target array.
+There are more applications, but the most interesting in my opinion, and relevant to cryptocurrencies is the blockchain. 
 
-Used in ‘isolation’ this device can sign stuff.
+<hr>
 
-And of course you can chain them and use that structure to build bitcoin. Bitcoin also required some other new ideas of course. The blockchain was a tool for a digital currency.
-
-Digital fingerprint. Take a doc, hash it. That’s unique. 
-
-Hash table: Use the randomness and repeatableness of hash functions to build a quick access array.
-
-Hash list: divide a file into N chunks. Hash each chunk and save the hashes into a big list indexed 0 - n-1 probably. This way if one block shows up with a hash not on the list then we turn it down. Bittorrent uses this. Torrent files come with hash lists.
-
-Merkle Tree: Binary hash 
-
-Hash chain: take the hash and re-hash it as many times as you want. Then that first hash served as a sort of seed whereby you could generate N more keys. So this ‘chain’ is still just one hash. It has just been hashed maybe some known number of times. Like h_99(password).
-
-Hash chain
-
-Hash graphs
-
-PUBLIC KEY CRYPTO
+<center><h2>Public Key Cryptography</h2></center>
 
 So you create your private key and public key pair. You can now send out your public key to everyone. Then people can send you messages that no one can read except you. So they can send an encrypted message over public networks. So you could also have 2 way communication right? Alice sends out her public key. She can now get secure messages from Bob. Bob send out his and now Alice can safely send. OR is that true? If I send a message encrypted with Alice's public key and she gets it. She can't know it was from me. Unless we create a chain. 
 
@@ -118,13 +91,6 @@ But how do you know the public key that hear about it the right one? Can you kno
 I don't see any difference. 
 
 A hash function is a function that takes one piece of information of any size and maps it to another piece of data of a fixed size i.e. a 1MB file or a 500KB file when run through a hash function would produce two separate ‘hashes’ 128 bits in length. A Cryptographic Hash Function is one that performs this function but also fulfils three important requirements: it does so in a way that no information is given on what input data produced the hash (non reversible), it does so in a way that a minor change in the input change gives a very different output hash, that the hash cannot be calculated except using the hash function (no shortcuts), that there is an extremely low probability that two different inputs will produce the same hash.
-
-
-All the crypto we need is hashing and public key crypto
-Crypto is one building block. Economics is the other.
-Read up on the paper vitalik published, hard problems in cryptoeconomics... 
-
-Public-key cryptography
 
 Uses pairs of keys. Public and private. Does not require any shared secret key between the parties. So two parties who’ve never met can establish secure communication.
 
