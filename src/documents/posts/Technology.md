@@ -1,4 +1,4 @@
-<center><h3>Cryptocurrency & Blockchain Series</h3></center>
+<center><h2>Cryptocurrency & Blockchain Series</h2></center>
 
 My goal with this series of posts is to gain a thorough and inuitive understanding of what cryptocurrencies are, the technology behind them and their potential implications. I will try to explain things from a 'first-principles' approach and not gloss over any details.
 
@@ -24,7 +24,7 @@ Public key cryptography and cryptographic hash functions are two such animals th
 
 <hr>
 
-<center><h2>Hashing</h2></center>
+<center><h3>Hashing</h3></center>
 
 Cryptographic hash functions are 'one-way' functions that map data of arbitrary size to some fixed size output. So whether your input is 1 bit or 1 billion bits the output will be the same size.
 
@@ -50,9 +50,9 @@ A website can then publish just the hash of a file and users can download the fi
 
 This concept can be extended to **hash lists** to allow trustless peer to peer file sharing. Take a file, break it up into many small pieces. Hash each piece. Publish this relatively small hash list somewhere trusted. Now a peer in the network can accept a file piece from anyone, hash it, if the hash is found in the list then keep the piece, else discard. This is basically what Bittorrent does.
 
-Even better we could hash the hash list itself to get a top hash. We can then just publish the top hash and allow the peers to share hash lists. When a peer sends you the hash list, hash it, check if it matches the published top hash. If it matches great, keep that list and start accepting data blocks, else discard.
+Even better we could hash the hash list itself to get a master hash or 'top hash'. We can then just publish the top hash and allow the peers to share hash lists. When a peer sends you the hash list, hash it, check if it matches the published top hash. If it matches great, keep that list and start accepting data blocks, else discard.
 
-There are more applications, but the most interesting in my opinion, and relevant to cryptocurrencies is the blockchain. 
+There are more applications, but the most interesting, and relevant to cryptocurrencies is the blockchain. Take some data
 
 <hr>
 
