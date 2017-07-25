@@ -4,23 +4,45 @@ My goal with this series of posts is to gain a thorough and inuitive understandi
 
 <hr>
 
+I think that in order to understand the potential of cryptocurrencies we need to understand their inner workings in some detail. To understand any cryptocurrency we need to know the blockchain. To appreciate how blockchains are used by crpytocurrencies work we should at least have a high level understanding of hashing and public key cryptography, though I don't think we need also to need know *their* inner workings.
+
+Before getting to hashing and public key crypto I take a brief high level look at technology in general.
+
+<hr>
+
 <center><h3>Technology: Composition and Abstraction</h3></center>
 
-Human technological progress is driven by a continual process of composition and abstraction. Raw materials with useful properties are composed to form tools. The details of how the tool was made and how it works can then be abstracted awayand the tool can be used by others as a building block, or technological 'unit'. Like the original raw materials, these technological units have certain properties and can themselves be composed into new tools. These more complex tools can then be abstracted as new technological units, which can be composed into new tools, and so on.
+Human technological progress is driven by a continual process of composition and abstraction. Raw materials with useful properties are composed to form tools. The details of how the tool was made and how it works can then be abstracted away and the tool can be used by others as a building block, or technological 'unit'. Like the original raw materials these blocks themselves can then be composed into new tools. These more complex tools can again be abstracted as new technological units, which can be further composed into new tools, and so on.
 
 The internal combustion engine is composed of hundreds of less complex technological units. While it took a great deal of time and effort to invent this machine, once it was figured out others could use it as a building block. It is not necessary for an inventor to understand the details of how the combustion engine works in order for them to use it as a building block. The engine can be abstracted as a 'black box' with a simple set of properties. It has a certain weight and size, requires fuel to run, outputs exhaust gas, heat and noise, but produces constant rotational power.
 
-This process of composition and abstraction has been going on continually for millenia and at many different levels of complexity.
+New inventions can be viewed as artifacts or systems with certain properties or attributes. The inner workings of a given invention is usually not as important to history as the properties of it. While significant impact may come from improving or re-combining the properties of existing technology into something new, revolutionary change can come from technology with entirely new properties altogether.
 
 <center><h4>Abstract Machines</h4></center>
 
-When computers were invented we were presented with an entirely new technological *platform*. Everything computers do of course still belongs to the physical world, but the laws governing this new realm are completely unlike the laws of the physical world. On this platform we can bring completely abstract mathematical 'machinery' to life. Previously mathematical concepts could only be run on the hardware of human minds. Now we can run them on an industrial scale.
+When computers were invented we were presented with an entirely new technological *platform*. Everything computers do of course still belongs to the physical world, but the laws governing this new realm are completely unlike the laws of the physical world. On this platform we can bring completely abstract mathematical 'machinery' to life. Previously mathematical concepts could only be run on the hardware of human minds. Now we can run them at the scale of industry.
 
 Naturally the same process of abstraction and composition is happening on this platform as had occurred in the macro physical realm. Simple units of logic are composed into mathematical operations, which are composed into functions, which are composed into programs. These mathematical constructions require only a little electrical power to run and perform tremendous feats of calculation on a time scale foreign to us.
 
-The most fascinating thing about this new realm is that some of these mathematical machines are unlike *anything we could ever imagine* existing in the physical world. And we have only just begun this process of exploring the vast landscape of math in search of these abstract creatures that we can animate with electricity.
+The most fascinating thing about this new realm is that some of these mathematical machines are unlike *anything we have encountered* in the physical world. And we have only just begun this process of exploring and expanding the vast landscape of math in search of these abstract creatures that we can animate with electricity.
 
-Public key cryptography and cryptographic hash functions are two such animals that have found a very interesting use case in crpytocurrencies and the emerging field of cryptoeconomics. These technologies, when treated as technological units with certain properties, are very simple. And for the major features of the major cryptocurrencies, these are the only tools you need.
+Public key cryptography and cryptographic hash functions are two such animals that have found a very interesting use case in crpytocurrencies and the emerging field of cryptoeconomics. These technologies, when treated as technological units with certain properties, are very simple. And for the core features of cryptocurrencies, these are the only tools you need.
+
+<hr>
+
+<center><h3>Public Key Cryptography</h3></center>
+
+Public key cryptography, or asymmetric cryptography is one of these mathematical machines that seem like magic. This system allows **authentication** and **encryption** between parties that have never met to securely share a secret key.
+
+<center><h4>Authentication</h4></center>
+
+<p>Produce your key-pair &#x2012; a public key which you can share with anyone, even publish to your website, and a private key which is kept private. Now you can produce a chunk of data, maybe a will, financial transaction, or any message, use your private key to 'sign' this chunk of data, and recipients can then be certain that this message came from you. Or at least they can be sure that someone with the private key which corresponds to the public key that you published signed the document.</p>
+
+So as long as your public key is published somewhere that people can trust, you can send out signed messages on a *untrusted* network and people can be sure that the message came from you, and that it wasn't altered in any way.
+
+<center><h4>Encryption</h4></center>
+
+This system also allows one to receive trusted secret trusted communication on an untrusted network. 
 
 <hr>
 
@@ -42,75 +64,24 @@ An ideal cryptographic hash function has the following properties:
 * Avalanche effect: even a small change to the input should completely alter the output
 * Collision resistance: it is infeasible to find two messages that hash to the same value
 
-OK, so we have a mathematical machine or technological unit with these properties. What useful things can we build with it?
+OK, so we have a mathematical machine or technological unit with these properties. It is a fast, one-way, unpredictable, fingerprint-generator. What useful things can we build with it?
 
-The simplest application is **digital fingerprinting**. Take some chunk of data and hash it. The hash value will be (for all practical purposes) unique to that document, like a fingerprint.
+The simplest application is **digital fingerprinting**. Take some chunk of data and hash it. The hash value will be (for all practical purposes) unique to that document.
 
-A website can then publish just the hash of a file and users can download the file, hash it themselves, and check that their hash matches the published hash. If it matches then their file is legit. This is much better than going through your file peice by peice and asking the server if each piece is correct.
+A website can then publish just the hash of a file and users can download the file, hash it themselves, and check that their hash matches the published hash. If their copy of the file has been altered in any way, even if just one bit is flipped, the hash value will not match. If the hash matches then the user can be sure their file is legit. This sort of independent integrity check is much better than going through the file chunk by chunk and asking the server if each chunk is correct.
 
-This concept can be extended to **hash lists** to allow trustless peer to peer file sharing. Take a file, break it up into many small pieces. Hash each piece. Publish this relatively small hash list somewhere trusted. Now a peer in the network can accept a file piece from anyone, hash it, if the hash is found in the list then keep the piece, else discard. This is basically what Bittorrent does.
+This concept can be extended to **hash lists** to allow trustless peer to peer file sharing. Take a file, break it up into many small pieces. Hash each piece. Publish this relatively small hash list somewhere trusted. Now a peer in the network can accept a file piece from anyone, hash it, if the hash is found in the list then keep the piece, else discard. An attacker cannot create a malicious file piece that matches a hash in the list. This technique is used by Bittorrent.
 
-Even better we could hash the hash list itself to get a master hash or 'top hash'. We can then just publish the top hash and allow the peers to share hash lists. When a peer sends you the hash list, hash it, check if it matches the published top hash. If it matches great, keep that list and start accepting data blocks, else discard.
+Even better we could hash the hash list itself to get a master hash or 'top hash'. We can then just publish the top hash and allow the peers to share hash lists. When a peer sends you the hash list, hash it, check if it matches the published top hash. If it matches then the hash list is legit and you can use it to start accepting blocks.
 
-There are more applications, but the most interesting, and relevant to cryptocurrencies is the blockchain. Take some data
+Hash functions have many other applications, but the one we are most interested in is the blockchain.
 
-<hr>
+<center><h2>Blockchains</h2></center>
 
-<center><h2>Public Key Cryptography</h2></center>
+Take some chunk or 'block' of data, compute the hash for it, now take that hash value and put it in the next block. Repeat the process for each new block. Now anyone who looks at this sequence of blocks can be sure of their order of creation, as well as the contents of each block being unaltered in any way after the chain was created.
 
-So you create your private key and public key pair. You can now send out your public key to everyone. Then people can send you messages that no one can read except you. So they can send an encrypted message over public networks. So you could also have 2 way communication right? Alice sends out her public key. She can now get secure messages from Bob. Bob send out his and now Alice can safely send. OR is that true? If I send a message encrypted with Alice's public key and she gets it. She can't know it was from me. Unless we create a chain. 
+Assuming the hash of at least the newest block is published somewhere trusted, then if an attacker tries to send you a copy of the blockchain with even a single bit changed in *any* block, no matter how far back, the hashes of all blocks following the change will not match. This is one of the few data structures that have a sort of guaranteed 'arrow of time' associated with them.
 
-If we are to establish a connection how can I know it's between us? Once you start you can know that it's still between the same entities by putting the hash of the unencrypted previous message into the new message. That way Alice knew what the original message was and therefore the hash of it. So if she sends and then get a new message encrypted with her public key and she reads it and finds that hash then she knows the guy on the other end did in fact decrypt the message she sent. But there still needs to be some trust about sharing public keys? 
+In addition to the previous block's hash, a block can contain any kind of data you want. In the case of Bitcoin the blocks contain transaction data. Attackers cannot go back to an old block and change a transaction, because doing so would cause all following block hashes to change. A blockchain could also store contracts, records of events, patents or anything else where having an unaltered history matters.
 
-You can also sign a document using your private key and it can be verified by other people that the private key holder did this.
-
-Dffie Hellman:
-
-A and B agree on a shared public color say yellow.
-A and B each choose a random secret color. A: light blue, B: orange
-A mixes light blue and yellow, then sends it
-B mixes orange and yellow, then sends it
-A mixes public yellow, private light blue and B's orange+yellow
-B mixes public yellow, private orange and A's light blue+yellow
-Now A and be actually have the same color. It's just a different order of mixing.
-
-C can only know yellow, and orange+yellow, lightblue+yellow
-If C could untangle either compound colors then they could crack it.
-
-So then you have a shared number. A big number. This can be the shared key with which you can encrypt messages from now on.
-
-I'm not sure why you can't just regular public key? A wants to talk to B.
-A publish pk_A, B publish pk_B. 
-A chooses large random number, puts in message m, enc with pk_B then send
-B opens message, stores number and sends their own m with a random number
-enc this with pk_A and send
-Now A and B each have 2 matching numbers. They could create a key with these.
-No one has either number.
-
-But how do you know the public key that hear about it the right one? Can you know?
-I don't see any difference. 
-
-A hash function is a function that takes one piece of information of any size and maps it to another piece of data of a fixed size i.e. a 1MB file or a 500KB file when run through a hash function would produce two separate ‘hashes’ 128 bits in length. A Cryptographic Hash Function is one that performs this function but also fulfils three important requirements: it does so in a way that no information is given on what input data produced the hash (non reversible), it does so in a way that a minor change in the input change gives a very different output hash, that the hash cannot be calculated except using the hash function (no shortcuts), that there is an extremely low probability that two different inputs will produce the same hash.
-
-Uses pairs of keys. Public and private. Does not require any shared secret key between the parties. So two parties who’ve never met can establish secure communication.
-
-This is asymmetric encryption. Sending messages this way is expensive. So typically you first securely send a ‘session key’ which is a shared key that both parties can use to encrypt/decrypt, so they can communicate in faster symmetric encryption. 
-
-Authentication: The public key can be used to verify that a message was created by holder of private key. 
-
-Encryption: A message encrypted with the public key can only be decrypted with the private key. 
-
-Alice wants to send message M to Bob
-Bob chooses two primes p=17, q=23, then n=pq, n=391. 
-We then need the m=LCM(p-1,q-1)=176.
-We need r>1 where r is coprime with m (r and m have no factors in common), r=3.
-Bob must also find a unique rs=1(mod m) 
-
-Take 2 large primes p and q, then n=pq. N is used to encode the message. P and q are needed to decode. Just given n, it is very hard to find p and q. 
-
-Digital Signatures
-
-Alice generates a signing key and verification key. The verification key is published. To sign something Alice inputs her message and her signing key somehow into a function like RSA/DSS. This produces a number (maybe 256 bit).
-Then Bob can see a message along with a signature number and he can input the message, signature, and verification key into RSA? And get a yes/no. Then you know what this signature was created by the combination of this message and the signing key.
-In practice you hash your message first and input that along with signing key to get sig.
-
+This data structure can serve as a sort of shared database. It would be nice however, to have some way of knowing your blockchain, your database, was correct without having to trust a hash value from *anyone*. And there should be some way of knowing you have the correct blockchain that everyone else is using without having to trust some central authority to keep track of this. Bitcoin very elegantly solves both of these problems.
