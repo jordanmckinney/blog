@@ -46,11 +46,7 @@ So as long as your public key is published somewhere that people can trust, you 
 
 Cryptographic hash functions are 'one-way' functions that map data of arbitrary size to some fixed size output. So whether your input is 1 bit or 1 billion bits the output will be the same size.
 
-For example SHA-256 produces a 256-bit hash no matter the input. The hash of the previous paragraph using SHA-256 is:
-```
-0x1e05ce2168d2bc979f309695235f39ff023701c889c24d78ada0faf3faa6df5e
-```
-<p>A given input will always map to the same output, and the output should appear completely random. The hash value above is one of 2<sup>256</sup> possible outputs for SHA-256. There are something like 2<sup>260</sup> atoms in the universe so the chance of finding another input that produces that hash is basically zero.</p>
+<p>A given input will always map to the same output, and the output should appear completely random. The SHA-256 hash algorithm for example produces a 256-bit output. Therefore any given hash value is one of 2<sup>256</sup> possible outputs. There are something like 2<sup>260</sup> atoms in the universe so the chance of finding another input that produces that hash is basically zero.</p>
 
 An ideal cryptographic hash function has the following properties:
 
