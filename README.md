@@ -5,9 +5,9 @@ A personal portfolio/blog site made with React, Yarn, Webpack.
 ### Blog
 MAIN TOPICS TO COVER:
 - [x] Technology
-- [ ] Hashing
-- [ ] Public Key Cryptography
-- [ ] Blockchain
+- [x] Hashing
+- [x] Public Key Cryptography
+- [x] Blockchain
 - [ ] Bitcoin
 - [ ] Ethereum
 - [ ] DAOs
