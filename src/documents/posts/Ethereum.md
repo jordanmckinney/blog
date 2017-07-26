@@ -2,7 +2,20 @@
 
 <center> <h2>Models: What is Ethereum</h2> </center>
 
-Ethereum is a new computing platform... Ethereum is a global decentralised computer.
+The tagline really is the best one sentence description. Ethereum is the world computer. Right now all the computers of the world are privately owned essentially. No one can verify their computations, look inside, or see the state of their harddrives. We only see what each computer exposes to the world. Sure it could expose its workings in a truthful way, but we can't be certain so it's no sense building important things on top of that.
+
+Imagine a computer in the sky that the whole world can see. Not only see but also be confident in. That is actually more important. Most people won't have to worry about what this computer is doing, they will just take advantage of the new norms and systems and opportunities.
+
+The first thing you put onto the world computer is the finances. That is relatively simple record keeping. It's a simple ledger in the case of cash anyway. Easy to get right. But eventually we should put all things contractual, all things law, all things public record onto the global computer.
+
+The really exciting stuff happens when we imagine what new things we can build using this that we just couldn't build before. Moving existing systems onto the global computer will radically transform the world, but entirely new paradigms await. These will stand out on a 100,000 year time scale. These I think will be on the scale of the Internet, printing press etc.
+
+So you have a global computer. With every idea we should ask whether it really needs to be on ethereum or whether it could work as a regular website or app. Only that which needs the features of ethereum should be there obviously.
+
+What programs would we want on a global computer? Well we would want spreadsheets for money, debt, and all kinds of stuff. What are the things that we can't just trust some party with? What are the things that need to be out in the open? 
+
+Well the first thing to do is move stuff over. That alone will take decades. Andreas thinks the killer app is DAOs. I agree. But that is still vague. What kind of DAOs?
+
 
 Bitcoin is sort of a global computer but it is not general. It has a harddrive, the blockchain, and a 10min clock frequency but the harddrive is just a ledger and all you can really do is move value around the ledger.
 
