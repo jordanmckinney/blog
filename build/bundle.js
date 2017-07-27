@@ -14258,12 +14258,7 @@ var Guide = function Guide() {
       _react2.default.createElement(
         'a',
         { href: '#/writing/', className: 'guide-link' },
-        'Tech'
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: '#/writing/blockchain', className: 'guide-link inactive' },
-        'Blockchain'
+        'Technology'
       ),
       _react2.default.createElement(
         'a',
