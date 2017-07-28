@@ -2,6 +2,19 @@
 
 <center> <h2>Models: What is Ethereum</h2> </center>
 
+### Models
+-Global trustable computer 'in the sky'
+
+### Applications
+-decentralise the internet (including file storage and bandwidth). Markets!
+-decentralise the energy grid
+-serve as the new operating system for the stock market
+-serve as the foundation for almost all financial services
+-facilitate a brand new m2m economy
+-enable new kinds of 'businesses' or organisations that previously could not financially function
+-true freelance work (5 minutes with experts?)
+-new arena and toolset with which we can build governance for our societies
+
 The tagline really is the best one sentence description. Ethereum is the world computer. Right now all the computers of the world are privately owned essentially. No one can verify their computations, look inside, or see the state of their harddrives. We only see what each computer exposes to the world. Sure it could expose its workings in a truthful way, but we can't be certain so it's no sense building important things on top of that.
 
 Imagine a computer in the sky that the whole world can see. Not only see but also be confident in. That is actually more important. Most people won't have to worry about what this computer is doing, they will just take advantage of the new norms and systems and opportunities.
