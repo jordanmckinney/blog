@@ -272,3 +272,8 @@ So can you somehow solve a problem like that, better money, while also incentivi
 
 So the real killer thing would be have the system solve something perhaps, while also incentivizing good behavior that was all positive. So we have to reward good behavior. Well the behavior must be provable and not gameable. Either the individual behavior must be good or the collective.
 
+Well what classes of problems can we realign incentives on with cryptos? This I'm not sure yet. We can design a system that rewards participants monetarily. The rules it uses can be complex. But it must have some way of knowing when a participant has done good. That is the big difficulty. Oracles will be highly valuable. Some kind of market of oracles may emerge. They could compete with each other for their accuracy. Some kind of rating. Based on what? Well prediction markets do this don't they. If I want to know the answer to some kind of factual question can I ask a prediction market?
+
+Predictit is a political prediction market which allows you to buy shares for or against some event taking place. The risk with a prediction market such as that one is insider trading. People won't all bet on the untruth if individually they can do better by betting on the truth. If the Nash equilibrium is the truth then that's good. If the truth is also pareto efficient then that is good. Prediction markets can get us macro things, but what about micro? How do we tell if someone 'did their part'? 
+
+Maybe we should find some small niches where incentives are not aligned with what we want, and there is some inroad we can make to build a crpyto system...
