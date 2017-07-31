@@ -72,9 +72,13 @@ This agent, the market, then puts money on an outcome. They are not betting on w
 
 So this is a tree. Each decision that was made by the market represents a branch. They could have chosen left but choose right. And so the path went down rightward. 
 
+So we issue tokens, some fixed amount per minute? And the amount issued is spread among all the accounts that have barnacled themselves to truth paths. This is more like building a world truth scuplture than building the oracle itself. But this would do both? So people put down their money on certain path ways and they can put any amount on any fork. Then we pay interest how? Should be low money for the obvious stuff. You should want to put the most money on the stuff that other people are getting wrong but IS actually true. So you would buy shares in some path. Then when the market shifts there is a payout and interest. The truth paths are like arteries and the interest should be like blood reaching the ends of the arteries which are obvious to the capillaries which are much more numerous, much more valotile and the intereste should flow toward those nodes. You don't need to pay out stuff after a certain time perhaps? No. That's bad. Well the payout can always happen later. But interest will dry up perhaps. Then you can take your money out of some obvious branch and move it somewhere else. But some money should be left in that branch. 
 
+I'm still not sure if the thing would produce a truthy structure. If it did then they tokens would be worth money. Else it's useless. 
 
+You don't want your money on a bad path because you lose that money. So if the market switches under you, you lose. So what are you betting on? But you don't want to have your money held up forever.
 
+You are betting that the market won't correct this error within the next day? Week? Maybe your money goes in then gets returned to you gradually? Maybe some amount sticks. Paths would be heavy. There would be resistance to switching a high up branch because it would kill off a huge amount of barnacles.
 
 
 
