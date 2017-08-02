@@ -290,3 +290,5 @@ Well what classes of problems can we realign incentives on with cryptos? This I'
 Predictit is a political prediction market which allows you to buy shares for or against some event taking place. The risk with a prediction market such as that one is insider trading. People won't all bet on the untruth if individually they can do better by betting on the truth. If the Nash equilibrium is the truth then that's good. If the truth is also pareto efficient then that is good. Prediction markets can get us macro things, but what about micro? How do we tell if someone 'did their part'? 
 
 Maybe we should find some small niches where incentives are not aligned with what we want, and there is some inroad we can make to build a crpyto system...
+
+Think about how regulated financial industry is. Imagine what people will come up with when it goes open. There might be danger of someone creating some super derivitive that gets traded by AIs and creates some catastrohpic bubble.

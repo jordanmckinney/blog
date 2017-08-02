@@ -119,3 +119,31 @@ How do you bet if you can't see the price? IF you are honest perhaps you just th
 We need a decentralised, trustless oracle.
 
 We can design any system we want. Anything. As long as it produces the truth reliably. And it must be compelling for the agents. It must be strong against attack. etc.
+
+Ultimately what we want is a sort of 3D mine to form. We want to dig outward in all directions discovering and solidifying what is true. We can allocate resources to the directions we care most about. Natural market forces will work. So areas with lots of money will attract lots of talent. The low hanging fruit will be long gone. 
+
+Our knowledge right now is just so spread out. Wikipedia works well. But it only deals with the very objective domain. Don't we want to have some kind of Wikipedia of other things too? I mean we have the Oxford Encyclopedia of Philsophy. We have institutions that produce truth... 
+
+PREDICTION MARKETS
+
+The stock market is a predicting machine. It sets a price for a company. That price represents the collective intelligence deciding how much that company is worth now AND in the future. The present is easy to figure out. So it's really the future where the uncertainty is. Prediction markets can predict anything, not just how much some set of companies will be worth in the future. The prediction market can predict binary outcomes of any type. The stock for a company doesn't necessarily 'stop' ever. But in a prediction market some event must happen that allows us to payout and close that bet. On the stock market you can hop on and hop off at any time. You can buy/sell whenever and the stock never closes. Could that happen at all in a prediction market? You could let people speculate on the price of options. That seems fine. But at some point you must payout and close.
+
+So you have two options. Who will be president, A or B. You let people buy shares. You don't cap the number of shares, just let people buy. But you need to set the share prices in a certain way. If 100$ has been put on A and $10 on B then shares of A are worth like .9 and the other is worth .09. So the market favors A obv. Then when market closes the losers money is distributed to every dollar spent by the winners. So the winners could have bought 100 shares at 0.01. $1 dollar spent. Then you would get paid out $100. And that money came from the losers.
+
+1-purchase_price*number_shares
+
+Oracles.
+
+The truth is a schelling point. Or focal point. If you don't know what others are going to choose but one answer is true, you go with that.
+
+GNOSIS
+
+Oracle publishes outcome. If the outcome is not challenged then the market is 'resolved'. A challenger can come and throw down 100ETH to challange the oracle. Then open voting can happen. IE the whole market can bet on which outcome they want. I assume they profit from overturning the decision else why bother. If you open betting and the favored outcome doesn't change then close market. Else after 24h if the frontrunner changes you do another voting session? Until it doesn't change. A leader must lead for 24h before it is accepted. I suppose that lets all time zones vote on it.
+
+There are some problems I think. You put up 100eth against some lie. Do you lose it if you lose the round? That's a hell of a gamble. So you put up 100eth. Then voting starts. Well if someone cares about the outcome of this oracle a lot then they likely will put money on the lie being true. If you come along and see that it's wrong, do you put down money? Well not if my side is losing a lot. Unless it's a really obvious lie. Then I think the market will spot this and fix it. But if it's specialized at all then I'm not sure the market can come save the day. First they might not know. It could be a niche thing. The outcome of this challenge can entirely be determined by money. So you can 100% buy the outcome you want. The idea that comes to mind is do like bitcoin. You can overpower the btc network any time, you just need 51% computing power... Which is a lot. Something that was true unless an attacker had 51% of the eth market share would be very strong. But this doesn't have that.
+
+AUGUR
+
+--
+
+There has got to be a game theory solution that gives a true oracle. Again, maybe you can't have a one off oracle head. Maybe it should take on a structure where you can continuously wager that something will 'stay' true. 
