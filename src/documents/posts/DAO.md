@@ -130,7 +130,7 @@ The stock market is a predicting machine. It sets a price for a company. That pr
 
 So you have two options. Who will be president, A or B. You let people buy shares. You don't cap the number of shares, just let people buy. But you need to set the share prices in a certain way. If 100$ has been put on A and $10 on B then shares of A are worth like .9 and the other is worth .09. So the market favors A obv. Then when market closes the losers money is distributed to every dollar spent by the winners. So the winners could have bought 100 shares at 0.01. $1 dollar spent. Then you would get paid out $100. And that money came from the losers.
 
-1-purchase_price*number_shares
+(1-purchase_price)*number_shares
 
 Oracles.
 
