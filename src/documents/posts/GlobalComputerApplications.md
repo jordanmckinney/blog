@@ -1,0 +1,23 @@
+<center><h2>Global Computer Applications</h2></center>
+
+### Applications
+-decentralise the internet (including file storage and bandwidth). Markets!
+-decentralise the energy grid
+-serve as the new operating system for the stock market
+-serve as the foundation for almost all financial services
+-facilitate a brand new m2m economy
+-enable new kinds of 'businesses' or organisations that previously could not financially function
+-true freelance work (5 minutes with experts?)
+-new arena and toolset with which we can build governance for our societies
+
+Supply chain. Each stop along the supply chain can sign in a public blockchain and even write comments. Then if something goes wrong along the way you can see where. 
+
+Instead of you serving things to people, you can build a system where people serve to people. You can code up a system, which when this code is run by nodes (which are incentivized within your system to run the code) is the complete system. That is, no ‘company owned’ infrastructure is needed. If you set up the system correctly you also don’t need to worry about scaling. The thing will auto scale. Basically no capital cost to starting this venture. The only capital cost becomes the dev time. Wow. Even with VCs and all that there is still some barrier to entry. You can’t just compete with Google. They have so much data. They are so big. To compete with these guys you need some kind of killer idea, then you need to get it funded and get really lucky and then probably just get bought by Google. Good luck overtaking Google. But with this new way it is actually relatively easy to see how a kid coding in his basement could develop a system that could go on to become 10x larger than Google. Like Vitalik. If Ethereum actually becomes the VM that all this stuff runs on then it will become the most valuable entity on the planet... What happens when the bulk of the world’s governments runs as DAOs? When essentially all financial services exist in whole or in part on the EVM. That is orders of magnitude greater than Google. 
+
+What ethereum did was provide a platform with a blockchain, and what you can do is just put arbitrary OP codes into a transaction, also put some gas in there then send it out. Other nodes will pick it up and run your code. Each computational step they run will earn them money. And they are running this code on the ethereum virtual machine. Which I suppose consists of the state. But hey so does any computer right. You have a tape and a head and the tape reads then makes changes to a bunch of 0’s. So it’s state at any time is the values of the memory and harddrive. Programming is what steers the changes, and the data of course determine the outcome, and it’s all fueled by electricity. 
+
+So we can create these smart contracts, which we can imagine as little machines. And they can basically do whatever you want. Though they can’t touch and see the physical world exactly. For example if you want to prove the existence of an object, the code can’t do that. At least not yet. Perhaps soon we can get a fingerprint of arbitrary objects. A photo could do this actually. But would be best suited for certain objects, namely visually detailed ones. A video of the object could do well. Anyway, the code can’t do it. 
+
+Now what if you made a system of smart contracts. You could design arbitrary systems. You could build entire decentralised autonomous organisations. Where no one actually works for it. No one controls it. We can all see the code. We can also all pool money into it to keep it fueled. For DAOs to thrive there need to be strong incentives to keep them running. DAOs that rely on charity will likely exist, but they will not thrive. We could imagine a betting market where the only money that is skimmed off the top is just enough to run the computation. Which would likely be extremely small. 
+
+Automated insurance is one. You could have money going into a shared fund, and paying out for real, but only when people actually need it. We could somehow programmatically measure the misfortune. This was talked about on Tim’s podcast. We could measure how much their mean income has changed over the historic norm for this time of year and also adjusted for the steady rate it has been increasing. We can pay to help level that curve. The metric just must be trusted, or rather, we need to be able to rely on this metric. Ideally with no trust. Safety net. OK idea. But doesn’t do anything if things are well. Well ofc we could be zero profit. So you would get a varying payout. You could pay in X per day or something and get Y back later? That makes no sense. It’s the internet. So just pad everyone out constantly? Sounds like a fund. 

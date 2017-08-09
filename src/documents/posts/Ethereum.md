@@ -1,132 +1,5 @@
 <center><h2>Ethereum</h2></center>
 
-<center> <h2>Models: What is Ethereum</h2> </center>
-
-### Models
--Global trustable computer 'in the sky'
-
-### Applications
--decentralise the internet (including file storage and bandwidth). Markets!
--decentralise the energy grid
--serve as the new operating system for the stock market
--serve as the foundation for almost all financial services
--facilitate a brand new m2m economy
--enable new kinds of 'businesses' or organisations that previously could not financially function
--true freelance work (5 minutes with experts?)
--new arena and toolset with which we can build governance for our societies
-
-The tagline really is the best one sentence description. Ethereum is the world computer. Right now all the computers of the world are privately owned essentially. No one can verify their computations, look inside, or see the state of their harddrives. We only see what each computer exposes to the world. Sure it could expose its workings in a truthful way, but we can't be certain so it's no sense building important things on top of that.
-
-Imagine a computer in the sky that the whole world can see. Not only see but also be confident in. That is actually more important. Most people won't have to worry about what this computer is doing, they will just take advantage of the new norms and systems and opportunities.
-
-The first thing you put onto the world computer is the finances. That is relatively simple record keeping. It's a simple ledger in the case of cash anyway. Easy to get right. But eventually we should put all things contractual, all things law, all things public record onto the global computer.
-
-The really exciting stuff happens when we imagine what new things we can build using this that we just couldn't build before. Moving existing systems onto the global computer will radically transform the world, but entirely new paradigms await. These will stand out on a 100,000 year time scale. These I think will be on the scale of the Internet, printing press etc.
-
-So you have a global computer. With every idea we should ask whether it really needs to be on ethereum or whether it could work as a regular website or app. Only that which needs the features of ethereum should be there obviously.
-
-What programs would we want on a global computer? Well we would want spreadsheets for money, debt, and all kinds of stuff. What are the things that we can't just trust some party with? What are the things that need to be out in the open? 
-
-Well the first thing to do is move stuff over. That alone will take decades. Andreas thinks the killer app is DAOs. I agree. But that is still vague. What kind of DAOs?
-
-
-Bitcoin is sort of a global computer but it is not general. It has a harddrive, the blockchain, and a 10min clock frequency but the harddrive is just a ledger and all you can really do is move value around the ledger.
-
-Ethereum was the logical next step. Use this blockchain harddrive idea but also build a fully general programming language on top of it.
-
-Ethereum is also a global computer, but it is a truly general global computer. So the harddrive is a blockchain with accounts that have balances, similar to bitcoin, but it also has special accounts that hold code. These things will run code when you send them money. So the 'state' which is held by the blockchain.
-
-This global computer has a harddrive which is a blockchain similar to Bitcoin's.
-So you basically have a bitcoin style blockchain along with a programming language. Each account is sort of an autonomous agent living on the blockchain. You can send tx to these agents and their code will execute. So it’s a decentralised computing environment where people can sort of upload an agent and then spend money to run it. BUT the agents can also interact with each other. The agents can directly control and manipulate currency units. So you could send an agent X ether and according to its code it may distribute them one way or another.
-
-While bitcoin is a special purpose distributed computer with a ledger-harddrive, Ethereum is a global distributed general purpose computer with a much more general harddrive.
-
-So imagine you could have a machine that can be given whatever rules you want, and you could always be sure that it would follow them. You could figure out some good rules and then no one could cheat it or stop it from running or anything like that. If the machine is some benefit to the people they could give it a high ranking and ensure it always gets run. They do this by allocating their token to it. Perhaps the machine actually gives some people more tokens. Perhaps there is some way to have people buy into the system in hopes of gaining money and somehow it is sustainable.
-
-So ethereum is a computing platform. It is a platform that has some characteristics that no one computing platform has. This is one that can ensure code will run. Code cannot be crushed if some gov’t doesn’t like it. The code can deal with currency. So you can send in money and trust that your money won’t just disappear. Of course this platform also has money. The system ensures that token aren’t copied. Tokens can’t be stolen. Etc. So we can safely compute in this environment. What these agents will do is anyone’s guess. Right now everyone has a complete copy of the environment. Well all the full nodes. Next we will figure out how to shard it. Eventually we will distribute the system such that there is only a little redundancy, maybe a given chunk of data lives on 10 nodes or something. And some equilibrium would be found of how much incentive do you have to pay to make sure some chunk of data is definitely on enough nodes so as to be certain that it will not be lost. More important contracts will exist on many more nodes and if necessary will have similar compute available. It will all be in proportion to the market. Agents that are found valuable and therefore earn lots of fuel will automatically scale up. 
-
-What is a computing platform. Well a computing platform is just some computing environment that has a set of attributes about the environment. So one platform is perhaps a single computer. It has a CPU and mem and hdd. Another has perhaps multiple CPUs. Ethereum is a place where computing can happen, but it has some unique properties. This is a shared computer that we can all trust. Rather this is a platform that has strict laws about the computations that are run? Right now every node on the network runs on sort of the same thread. They all have a picture of the current state. Then a new block comes out and theyall update their state. This trickles out to all the nodes. So you have millions of nodes all running the same single threaded CPU jobs that come in. Just like how jobs are sent to your CPU. The CPU get jobs in single file. And it runs them and state changes (memory). What we’ve done is taken that CPU and spread it out over millions of nodes so that we can all compute together. We can run tx where a number in one account goes up and another goes down and we can make sure that this gets carried out. No nodes can stop it even if they want to. This giant distributed CPU that has 1/15 Hz clockspeed. It computes. Wow. Nodes can die. Nodes can enter. It is a computing swarm. If 10% of nodes are nuked, it still runs. So we are building the computer. What should we run? 
-
-So this is the first attempt at a distributed computer. First we just say OK every node just run the same stuff. So instead of one cpu running a job that takes 1 sec we have a million cpus around the world running a job that takes 1 sec and the whole distributed computer still takes 1 sec to do it. It ain’t a million times faster. It’s actually slower than 1 sec because the latency. Everything has to propagate. This is going to drive fiber networks like crazy. The American telco cartels are really going to fuck up America’s chance of participating in this new world computer as well as they could. 
-
-Every full node also keeps a copy of the whole hard drive too. This is truly unsustainable. But there are plans to fix this. Actually I don’t think there is a hdd. I think it is all in memory right now. Well it’s a hybrid. The state consists of the states of all the accounts. That’s it I think. I need to know the OPcodes that these accounts can do. So the code that they run is turing complete. A contract can do any computation that you want. As far as how it can interact with other agents, I’m not sure. I think that is the OP codes? Surely they can send money, receive money etc. 
-
-So this giant distributed, slow, very expensive CPU goes from state to state. So you could make a smart contract to just hash a number let’s say. So you create a smart contract, put the code in there. Send it off. Then send 100 Eth to it. So when you create the smart contract you send out that broadcast and it gets accepted for some small miner fee. The creation of that block only really benefited the miner that won it, but since it’s a fair lottery if you participate and mine you should profit. So you send it out. Then later you do another tx to fuel it up. So who gets your gas? Is it just the miner? Because what if you have a hugely expensive program and it takes everyone hours to run, but you only pay 1 node since only the node that wins the block gets the fee? If everyone got a piece then the gas cost would be high? Not sure. Everyone runs the code though. And it’s all in memory basically. That is to say that every node keeps the whole state. Storage in this system would be some way of offloading chunks of the state. Just like a regular computer you could store things for long term in such a way that that data could be used in some future computations but does not need to be in the current state now. 
-
-So we have no harddrive. Single threaded CPU. Perhaps we have 3 tiers of memory. Each block describes a state change. Blocks have a certain size. Though not fixed in ethereum. No the block size is how many state change operations can you ‘do at once’ before the network needs to sort of catch up and propagate. So block size and block time are what determine the speed of this CPU. DPU? The blocks are the sets of instructions that will be carried out. Each node collects the tx that they hear broadcast. And they construct a block and start mining it. Before they mine it do they run the code in the smart contracts and apply this state change to other accounts? Well any of the accounts out there can be effected by the instructions in smart contract. So the set up accounts is what gets changed made to it. Any change whatever must appear in the block. So perhaps you read their code and if it says to send to account X then you go to account X and increment their balance. Once you’re done you have a new state. The blockchain is the only storage. The only memory. New blockchain is like a boot from scratch. Restarting your computer. You must run the code before you mine. Because you don’t know where that X eth that gets randomly paid out by this agent goes. Where it goes must be in the next block. So some node runs your code, mines the block and wins. They earn your gas as well as other tx fees. But what if they don’t win? You send out your eth and a bunch of nodes around you run your code that goes on for ages. They don’t win the block. They get nothing. Isn’t this an attack vector? Since the tx was broadcast out to all nodes, eventually if it hasn’t made it into a block yet, it will be. All nodes have your tx in their backlog, if your fee was higher than the lowest fee tx that gets processed during slow times then it will make it in. Then the miner wins your gas? Seems that this would limit computation times as well. The sooner you can run all the agents and find the new state, the sooner you can throw it in a block and start hashing. The sooner you start hashing the better. Though at least many other nodes will also be running that same code. Pretty quickly all the nodes should hit this 15 minute compute time job and would the next block really take that long? Well it would be weighted toward quickness in some sense because fast computers that finish soon could mine sooner and they would carry the system forward. The DPU must wait for slow pokes. Considering the eth computer is like millions of times slower than a regular one this is probably not a problem. For anyone to run your code they can see your gas amount. They run only until that’s done. Then if you aren’t done revert. They lost the eth. Very curious to see where the gas goes.
-
-<center><h2>Internet 3</h2></center>
-
-This platform can become the platform for the new internet. Internet 3. But ethereum doesn't route traffic! Smart contracts are far too slow and expensive for any kind of real time computing. But suppose you want to make a distributed internet. First of all, why? There are good reasons. We can have no servers. Imagine that. This system is of course censorship resistant, no worrying about net neutrality. No ads. A truly free system. If you wanted to build this you probably need micro payments. People need to have some incentive to allow their device to be a node. So we need someway to keep track of how much work any node is doing and we need to be able to reward them for it. We also need to be able to charge nodes based on how much they are pulling from the network. Nodes can of course be entirely passive and only suck in data, or they can be active. But anyway how could you keep track of these micropayments and in a FAIR way. We can't have a centralised book keeper. That defeats the purpose. 
-
-We need some kind of system that no one controls that we can all trust and can deal with some kind of digital money in order to compensate. Then users could pay no ISP for internet use. At least assuming we pay for the 'wires' connecting nodes. Then we could all just buy ether and fund our bandwidth account. The great part is you might actually make money some days. The whole network could be zero sum. 
-
-Traffic is perhaps a good example because it is very much quantifiable. The areas that this system can perform best in will be those that can be measured. Many other areas would require an oracle to the outside world. To measure the degree to which people are doing 'good' you need some kind of oracle to measure that. Network traffic can be quantified. You would still need mechanisms to make sure nodes are honest, but this is solvable. You can of course just do the tx system. I give you 1kb you give me 5 wei. If the node doesn't pay for the last kb then just don't send another one until they pay. 
-
-This would be just like water flowing. High throughput nodes would emerge to meet demand. If there were a parade through your area your router would suddenly be paying you significant money if you allow it to serve people. It would be a market! Of course. You could perhaps pay nothing and rely on the goodness of people setting their system to allow 'no fee streams'. But if you want your traffic through you could just change a setting on your phone, or better yet your phone could intelligently adapt and know when a task is high priority. You could also set limits and a target of how much to spend. Spend more, faster data rate. It would be a completely free market. The costs would be extremely low as the cost to operate a router is very low. The power used is tiny. It's really just the upfront hardware cost. 
-
-Your router could intelligently sell bandwidth as well. So you could prioritize your traffic so that your traffic *always* is fast. And bandwidth you are not using would enter a market system. A price per kb would emerge and your router would sell at that price.
-
-Want to make some extra money? Buy highspeed routers and sell. Perhaps you would even have a new business model emerge where a company installs these routers throughout a city. Maybe they would rent out little corners of offices, houses, etc to house their hardware. Then the routers just sit there and 'mine'.
-
-Since it's a market, bottleneck areas would have high profit potential. Man the costs would be low. We would approach the cost of electricity. And the costs would decrease per GB as the hardware improved. Routers that can do 100GB/s on 100 watts can charge like 0.001$ per 100GB/s. So the cost you pay in a very liquid market would be just tiny. Although if you request a file that exists far away you would have to pay more. You would just pay the sum of the wei paid for each leg of the journey.
-
-The same system would exist for storage. Computers could offer their storage space for 'mining' purposes. And of course you could have your machine intelligently use the extra space to make you money. It too would be a market. Though perhaps you would agree to store a file for 24h or something and not just drop everything if prices go up for some new data.
-
-So files would flow through the system like a fluid. If a bunch of people in an area are demanding the same video file you don't want to have to keep sending it from the source, if the source if far away. What you want is to have the file only come in from the source once, get stored on some harddrives, then serve from there as demand increases. You basically want to never have to go backward. So if anyone near me gets the file I get it from them.
-
-There will be great algorithmic improvements made to this system. This will be an area where hard computer science will be able to make huge efficiency gains. 
-
-So we can decentralise networking.
-
-<center> <h2>Smart Contracts</h2> </center>
-
-There are two kinds of accounts in ethereum. There are regular user accounts and smart contracts. These realy should be called ether agents or something. They are accounts that contain their source code as well as a key value store! So they can keep track of their own internal state. To animate them you send them a tx and set a gas price? Then the network executes the code and they take that ether depending on the number of steps and the total storage used. 
-
-So gas is a separate thing from ether. 1 gas is/was set at 1/100,000 ether. 10 Szabo. Then different computational operations cost 1, 5, 10, 20 etc gas. You want the gas cost of things to stay the same regardless of the price of ether. So you just change the price of gas itself. I think you can actually set your gas price now. So your smart contract has some total gas cost. 1150 gas to do some simple task. And you set your gas price as 10 Szabo then you’re saying I’ll pay 11,500 Szabo if you run my code. Or about .115 Ether. So your gas cost won’t change for this contract ever. But when you want to run it, maybe one a month for years, you make a tx where you set your gas price and you know how many steps so you know how much to send. The gas price would be entirely based on the market. Average gas price would fluctuate. 
-
-So when you create a smart contract you create it as a special tx. The tx fee that you pay will be based on the size of your program. If it is many bytes then you must pay more. Just to store it. To load it into the state, into memory. Then later you pay to run it. Once sharding is figured out then we can avoid storing and computing all this stuff on every damn computer in the whole network. If we had some minimal necessary number of computers running it but they all shared hashes so they knew the system was coherent, then we could no doubt reduce gas costs by millions of times. I imagine the theoretical best case would be where data is stored on some minimum of like 10 machines or so. All distributed around randomly. The chance of 10 random machines dying at the same time is small. But if you must store for months it is higher. Perhaps longer term would just cost more. So then more nodes store your data. The speed of this system would ultimately be limited by the network speeds.
-
-To make the DPU multicore you can somehow shard the incoming compute jobs (tx’s) so a given tx only gets actually run by 100 nodes or something. And they each run their own block chain perhaps, but then merkle tree them back and forth and together so everyone can be assured of the current state. All nodes I think should be able to agree on some hash value indicating that the system is coherent. 
-
-A great picture of this could be, take all the nodes and line them up vertically. Now tx propagate up and down and fill hoppers of sorts. As nodes get tx they run the computation, apply intermediate state changes. If they win the block then their blockchain version extends and the signal their block. Now all the other nodes also apply the state change to their block chain, which should be identical up to this new block. So this wave goes outward from the discoverer of this gradually extending blockchain. Each node has a copy.
-
-All the computations you run only make changes to the blockchain. So it is safe to run them. The code will only allow valid stuff to be done to the blockchain, and some of these things are secured by crypto. But the code inside the smart contract is only aware of other accounts. It does not know about the host system at all. 
-
-Ethereum has the EVM to run contracts?, Solidity to write contracts in, tokens (ETH) and fuel (gas). So we can put a smart contract out ‘there’ and then send ETH to it. The eth is converted into ‘gas’ to run the program.
-
-A transaction on ethereum is when you send ether to another account or send ether to a smart contract. A message is when a smart contract sends to another smart contract.
-
-Some DApps
-Golem: ethereum based computation network. You can send computation jobs to the network and others who want to earn money can do the computations. Could this actually replace something like AWS? What about latency and stuff? I guess the question is what the cost of computation if I run it on my computer or if I run it on aws? I think aws charges quite a premium over the cost of electricity. So then this system could beat aws. 
-
-Gnosis/Augur: these power decentralized prediction markets.
-
-So in addition to having transactions in the blocks of the blockchain, they also allow code to go in. This code compiles down to OP codes for the ethereum nodes. So the miners will apply a state change, which is new tx’s and new OP codes to run? And they change the state of the system. So yes every node runs the changes that your smart contract had on the state. Well the state is the blockchain right? But you can’t change history so it’s really just the last block. No. Each block does not contain the entire state. Even though most of the blockchain is frozen now, you still need it to know the complete state. Currently blocks are mined every few seconds. So this is the rate of state change of this system. This is the rate of statechange of the ethereum computer. The clock speed of the ethereum computer. The state is frozen until a block is mined. So yes this is the clock speed. 
-
-Of course bitcoin has been referred to as a state machine. The clock speed of bitcoin is 10 minutes per state. 1/600 Hz. Faster seems better... Ethereum is like 1/8 Hz.
-
-Supply chain. Each stop along the supply chain can sign in a public blockchain and even write comments. Then if something goes wrong along the way you can see where. 
-
-Instead of you serving things to people, you can build a system where people serve to people. You can code up a system, which when this code is run by nodes (which are incentivized within your system to run the code) is the complete system. That is, no ‘company owned’ infrastructure is needed. If you set up the system correctly you also don’t need to worry about scaling. The thing will auto scale. Basically no capital cost to starting this venture. The only capital cost becomes the dev time. Wow. Even with VCs and all that there is still some barrier to entry. You can’t just compete with Google. They have so much data. They are so big. To compete with these guys you need some kind of killer idea, then you need to get it funded and get really lucky and then probably just get bought by Google. Good luck overtaking Google. But with this new way it is actually relatively easy to see how a kid coding in his basement could develop a system that could go on to become 10x larger than Google. Like Vitalik. If Ethereum actually becomes the VM that all this stuff runs on then it will become the most valuable entity on the planet... What happens when the bulk of the world’s governments runs as DAOs? When essentially all financial services exist in whole or in part on the EVM. That is orders of magnitude greater than Google. 
-
-What ethereum did was provide a platform with a blockchain, and what you can do is just put arbitrary OP codes into a transaction, also put some gas in there then send it out. Other nodes will pick it up and run your code. Each computational step they run will earn them money. And they are running this code on the ethereum virtual machine. Which I suppose consists of the state. But hey so does any computer right. You have a tape and a head and the tape reads then makes changes to a bunch of 0’s. So it’s state at any time is the values of the memory and harddrive. Programming is what steers the changes, and the data of course determine the outcome, and it’s all fueled by electricity. 
-
-So we can create these smart contracts, which we can imagine as little machines. And they can basically do whatever you want. Though they can’t touch and see the physical world exactly. For example if you want to prove the existence of an object, the code can’t do that. At least not yet. Perhaps soon we can get a fingerprint of arbitrary objects. A photo could do this actually. But would be best suited for certain objects, namely visually detailed ones. A video of the object could do well. Anyway, the code can’t do it. 
-
-Now what if you made a system of smart contracts. You could design arbitrary systems. You could build entire decentralised autonomous organisations. Where no one actually works for it. No one controls it. We can all see the code. We can also all pool money into it to keep it fueled. For DAOs to thrive there need to be strong incentives to keep them running. DAOs that rely on charity will likely exist, but they will not thrive. We could imagine a betting market where the only money that is skimmed off the top is just enough to run the computation. Which would likely be extremely small. 
-
-Casper
-
-ZK-Snarks
-
-Homefront
-
-Metropolis
-
-Raiden
-
-
 What ethereum did was provide a platform with a blockchain, and what you can do is just put arbitrary OP codes into a transaction, also put some gas in there then send it out. Other nodes will pick it up and run your code. Each computational step they run will earn them money. And they are running this code on the ethereum virtual machine. Which I suppose consists of the state. But hey so does any computer right. You have a tape and a head and the tape reads then makes changes to a bunch of 0’s. So it’s state at any time is the values of the memory and harddrive. Programming is what steers the changes, and the data of course determine the outcome, and it’s all fueled by electricity. 
 
 So we can create these smart contracts, which we can imagine as little machines. And they can basically do whatever you want. Though they can’t touch and see the physical world exactly. For example if you want to prove the existence of an object, the code can’t do that. At least not yet. Perhaps soon we can get a fingerprint of arbitrary objects. A photo could do this actually. But would be best suited for certain objects, namely visually detailed ones. A video of the object could do well. Anyway, the code can’t do it. 
@@ -175,16 +48,6 @@ There really are levels to excellence when it comes to ideas/businesses. You cou
 What is a killer app for ether? I don’t know until I’ve actually learned more about dapps and ethereum in general.
 
 So digital assets can be controlled by code, or smart contracts. This digital assets have no ‘intrinsic’ value probably. But that’s irrelevant. You can always proxy something ‘fake’ like money for something real like food/house. So you could of course represent physical wealth with the digital assets (bitcoin). But what else? 
-
-Could you use machine learning for sort of ‘hasing’ a real object? Like use the computer vision to recognise an object and all it’s details. Then provide some secret key. This could be used to recognise the same object. Though it would be tough if they are just literally similar. What use is this? Well it’s good to be able to recognise people. Boring.
-
-Another thing, new companies should think of AI and all the other tools as tools to be used. A crypto company is not opposite a AI company, or somehow not allowed to use AI. They just maybe are not focusing on building AI per se. 
-
-I seriously think I could come up with a ground breaking business idea on top of ethereum and AI. Of course many others are working. This is good. But I could definitely find work doing this stuff. I could just work online for freaking bitcoin. No contract or anything. No official employment... Wow. 
-
-I could become an expert in dapps and work as a programmer for BTC and ETH. What a concept. Man gov’t is going to want some tax on this shit. Frankly we might be able to replace large swathes of gov’t with this tech. That is a killer app for sure. Well what functions do gov’t currently play that we actually will still need? Just do those things and we can safely do away with the old wooden gov’t system. Gov’t pays to get the roads fixed. That’s a big one. Gov’t gives us some social security. Gov’t enforces laws. Mostly financial stuff, those we are replacing. The gov’t can also make large scale decisions. They can internalise unaccounted for externalities like Carbon build up in the air. They can tax certain things or prop things up. Supposedly for our best interest but of course they serve themselves rather conspicuously. 
-
-Automated insurance is one. You could have money going into a shared fund, and paying out for real, but only when people actually need it. We could somehow programmatically measure the misfortune. This was talked about on Tim’s podcast. We could measure how much their mean income has changed over the historic norm for this time of year and also adjusted for the steady rate it has been increasing. We can pay to help level that curve. The metric just must be trusted, or rather, we need to be able to rely on this metric. Ideally with no trust. Safety net. OK idea. But doesn’t do anything if things are well. Well ofc we could be zero profit. So you would get a varying payout. You could pay in X per day or something and get Y back later? That makes no sense. It’s the internet. So just pad everyone out constantly? Sounds like a fund. 
 
 What if we formed consensus about something using human insight but also the blockchain? Miners agree about blocks of transactions. Could we agree about matters of arbitrary subject? Sounds like a forum. What does the blockchain do? I know what a hash function does. What does a blockchain do? It allows consensus to form... It allows strict ordering of data. Where it’s impossible to create this chain except by doing it in order.
 
@@ -292,3 +155,50 @@ Predictit is a political prediction market which allows you to buy shares for or
 Maybe we should find some small niches where incentives are not aligned with what we want, and there is some inroad we can make to build a crpyto system...
 
 Think about how regulated financial industry is. Imagine what people will come up with when it goes open. There might be danger of someone creating some super derivitive that gets traded by AIs and creates some catastrohpic bubble.
+
+
+* The State
+
+The ethereum state consists of all the accounts and what is going on in them. State transitions happen when the accounts exchange info. Or when new accounts are created.
+
+* Accounts 
+
+Each account has a 20byte address.
+There are externally owned accounts controlled by private keys and contract accounts controlled by contract code. These contracts are better thought of as agents. They control their money and their key value store. 
+The ethereum state is made up of a bunch of accounts. Each account has 
+* a nonce which prevents replay attacks?
+* Balance
+* Contract code (if any)
+* Storage (empty by default)
+
+
+* Transactions
+
+These are sent from externally controlled accounts ie. regular accounts. They contain:
+* the recipient
+* signature (which identifies sender)
+* amount of eth
+* optional data field (maybe the domain name, and IP you are registering)
+* STARTGAS (max steps)
+* GASPRICE (fee per step)
+
+So to send 1 eth to someone I think your wallet sets STARTGAS as 1 or w/e a tx uses and GASPRICE is your fee.
+
+* Messages
+
+This is when a contract sends a message to another contract. Messages are virtual, they only exist in the EVM. They happen when the CALL opcode happens. They contain:
+
+* sender (implicit)
+* recipient
+* eth amount and message
+* optional data field
+* STARTGAS
+
+When the recipient receives the message they can then run their code. So you can compose these contracts into whatever you want.
+
+* EVM
+
+The code in contracts is a stack based bytecode language, EVM code. The code is a series of bytes where each byte is an op. Basically its a loop where the code runs until the end of the code is reached or STOP. This code has access to:
+* Stack (volatile)
+* Memory: infinitely expandable byte array (volatile)
+* Storage: key/value store (non-volatile)
