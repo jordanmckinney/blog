@@ -14210,11 +14210,6 @@ var Footer = function Footer() {
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'https://twitter.com/JordanMMcKinney', target: '_blank', rel: 'noopener noreferrer' },
-                _react2.default.createElement('i', { className: 'fa fa-twitter fa-lg' })
-            ),
-            _react2.default.createElement(
-                'a',
                 { href: 'https://www.linkedin.com/in/JordanMMcKinney', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('i', { className: 'fa fa-linkedin fa-lg' })
             ),
