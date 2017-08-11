@@ -161,6 +161,8 @@ Think about how regulated financial industry is. Imagine what people will come u
 
 The ethereum state consists of all the accounts and what is going on in them. State transitions happen when the accounts exchange info. Or when new accounts are created.
 
+When the EVM is running its full computational state is (block_state, transaction, message, code, memory, stack, pc, gas).
+
 * Accounts 
 
 Each account has a 20byte address.
@@ -202,3 +204,23 @@ The code in contracts is a stack based bytecode language, EVM code. The code is 
 * Stack (volatile)
 * Memory: infinitely expandable byte array (volatile)
 * Storage: key/value store (non-volatile)
+
+* The Blockchain
+
+* blocks contain a copy of the tx's and also the most recent state. So the client will apply each tx to the state, one by one, until it gets to the last tx which is the block reward which the client sends to himself. Then after that we have the new state.
+* also the block number and difficulty.
+
+Each block contains the entire state! In bitcoin you need the WHOLE blockchain to genereate the state. The state is stored in a 'tree structure' and after each block only a small part of this tree structure needs to be updated. The state from one block to another represent almost identical trees. Only a small total amount changes. The tree structure in question is a Patricia tree.
+
+* Token systems
+
+You can use tokens for anything you want. A token system is very easy to implement on ethereum. It's just a database that subtracts X units from A and adds X units to B. Of course you make sure A has X units, and A approved the send. Write this into a contract and you got it. 
+
+```python
+def send(to, value):
+    if self.storage[msg.sender] >= value:
+        self.storage[msg.sender] = self.storage[msg.sender] - value
+        self.storage[to] = self.storage[to] + value
+```
+
+You need some code to distribute coins, maybe query an account for its balance, and some edge cases, but that's it. That's your currency.
