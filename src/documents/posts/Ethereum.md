@@ -224,3 +224,20 @@ def send(to, value):
 ```
 
 You need some code to distribute coins, maybe query an account for its balance, and some edge cases, but that's it. That's your currency.
+
+* Decentralized Autonomous Organizations
+
+A DAO has a set of members or shareholders, which perhaps with a majority can spend the entities funds or change its code. It could distribute its funds by paying wages, paying bounties, or anything else including an internal crypto currency. This is similar to a regular corp but uses blockchain for enforcement. Much more transparent. Much less overhead. Much less dissappearing money hopefully. 
+A DAC (Decentralized Autonomous Corporation) has dividend receiving shareholders and tradable shares.
+A DAO could have modules which are the things that get altered and which address it calls for a given module can be changed by changing values in the DAO's storage. So a majority of 'board members' is needed to make a change. We could also have liquid democracy where you can delegate your vote to someone else. Hopefully an expert who can vote on your behalf. Perhaps there would be no stopping someone from 'getting in' except votes. Not sure if this is good or bad. 
+
+* Currency and Issuance
+
+1: wei
+10^12: szabo
+10^15: finney
+10^18: ether
+
+* Scalability
+
+Every tx must be processed by every node in the network. Single threaded. 
