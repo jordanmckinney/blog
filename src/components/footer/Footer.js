@@ -5,8 +5,8 @@ import './Footer.scss';
 const Footer = () => (
     <div className="footer-container">
         <div className="footer">
-            <a href="https://github.com/JordanMcKinney" target="_blank" rel="noopener noreferrer"><i className="fa fa-github fa-lg"></i></a>
-            <a href="https://medium.com/@jordanmm" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium fa-lg"></i></a>
+            <a href="https://github.com/jordanmmck" target="_blank" rel="noopener noreferrer"><i className="fa fa-github fa-lg"></i></a>
+            <a href="https://medium.com/@jordanmmck" target="_blank" rel="noopener noreferrer"><i className="fa fa-medium fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/JordanMMcKinney" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin fa-lg"></i></a>
             <a href="mailto@jordanmmck@gmail.com" target="_top"><i className="fa fa-envelope fa-lg"></i></a>
         </div>
