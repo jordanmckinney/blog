@@ -38,7 +38,6 @@
     "react-markdown-loader": "^1.1.11",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "react-side-nav": "^0.0.3",
     "react-sidenav": "^2.1.1",
     "react-treebeard": "^1.1.4",
     "rimraf": "^2.6.1",

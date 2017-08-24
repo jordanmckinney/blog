@@ -1,5 +1,11 @@
 <center><h2>Smart Contracts</h2></center>
 
+Types of smart contract:
+DApps: apps
+DAO: orgs
+DAC: corps
+DAS: societies
+
 <center> <h2>Smart Contracts</h2> </center>
 
 There are two kinds of accounts in ethereum. There are regular user accounts and smart contracts. These realy should be called ether agents or something. They are accounts that contain their source code as well as a key value store! So they can keep track of their own internal state. To animate them you send them a tx and set a gas price? Then the network executes the code and they take that ether depending on the number of steps and the total storage used. 

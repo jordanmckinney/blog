@@ -1,0 +1,3 @@
+Imagine self-owning, self-operating, self-driving cars. You could have a car that is literally owned by itself, or rather it is owned by some DApp on the blockchain. It could decide what to charge for its services, it could even make a profit. Perhaps it would make enough profit to expand its operations until it was able to satisfy demand. 
+
+Maybe it would invest its profits with a decentralised trading AI that needs capital. A decentralised trading agent could similarly earn profits and re-invest. What would it do with all that money though? Likely it would just payout to whoever created it.
