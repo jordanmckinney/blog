@@ -2,6 +2,7 @@ import React from 'react';
 import Book from '../../components/book/Book';
 import Siddhartha from '../../documents/books/siddhartha.md';
 import GameTheory from '../../documents/books/gametheory.md';
+import DailyStoic from '../../documents/books/dailystoic.md';
 import Sapiens from '../../documents/books/sapiens.md';
 import SurelyYoureJoking from '../../documents/books/surelyyourejoking.md';
 import ZeroToOne from '../../documents/books/zerotoone.md';
@@ -14,6 +15,7 @@ const Books = () => (
     <hr></hr>
     <Book source={Siddhartha} />
     <Book source={GameTheory} />
+    <Book source={DailyStoic} />
     <h3 id="year">2016</h3>
     <hr></hr>
     <Book source={Sapiens} />
