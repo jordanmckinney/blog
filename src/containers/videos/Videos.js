@@ -4,7 +4,7 @@ import FunToImagine from '../../documents/videos/funtoimagine.md';
 import MapsOfMeaning from '../../documents/videos/mapsofmeaning.md';
 import SamHarrisAI from '../../documents/videos/samharrisai.md';
 import PayAttention from '../../documents/videos/payattention.md';
-import InfoTheory from '../../documents/videos/infotheory.md';
+import Money from '../../documents/videos/andreasmoney.md';
 import UnityAdam from '../../documents/videos/unityadam.md';
 import './Videos.scss';
 
@@ -17,6 +17,7 @@ const Books = () => (
     <Video source={FunToImagine} />
     <Video source={MapsOfMeaning} />
     <Video source={SamHarrisAI} />
+    <Video source={Money} />
     <Video source={PayAttention} />
     <Video source={UnityAdam} />
   </div>

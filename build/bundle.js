@@ -14718,7 +14718,7 @@ var _Video = __webpack_require__(111);
 
 var _Video2 = _interopRequireDefault(_Video);
 
-var _funtoimagine = __webpack_require__(186);
+var _funtoimagine = __webpack_require__(187);
 
 var _funtoimagine2 = _interopRequireDefault(_funtoimagine);
 
@@ -14734,9 +14734,9 @@ var _payattention = __webpack_require__(189);
 
 var _payattention2 = _interopRequireDefault(_payattention);
 
-var _infotheory = __webpack_require__(187);
+var _andreasmoney = __webpack_require__(186);
 
-var _infotheory2 = _interopRequireDefault(_infotheory);
+var _andreasmoney2 = _interopRequireDefault(_andreasmoney);
 
 var _unityadam = __webpack_require__(191);
 
@@ -14763,6 +14763,7 @@ var Books = function Books() {
     _react2.default.createElement(_Video2.default, { source: _funtoimagine2.default }),
     _react2.default.createElement(_Video2.default, { source: _mapsofmeaning2.default }),
     _react2.default.createElement(_Video2.default, { source: _samharrisai2.default }),
+    _react2.default.createElement(_Video2.default, { source: _andreasmoney2.default }),
     _react2.default.createElement(_Video2.default, { source: _payattention2.default }),
     _react2.default.createElement(_Video2.default, { source: _unityadam2.default })
   );
@@ -21515,13 +21516,13 @@ module.exports = "<center><h2>Rand Quote</h2></center> \n\n<i className=\"fa fa-
 /* 186 */
 /***/ (function(module, exports) {
 
-module.exports = "[![Fun to Imagine](http://img.youtube.com/vi/v3pYRn5j7oI/0.jpg)](https://youtu.be/v3pYRn5j7oI?list=PL2D30B1DEFFDA0310 \"Fun to Imagine\")\n\n<p id=\"title\">Fun to Imagine, Richard Feynman</p>\n\nI cannot overstate how impactful these videos have been to my life. I found them several years ago and, along with Feynman's other work, they ignited in me a new appreciation for math, science and nature. Feynman's way of thinking along with Elon Musk's incredible drive and vision were the key factors which inpsired me to go back to school for engineering at 26.\n\n"
+module.exports = "[![The Killer App: Engineering the Properties of Money, Andreas Antonopoulos](http://img.youtube.com/vi/MxIrc1rxhyI/0.jpg)](https://youtu.be/MxIrc1rxhyI \", The Killer App: Engineering the Properties of Money\")\n\n<p id=\"title\">The Killer App: Engineering the Properties of Money, Andreas Antonopoulos</p>\n\nAndreas explains what money is, what functions it serves, and how Bitcoin can not only meet these functions but exceed them and why that matters. Killer talk. Inspired my Medium post [Markets, Money & Bitcoin](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef).\n"
 
 /***/ }),
 /* 187 */
 /***/ (function(module, exports) {
 
-module.exports = "[![Information Theory](http://img.youtube.com/vi/p0ASFxKS9sg/0.jpg)](https://youtu.be/p0ASFxKS9sg?list=PLbg3ZX2pWlgKDVFNwn9B63UhYJVIerzHL \"Information Theory\")\n\n<p id=\"title\">Information Theory, Art of the Problem</p>\n\nI cannot overstate how impactful these videos have been to my life. I found them several years ago and, along with Feynman's other work, they ignited in me a new appreciation for math, science and nature. Feynman's way of thinking along with Elon Musk's incredible drive and vision were the key factors which inpsired me to go back to school for engineering at 26.\n"
+module.exports = "[![Fun to Imagine](http://img.youtube.com/vi/v3pYRn5j7oI/0.jpg)](https://youtu.be/v3pYRn5j7oI?list=PL2D30B1DEFFDA0310 \"Fun to Imagine\")\n\n<p id=\"title\">Fun to Imagine, Richard Feynman</p>\n\nI cannot overstate how impactful these videos have been to my life. I found them several years ago and, along with Feynman's other work, they ignited in me a new appreciation for math, science and nature. Feynman's way of thinking along with Elon Musk's incredible drive and vision were the key factors which inpsired me to go back to school for engineering at 26.\n\n"
 
 /***/ }),
 /* 188 */
