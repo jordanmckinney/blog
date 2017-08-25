@@ -21315,7 +21315,7 @@ module.exports = "<center> <h2>Markets, Money and Bitcoin</h2> </center>\n\n[Med
 /* 174 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Crypto Notes</h2> </center>\n\n[Crypto Notes](https://github.com/jordanmmck/crypt_notes) is an ongoing project to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Notes can be viewed [here](http://www.jordanmmck.com/crypto_notes/).\n\n<img src=\"/public/images/crypto_notes.png\" alt=\"crypto_notes\"/>\n"
+module.exports = "<center> <h2>Crypto Notes</h2> </center>\n\n[Crypto Notes](https://github.com/jordanmmck/crypt_notes) is an ongoing project to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Hosted on Github pages. Notes can be viewed [here](http://www.jordanmmck.com/crypto_notes/).\n\n<img src=\"/public/images/crypto_notes.png\" alt=\"crypto_notes\"/>\n"
 
 /***/ }),
 /* 175 */
