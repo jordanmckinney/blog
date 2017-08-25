@@ -21273,7 +21273,7 @@ module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/51
 /* 167 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg\" id=\"cover\" alt=\"sapiens\"/>\n<p id=\"title\">Sapiens, Yuval Noah Harari</p>\n\nHighly recommended by Bill Gates, Naval Ravikant and others. Starts from the beginning of life and tells the entire human story with a very interesting take on stories, myths, shared beliefs.\n"
+module.exports = "<img src=\"https://upload.wikimedia.org/wikipedia/en/d/d2/Sapiens_A_Brief_History_of_Humankind.jpg\" id=\"cover\" alt=\"sapiens\"/>\n<p id=\"title\">Sapiens, Yuval Noah Harari</p>\n\nHighly recommended by Bill Gates, Naval Ravikant and others. Starts from the beginning of life and tells the entire human story with a very interesting take on stories, myths and shared beliefs.\n"
 
 /***/ }),
 /* 168 */
@@ -21285,13 +21285,13 @@ module.exports = "<img src=\"https://i.pinimg.com/originals/d8/2b/d8/d82bd8b625b
 /* 169 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/519fWd56vTL._SX323_BO1,204,203,200_.jpg\" id=\"cover\" alt=\"surelyyourejoking\"/>\n<p id=\"title\">Surely You're Joking Mr. Feynman, Richard Feynman</p>\n\nFeynman is incredible. Listening to his stories gives a glimpse into one of the most brilliant, curious and eccentric minds to have ever lived.\n"
+module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/519fWd56vTL._SX323_BO1,204,203,200_.jpg\" id=\"cover\" alt=\"surelyyourejoking\"/>\n<p id=\"title\">Surely You're Joking Mr. Feynman, Richard Feynman</p>\n\nFeynman is incredible. Listening to his stories gives a glimpse into one of the most brilliant, curious and eccentric minds to have ever lived. So much fun to read.\n"
 
 /***/ }),
 /* 170 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/41puRJbtwkL.jpg\" id=\"cover\" alt=\"zerotoone\"/>\n<p id=\"title\">Zero to One, Peter Thiel</p>\n\nWho better to outline what makes a successful start up than Peter Thiel. A short book with very well thought out ideas and no fluff. \n"
+module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/41puRJbtwkL.jpg\" id=\"cover\" alt=\"zerotoone\"/>\n<p id=\"title\">Zero to One, Peter Thiel</p>\n\nWho better to outline what makes a successful start-up than Peter Thiel. A short book full of deep insight with no fluff.\n"
 
 /***/ }),
 /* 171 */
