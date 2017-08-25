@@ -5,10 +5,11 @@ import MapsOfMeaning from '../../documents/videos/mapsofmeaning.md';
 import SamHarrisAI from '../../documents/videos/samharrisai.md';
 import PayAttention from '../../documents/videos/payattention.md';
 import Money from '../../documents/videos/andreasmoney.md';
+import CryptoeconomicWay from '../../documents/videos/cryptoeconomicway.md';
 import UnityAdam from '../../documents/videos/unityadam.md';
 import './Videos.scss';
 
-const Books = () => (
+const Videos = () => (
   <div className="videos-container">
     <div id="preamble-container">
       <div id="preamble">Interesting, inspirational, profound, or just awesome videos that I love.</div>
@@ -18,9 +19,10 @@ const Books = () => (
     <Video source={MapsOfMeaning} />
     <Video source={SamHarrisAI} />
     <Video source={Money} />
+    <Video source={CryptoeconomicWay} />
     <Video source={PayAttention} />
     <Video source={UnityAdam} />
   </div>
 )
 
-export default Books;
+export default Videos;
