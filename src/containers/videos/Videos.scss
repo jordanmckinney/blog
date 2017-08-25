@@ -1,0 +1,17 @@
+#preamble-container {
+  display: flex;
+  justify-content: space-around;
+  #preamble {
+    padding-left: 18px;
+    padding-right: 6px;
+    padding-top: 26px;
+    max-width: 650px;
+    color: #404040;
+    font-size: 1.00em;
+    line-height: 175%;
+  }
+}
+hr {
+  max-width: 650px;
+}
+
