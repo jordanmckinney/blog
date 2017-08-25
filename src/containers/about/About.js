@@ -5,7 +5,7 @@ import AboutMe from '../../documents/posts/AboutMe.md';
 
 const About = () => (
   <div>
-    <div className="about-container">
+    <div>
       <Article source={AboutMe} />
     </div>
     <Footer />
