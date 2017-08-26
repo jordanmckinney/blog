@@ -13,7 +13,7 @@ import './Videos.scss';
 const Videos = () => (
   <div className="videos-container">
     <div id="preamble-container">
-      <div id="preamble">Interesting, inspirational, profound, or just awesome videos that I love.</div>
+      <div id="preamble">Enlightening, inspirational, profound, or just plain awesome videos that I love.</div>
     </div>
     <hr></hr>
     <Video source={NavalBlockstack} />

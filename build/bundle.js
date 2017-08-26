@@ -14764,7 +14764,7 @@ var Videos = function Videos() {
       _react2.default.createElement(
         'div',
         { id: 'preamble' },
-        'Interesting, inspirational, profound, or just awesome videos that I love.'
+        'Enlightening, inspirational, profound, or just plain awesome videos that I love.'
       )
     ),
     _react2.default.createElement('hr', null),
