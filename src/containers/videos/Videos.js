@@ -6,6 +6,7 @@ import SamHarrisAI from '../../documents/videos/samharrisai.md';
 import PayAttention from '../../documents/videos/payattention.md';
 import Money from '../../documents/videos/andreasmoney.md';
 import CryptoeconomicWay from '../../documents/videos/cryptoeconomicway.md';
+import NavalBlockstack from '../../documents/videos/navalblockstack.md';
 import UnityAdam from '../../documents/videos/unityadam.md';
 import './Videos.scss';
 
@@ -15,8 +16,9 @@ const Videos = () => (
       <div id="preamble">Interesting, inspirational, profound, or just awesome videos that I love.</div>
     </div>
     <hr></hr>
-    <Video source={FunToImagine} />
+    <Video source={NavalBlockstack} />
     <Video source={MapsOfMeaning} />
+    <Video source={FunToImagine} />
     <Video source={SamHarrisAI} />
     <Video source={Money} />
     <Video source={CryptoeconomicWay} />
