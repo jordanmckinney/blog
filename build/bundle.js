@@ -21466,7 +21466,7 @@ module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/41
 /* 176 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI am a 4th year Computer Science student at UVIC, recently finished an 8 month co-op at Bambora in Victoria. My main interests are Blockchain technology, Machine Learning and AI.\n\nI made this site as a project showcase and a place to link to blog posts as well as other things I'm working on.\n"
+module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI am a 4th year Computer Science student at UVIC. I recently finished an 8 month co-op at Bambora in Victoria, and am returning to UVIC for the fall semester. My main interest is in blockchain technology, especially Ethereum.\n\nI made this site to serve as a project showcase, but also as a place for me to collect some of my favourite books, videos etc.\n"
 
 /***/ }),
 /* 177 */
