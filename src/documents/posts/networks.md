@@ -5,3 +5,5 @@ Yuvals thesis in sapiens is that it is the human ability to tell stories that al
 Money is a story that facilitates trade.
 
 Religion is a story that allows for certain behavior across many areas.
+
+
