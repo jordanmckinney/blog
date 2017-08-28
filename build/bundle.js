@@ -21442,7 +21442,7 @@ module.exports = "<center> <h2>Coursera Machine Learning</h2> </center>\n\nCompl
 /* 182 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>This Site</h2></center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n"
+module.exports = "<center><h2>This Site</h2></center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n\n<img src=\"/public/images/this_site.png\" alt=\"this site\"/>\n"
 
 /***/ }),
 /* 183 */
