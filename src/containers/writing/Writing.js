@@ -1,13 +1,13 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import MoneyPost from '../../documents/posts/medium/money.md';
-import CryptoNotes from '../../documents/posts/CryptoNotes.md';
+import BlockchainNotes from '../../documents/posts/BlockchainNotes.md';
 
 
 const Writing = () => (
   <div className="writing-container">
     <Article source={MoneyPost}/>
-    <Article source={CryptoNotes}/>
+    <Article source={BlockchainNotes}/>
   </div>
 )
 
