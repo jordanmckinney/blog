@@ -14601,9 +14601,9 @@ var _Article = __webpack_require__(41);
 
 var _Article2 = _interopRequireDefault(_Article);
 
-var _CryptoNotes = __webpack_require__(177);
+var _BlockchainNotes = __webpack_require__(177);
 
-var _CryptoNotes2 = _interopRequireDefault(_CryptoNotes);
+var _BlockchainNotes2 = _interopRequireDefault(_BlockchainNotes);
 
 var _DocChain = __webpack_require__(178);
 
@@ -14635,7 +14635,7 @@ var Projects = function Projects() {
   return _react2.default.createElement(
     'div',
     { className: 'projects-container' },
-    _react2.default.createElement(_Article2.default, { source: _CryptoNotes2.default }),
+    _react2.default.createElement(_Article2.default, { source: _BlockchainNotes2.default }),
     _react2.default.createElement(_Article2.default, { source: _DocChain2.default }),
     _react2.default.createElement(_Article2.default, { source: _PersonalSite2.default }),
     _react2.default.createElement(_Article2.default, { source: _TwitterBot2.default }),
@@ -14752,9 +14752,9 @@ var _money = __webpack_require__(176);
 
 var _money2 = _interopRequireDefault(_money);
 
-var _CryptoNotes = __webpack_require__(175);
+var _BlockchainNotes = __webpack_require__(175);
 
-var _CryptoNotes2 = _interopRequireDefault(_CryptoNotes);
+var _BlockchainNotes2 = _interopRequireDefault(_BlockchainNotes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -14763,7 +14763,7 @@ var Writing = function Writing() {
     'div',
     { className: 'writing-container' },
     _react2.default.createElement(_Article2.default, { source: _money2.default }),
-    _react2.default.createElement(_Article2.default, { source: _CryptoNotes2.default })
+    _react2.default.createElement(_Article2.default, { source: _BlockchainNotes2.default })
   );
 };
 
@@ -21400,7 +21400,7 @@ module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/image
 /* 175 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Crypto Notes</h2> </center>\n\nMy effort to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Notes can be viewed [here](http://www.jordanmmck.com/crypto_notes/).\n\n<img src=\"/public/images/crypto_notes_large.png\" alt=\"crypto_notes\"/>\n"
+module.exports = "<center> <h2>Blockchain Notes</h2> </center>\n\nMy effort to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Notes can be viewed [here](http://www.jordanmmck.com/blockchain/).\n\n<img src=\"/public/images/blockchain_notes_large.png\" alt=\")blockchain_notes\"/>\n"
 
 /***/ }),
 /* 176 */
@@ -21412,7 +21412,7 @@ module.exports = "<center> <h2>Markets, Money and Bitcoin</h2> </center>\n\n[Med
 /* 177 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Crypto Notes</h2> </center>\n\n[Crypto Notes](https://github.com/jordanmmck/crypto_notes) is an ongoing project to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Hosted on Github pages. Notes can be viewed [here](http://www.jordanmmck.com/crypto_notes/).\n\n<img src=\"/public/images/crypto_notes_large.png\" alt=\"crypto_notes\"/>\n"
+module.exports = "<center> <h2>Blockchain Notes</h2> </center>\n\n[Blockchain Notes](https://github.com/jordanmmck/blockchain) is an ongoing project to compile notes on all aspects of cryptocurrencies including high-level topics like cryptoeconomics and low-level topics like mining. Hosted on Github pages. Notes can be viewed [here](http://www.jordanmmck.com/blockchain/).\n\n<img src=\"/public/images/blockchain_notes_large.png\" alt=\"blockchain_notes\"/>\n"
 
 /***/ }),
 /* 178 */
