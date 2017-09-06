@@ -14344,6 +14344,11 @@ var Footer = function Footer() {
                 'a',
                 { href: 'mailto@jordanmmck@gmail.com', target: '_top' },
                 _react2.default.createElement('i', { className: 'fa fa-envelope fa-lg' })
+            ),
+            _react2.default.createElement(
+                'a',
+                { href: 'https://docs.google.com/document/d/1zD1RgyvYjjzkKQyvTt18CCDywk88Gdy9Ulc77cNjD4k/edit?usp=sharing', target: '_top' },
+                _react2.default.createElement('i', { className: 'fa fa-file-text fa-lg' })
             )
         )
     );
