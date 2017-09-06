@@ -14327,27 +14327,27 @@ var Footer = function Footer() {
             { className: 'footer' },
             _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/jordanmmck', target: '_blank', rel: 'noopener noreferrer' },
+                { href: 'https://github.com/jordanmmck', title: 'github', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('i', { className: 'fa fa-github fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'https://medium.com/@jordanmmck', target: '_blank', rel: 'noopener noreferrer' },
+                { href: 'https://medium.com/@jordanmmck', title: 'medium', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('i', { className: 'fa fa-medium fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'https://www.linkedin.com/in/JordanMMcKinney', target: '_blank', rel: 'noopener noreferrer' },
+                { href: 'https://www.linkedin.com/in/JordanMMcKinney', title: 'linkedin', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('i', { className: 'fa fa-linkedin fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'mailto@jordanmmck@gmail.com', target: '_top' },
+                { href: 'mailto@jordanmmck@gmail.com', title: 'email', target: '_top' },
                 _react2.default.createElement('i', { className: 'fa fa-envelope fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'https://docs.google.com/document/d/1zD1RgyvYjjzkKQyvTt18CCDywk88Gdy9Ulc77cNjD4k/edit?usp=sharing', target: '_top' },
+                { href: 'https://docs.google.com/document/d/1zD1RgyvYjjzkKQyvTt18CCDywk88Gdy9Ulc77cNjD4k/edit?usp=sharing', title: 'resume', target: '_top' },
                 _react2.default.createElement('i', { className: 'fa fa-file-text fa-lg' })
             )
         )
