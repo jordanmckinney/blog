@@ -1,14 +1,11 @@
 <center> <h2>Bitcoin</h2> </center>
 
-
 <center> <h2>Mining</h2> </center>
 
 `Why?`
 
 Why do this? All the computers in this network are in a race to find this number. And there's no way to do it quickly except try lots of times. A faster computer will do this well, but to have a 50/50 change of *your* block getting in you alone need to represent 50% of the computing power of the entire bitcoin network. So it's a lottery. Roughly speaking each computer has a similar chance of finding the number. So who knows which block is going in next.
 This prevents double spending somehow... 
-
-If the price of bitcoin increases then mining power may increase, the network adjusts though and makes mining harder so it always takes 10 minutes. So if only one computer was mining it would still get 12.5 BTC every 10 minutes.
 
 Mining is just a way of having an un-gameable lottery. First one to find the needle in the haystack wins. You literally give them a starting template and saying OK now find some number that you can have in the payload which will make it hash to this super ‘rare’ number of something below 0x0000000000000000000000001000000000000000000 or whatever it is. You do this because you don’t want an attacker to be able to overpower the network. So just by having 1 million dollars of computing power cannot do it. Even 100 million probably is not enough. The more people and independently mining the more power the system has. Then a 51% attack becomes more costly. Bitcoin could have been 51% easily back in the day. I wonder if it just survived on people being cool until it reached some stable size where no one person could very easily over power it. Without spending more than they thought they could steal. 
 
