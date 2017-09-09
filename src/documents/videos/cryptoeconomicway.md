@@ -1,4 +1,4 @@
-[![The Cryptoeconomic Way, Vitalik Buterin](http://img.youtube.com/vi/ZH9nMKIHfAE/0.jpg)](https://youtu.be/ZH9nMKIHfAE ", The Cryptoeconomic Way")
+[![The Cryptoeconomic Way, Vitalik Buterin](http://img.youtube.com/vi/ZH9nMKIHfAE/0.jpg)](https://youtu.be/ZH9nMKIHfAE "The Cryptoeconomic Way")
 
 <p id="title">The Cryptoeconomic Way, Vitalik Buterin</p>
 

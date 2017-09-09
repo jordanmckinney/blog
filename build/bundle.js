@@ -21375,13 +21375,13 @@ module.exports = "<img src=\"https://upload.wikimedia.org/wikipedia/en/d/d2/Sapi
 /* 170 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://i.pinimg.com/originals/d8/2b/d8/d82bd8b625b9a3e3ecd7b9780e46e9bd.jpg\" id=\"cover\" alt=\"Siddhartha\"/>\n<p id=\"title\">Siddhartha, Herman Hesse</p>\n\nA beautiful book about happiness, wisdom, enlightenment and life. One of Naval Ravikant's favourites. A short, pleasant read, but not lacking in depth. Worth returning to multiple times.\n"
+module.exports = "<img src=\"https://i.pinimg.com/originals/d8/2b/d8/d82bd8b625b9a3e3ecd7b9780e46e9bd.jpg\" id=\"cover\" alt=\"Siddhartha\"/>\n<p id=\"title\">Siddhartha, Herman Hesse</p>\n\nA beautiful book about happiness, wisdom, enlightenment and life. One of Naval Ravikant's favourites. A short, pleasant read, but by no means lacking in depth. Worth returning to multiple times.\n"
 
 /***/ }),
 /* 171 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/81cHkXqlUrL.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence, Nick Bostrom</p>\n\nI was very much an AI optimist until discovering Bostrom's work. Bostrom reasons through in terrifying detail all the ways in which we might try to make safe AI, and how these would almost all utterly fail. I don't know how anyone could come away from Superintelligence without a feeling of awestruck terror at what seems to be just around the corner for humanity.\n"
+module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/81cHkXqlUrL.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence, Nick Bostrom</p>\n\nI was very much an AI optimist until discovering Bostrom's work. Bostrom reasons through in terrifying detail all the ways in which we might try to make safe AI, and how almost all approaches would utterly fail. I don't know how anyone could come away from Superintelligence without a feeling of awestruck terror at what seems to be just around the corner for humanity.\n"
 
 /***/ }),
 /* 172 */
@@ -21393,7 +21393,7 @@ module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/51
 /* 173 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/41puRJbtwkL.jpg\" id=\"cover\" alt=\"Zero to One\"/>\n<p id=\"title\">Zero to One, Peter Thiel</p>\n\nWho better to outline what makes a successful start-up than Peter Thiel. A short book full of distilled start up wisdom.\n"
+module.exports = "<img src=\"https://images-na.ssl-images-amazon.com/images/I/41puRJbtwkL.jpg\" id=\"cover\" alt=\"Zero to One\"/>\n<p id=\"title\">Zero to One, Peter Thiel</p>\n\nWho better to outline what makes a successful start-up than Peter Thiel. A short book full of distilled start-up wisdom.\n"
 
 /***/ }),
 /* 174 */
@@ -21459,13 +21459,13 @@ module.exports = "<center><h2>Rand Quote</h2></center> \n\n<i className=\"fa fa-
 /* 184 */
 /***/ (function(module, exports) {
 
-module.exports = "[![The Killer App: Engineering the Properties of Money, Andreas Antonopoulos](http://img.youtube.com/vi/MxIrc1rxhyI/0.jpg)](https://youtu.be/MxIrc1rxhyI \", The Killer App: Engineering the Properties of Money\")\n\n<p id=\"title\">The Killer App: Engineering the Properties of Money, Andreas Antonopoulos</p>\n\nAndreas explains what money is, what functions it serves, and how Bitcoin can not only meet these functions but exceed them and why that matters. Killer talk. Inspired my Medium post [Markets, Money & Bitcoin](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef).\n"
+module.exports = "[![The Killer App: Engineering the Properties of Money, Andreas Antonopoulos](http://img.youtube.com/vi/MxIrc1rxhyI/0.jpg)](https://youtu.be/MxIrc1rxhyI \"The Killer App: Engineering the Properties of Money\")\n\n<p id=\"title\">The Killer App: Engineering the Properties of Money, Andreas Antonopoulos</p>\n\nAndreas explains what money is, what functions it serves, and how Bitcoin can not only meet these functions but exceed them and why that matters. Killer talk. Inspired my Medium post [Markets, Money & Bitcoin](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef).\n"
 
 /***/ }),
 /* 185 */
 /***/ (function(module, exports) {
 
-module.exports = "[![The Cryptoeconomic Way, Vitalik Buterin](http://img.youtube.com/vi/ZH9nMKIHfAE/0.jpg)](https://youtu.be/ZH9nMKIHfAE \", The Cryptoeconomic Way\")\n\n<p id=\"title\">The Cryptoeconomic Way, Vitalik Buterin</p>\n\nWatch one of the most incredible minds of our generation describe the systems that will power the future world economy all while sporting a pink unicorn shirt and cat watch.\n\nThis line in particular is worth really thinking about, \"What bitoin does is it uses incentives that are defined inside of a system in order to protect and secure that system's ongoing existence.\"\n"
+module.exports = "[![The Cryptoeconomic Way, Vitalik Buterin](http://img.youtube.com/vi/ZH9nMKIHfAE/0.jpg)](https://youtu.be/ZH9nMKIHfAE \"The Cryptoeconomic Way\")\n\n<p id=\"title\">The Cryptoeconomic Way, Vitalik Buterin</p>\n\nWatch one of the most incredible minds of our generation describe the systems that will power the future world economy all while sporting a pink unicorn shirt and cat watch.\n\nThis line in particular is worth really thinking about, \"What bitoin does is it uses incentives that are defined inside of a system in order to protect and secure that system's ongoing existence.\"\n"
 
 /***/ }),
 /* 186 */

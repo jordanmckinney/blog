@@ -1,4 +1,4 @@
-[![The Killer App: Engineering the Properties of Money, Andreas Antonopoulos](http://img.youtube.com/vi/MxIrc1rxhyI/0.jpg)](https://youtu.be/MxIrc1rxhyI ", The Killer App: Engineering the Properties of Money")
+[![The Killer App: Engineering the Properties of Money, Andreas Antonopoulos](http://img.youtube.com/vi/MxIrc1rxhyI/0.jpg)](https://youtu.be/MxIrc1rxhyI "The Killer App: Engineering the Properties of Money")
 
 <p id="title">The Killer App: Engineering the Properties of Money, Andreas Antonopoulos</p>
 
