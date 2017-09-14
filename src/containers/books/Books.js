@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from '../../components/book/Book';
+import OnTyranny from '../../documents/books/ontyranny.md';
 import Siddhartha from '../../documents/books/siddhartha.md';
 import GameTheory from '../../documents/books/gametheory.md';
 import DailyStoic from '../../documents/books/dailystoic.md';
@@ -14,6 +15,7 @@ const Books = () => (
   <div className="books-container">
     <h3 id="year">2017</h3>
     <hr></hr>
+    <Book source={OnTyranny} />
     <Book source={Siddhartha} />
     <Book source={GameTheory} />
     <Book source={DailyStoic} />
