@@ -21427,7 +21427,7 @@ module.exports = "<center> <h2>Blockchain Notes</h2> </center>\n\nMy effort to c
 /* 177 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Cryptocurrencies as Abstract Lifeforms</h2> </center>\n\n[Medium post](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons.\n\n<img src=\"/public/images/fractal.jpg\" alt=\"fractal\"/>\n"
+module.exports = "<center> <h2>Cryptocurrencies as Abstract Lifeforms</h2> </center>\n\n[Medium post](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons.\n\n<img src=\"/public/images/fractal.jpg\" alt=\"fractal\"/>\n"
 
 /***/ }),
 /* 178 */
