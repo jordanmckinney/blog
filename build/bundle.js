@@ -14332,6 +14332,11 @@ var Footer = function Footer() {
             ),
             _react2.default.createElement(
                 'a',
+                { href: 'https://twitter.com/@jordanmmck', title: 'twitter', target: '_blank', rel: 'noopener noreferrer' },
+                _react2.default.createElement('i', { className: 'fa fa-twitter fa-lg' })
+            ),
+            _react2.default.createElement(
+                'a',
                 { href: 'https://medium.com/@jordanmmck', title: 'medium', target: '_blank', rel: 'noopener noreferrer' },
                 _react2.default.createElement('i', { className: 'fa fa-medium fa-lg' })
             ),
