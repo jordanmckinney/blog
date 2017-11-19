@@ -1,6 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 
+import TheoryNotes from '../../documents/projects/TheoryNotes.md';
 import BlockchainNotes from '../../documents/projects/BlockchainNotes.md';
 import DocChain from '../../documents/projects/DocChain.md';
 import TwitterBot from '../../documents/projects/TwitterBot.md';
