@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from '../../components/book/Book';
+import WiganPier from '../../documents/books/wiganpier.md';
 import OnTyranny from '../../documents/books/ontyranny.md';
 import Siddhartha from '../../documents/books/siddhartha.md';
 import GameTheory from '../../documents/books/gametheory.md';
