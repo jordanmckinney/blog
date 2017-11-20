@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from '../../components/book/Book';
+
 import WiganPier from '../../documents/books/wiganpier.md';
 import OnTyranny from '../../documents/books/ontyranny.md';
 import Siddhartha from '../../documents/books/siddhartha.md';
@@ -10,12 +11,14 @@ import ZeroToOne from '../../documents/books/zerotoone.md';
 import Superintelligence from '../../documents/books/superintelligence.md';
 import SurelyYoureJoking from '../../documents/books/surelyyourejoking.md';
 import DoorsOfPerception from '../../documents/books/doorsofperception.md';
+import HowToWinFriends from '../../documents/books/howtowinfriends.md';
 import './Books.scss';
 
 const Books = () => (
   <div className="books-container">
     <h3 id="year">2017</h3>
     <hr></hr>
+    <Book source={WiganPier} />
     <Book source={OnTyranny} />
     <Book source={Siddhartha} />
     <Book source={GameTheory} />
@@ -29,6 +32,7 @@ const Books = () => (
     <h3 id="year">Earlier</h3>
     <hr></hr>
     <Book source={DoorsOfPerception} />
+    <Book source={HowToWinFriends} />
   </div>
 )
 
