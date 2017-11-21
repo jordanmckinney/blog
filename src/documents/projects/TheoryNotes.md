@@ -1,5 +1,5 @@
-<center> <h2>Theory Notes</h2> </center>
+<center> <h2>Theory</h2> </center>
 
-[Theory Notes](https://github.com/jordanmmck/theory) is a place where I write about various subjects including technology, economics, science, politics, culture etc. Hosted on Github pages. Notes can be viewed [here](http://www.jordanmmck.com/theory/).
+[Theory](https://github.com/jordanmmck/theory) is a collection of essays on various topics. Hosted on Github pages. Essays can be viewed [here](http://www.jordanmmck.com/theory/).
 
 <img src="/public/images/theory_screen.png" alt="theory_notes"/>

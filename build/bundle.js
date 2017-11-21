@@ -11236,7 +11236,7 @@ module.exports = "<center> <h2>Blockchain Notes</h2> </center>\n\n[Blockchain No
 /* 77 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Theory Notes</h2> </center>\n\n[Theory Notes](https://github.com/jordanmmck/theory) is a place where I write about various subjects including technology, economics, science, politics, culture etc. Hosted on Github pages. Notes can be viewed [here](http://www.jordanmmck.com/theory/).\n\n<img src=\"/public/images/theory_screen.png\" alt=\"theory_notes\"/>\n"
+module.exports = "<center> <h2>Theory</h2> </center>\n\n[Theory](https://github.com/jordanmmck/theory) is a collection of essays on various topics. Hosted on Github pages. Essays can be viewed [here](http://www.jordanmmck.com/theory/).\n\n<img src=\"/public/images/theory_screen.png\" alt=\"theory_notes\"/>\n"
 
 /***/ }),
 /* 78 */
