@@ -1,6 +1,7 @@
 import React from 'react';
 import Book from '../../components/book/Book';
 
+import Tribe from '../../documents/books/tribe.md';
 import LessonsOfHistory from '../../documents/books/lessonsofhistory.md';
 import WiganPier from '../../documents/books/wiganpier.md';
 import OnTyranny from '../../documents/books/ontyranny.md';
@@ -17,6 +18,9 @@ import './Books.scss';
 
 const Books = () => (
   <div className="books-container">
+    <h3 id="year">2018</h3>
+    <hr></hr>
+    <Book source={Tribe} />
     <h3 id="year">2017</h3>
     <hr></hr>
     <Book source={LessonsOfHistory} />
