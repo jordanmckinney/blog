@@ -3,6 +3,7 @@ import Book from '../../components/book/Book';
 
 import ConsiderPhlebas from '../../documents/books/considerphlebas.md';
 import TwelveRulesForLife from '../../documents/books/twelverulesforlife.md';
+import RationalOptimist from '../../documents/books/rationaloptimist.md';
 import Tribe from '../../documents/books/tribe.md';
 import LessonsOfHistory from '../../documents/books/lessonsofhistory.md';
 import WiganPier from '../../documents/books/wiganpier.md';
@@ -24,6 +25,7 @@ const Books = () => (
     <hr></hr>
     <Book source={ConsiderPhlebas} />
     <Book source={TwelveRulesForLife} />
+    <Book source={RationalOptimist} />
     <Book source={Tribe} />
     <h3 id="year">2017</h3>
     <hr></hr>
