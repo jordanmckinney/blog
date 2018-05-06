@@ -2,6 +2,6 @@
 
 <img src="/public/images/headshot.jpg" id="headshot" alt="headshot"/>
 
-I am a 4th year Computer Science student at UVIC. I recently finished an 8 month co-op at Bambora in Victoria, and am returning to UVIC for the fall semester. My main interest is in blockchain technology, especially Ethereum.
-
-I made this site to serve as a project showcase, but also as a place for me to collect some of my favourite books, videos etc.
+I am a 4th year Computer Science student at UVIC. 
+I recently finished a 4 month co-op at Redbrick and before that spent 8 months at Bambora in Victoria.
+My main interest is in cryptoassets, specifically Ethereum.
