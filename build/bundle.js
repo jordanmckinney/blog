@@ -21520,7 +21520,7 @@ module.exports = "<img src=\"../../public/images/book_covers/zerotoone.jpg\" id=
 /* 184 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI am a 4th year Computer Science student at UVIC. I recently finished an 8 month co-op at Bambora in Victoria, and am returning to UVIC for the fall semester. My main interest is in blockchain technology, especially Ethereum.\n\nI made this site to serve as a project showcase, but also as a place for me to collect some of my favourite books, videos etc.\n"
+module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI am a 4th year Computer Science student at UVIC. \nI recently finished a 4 month co-op at Redbrick and before that spent 8 months at Bambora in Victoria.\nMy main interest is in cryptoassets, specifically Ethereum.\n"
 
 /***/ }),
 /* 185 */
