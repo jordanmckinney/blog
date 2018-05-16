@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from '../../components/video/Video';
+import EOS from '../../documents/videos/eos.md';
 import FunToImagine from '../../documents/videos/funtoimagine.md';
 import MapsOfMeaning from '../../documents/videos/mapsofmeaning.md';
 import SamHarrisAI from '../../documents/videos/samharrisai.md';
@@ -12,6 +13,11 @@ import './Videos.scss';
 
 const Videos = () => (
   <div className="videos-container">
+    <div id="preamble-container">
+      <div id="preamble">Videos of me talking.</div>
+    </div>
+    <hr></hr>
+    <Video source={EOS} />
     <div id="preamble-container">
       <div id="preamble">Enlightening, inspirational, profound, or just plain awesome videos that I love.</div>
     </div>
