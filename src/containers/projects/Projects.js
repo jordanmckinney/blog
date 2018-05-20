@@ -1,6 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 
+import VicBlockchain from '../../documents/projects/VicBlockchain.md';
 import Notes from '../../documents/projects/Notes.md';
 import DocChain from '../../documents/projects/DocChain.md';
 import TwitterBot from '../../documents/projects/TwitterBot.md';
@@ -12,6 +13,7 @@ import PersonalSite from '../../documents/projects/PersonalSite.md';
 
 const Projects = () => (
   <div className="projects-container">
+    <Article source={VicBlockchain}/>
     <Article source={Notes}/>
     <Article source={DocChain}/>
     <Article source={PersonalSite}/>
