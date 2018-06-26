@@ -21486,7 +21486,7 @@ module.exports = "<img src=\"../../public/images/book_covers/doorsofperception.j
 /* 170 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/elephant.jpg\" id=\"cover\" alt=\"The Elephant in the Brain\"/>\n<p id=\"title\">The Elephant in the Brain, Robin Hanson/Kevin Simler</p>\n\nI'm tempted to call this a \"must-read\".\nIt looks like a shocking amount of what we do in the world is done for the purpose of signalling to others (often that we are good/loyal people).\n\nWe think we go to University to get educated, we think we seek medical care to get well, we think our political decisions are made to better the country.\nHanson/Simler made a hell of a case that the real motivation behind these actions is signalling.\n"
+module.exports = "<img src=\"../../public/images/book_covers/elephant.jpg\" id=\"cover\" alt=\"The Elephant in the Brain\"/>\n<p id=\"title\">The Elephant in the Brain, Robin Hanson/Kevin Simler</p>\n\nI'm tempted to call this a \"must-read\".\nIt looks like a shocking amount of what we do in the world is done for the purpose of signalling to others (often that we are good/loyal people).\n\nWe think we go to University to get educated, we think we seek medical care to get well, we think our political decisions are made to better the country.\nHanson/Simler make the case that the real motivation behind these actions is signalling.\n"
 
 /***/ }),
 /* 171 */
