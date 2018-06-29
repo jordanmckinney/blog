@@ -21485,7 +21485,7 @@ module.exports = "<img src=\"../../public/images/book_covers/dailystoic.jpg\" id
 /* 169 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/diaspora.jpg\" id=\"cover\" alt=\"Diaspora\"/>\n<p id=\"title\">Diaspora, Greg Egan</p>\n\nBy far the most intense, creative, mind-bending hard sci-fi I've encountered in print, film, or anywhere else. \nI'm still blown away by \"right\" Egan gets everything.\n\nArthur C. Clarke's 2001 has been my model of \"accurate\", hard sci-fi.\nDiaspora is without the new standard.\n\nThe book opens with a flooring, highly detailed, low-level description of the construction/birth of a synthetic mind/AI, the beginning shadows of thought, the bootstrapping of consciousness.\n\nI don't think I can go back to other sci-fi writers...\n"
+module.exports = "<img src=\"../../public/images/book_covers/diaspora.jpg\" id=\"cover\" alt=\"Diaspora\"/>\n<p id=\"title\">Diaspora, Greg Egan</p>\n\nBy far the most intense, creative, mind-bending hard sci-fi I've encountered in print, film, or anywhere else. \nI'm still blown away by how \"right\" Egan gets everything.\n\nArthur C. Clarke's 2001 has been my model of \"accurate\", hard sci-fi.\nDiaspora is without a doubt the new standard.\n\nThe book opens with a flooring, highly detailed, low-level description of the construction/birth of a synthetic mind/AI, the beginning shadows of thought, the bootstrapping of consciousness.\n\nI don't think I can go back to other sci-fi writers...\n"
 
 /***/ }),
 /* 170 */
@@ -21515,7 +21515,7 @@ module.exports = "<img src=\"../../public/images/book_covers/gametheory.jpg\" id
 /* 174 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/howtofail.jpg\" id=\"cover\" alt=\"How to Fail at Everything and Still Win Big\"/>\n<p id=\"title\">How to Fail at Everything and Still Win, Scott Adams</p>\n\nScott has a pretty unique approach to success. \nHe makes the case that systems are better than goals, that you need to \"allow luck to find you\", that you can succeed by being pretty good in a couple select areas (but world class in nothing), that you can re-program yourself to eat well and exercise, that mantras at least _seem_ to work (maybe because we live in a simulation), etc.\n"
+module.exports = "<img src=\"../../public/images/book_covers/howtofail.jpg\" id=\"cover\" alt=\"How to Fail at Everything and Still Win Big\"/>\n<p id=\"title\">How to Fail at Everything and Still Win, Scott Adams</p>\n\nScott has a pretty unique approach to success. \nHe makes the case that systems are better than goals, that you need to \"allow luck to find you\", that you can succeed by being pretty good in a couple select areas (but world class in nothing), that you can re-program yourself to eat well and exercise, that mantras at least _seem_ to work (maybe because we live in a simulation) so they're worth using, etc.\n"
 
 /***/ }),
 /* 175 */
@@ -21545,7 +21545,7 @@ module.exports = "<img src=\"../../public/images/book_covers/playerofgames.gif\"
 /* 179 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/rama.jpg\" id=\"cover\" alt=\"Rendezvous with Rama\"/>\n<p id=\"title\">Rendezvous with Rama, Arthur C. Clarke</p>\n\nA 50 km long cylindrical rotating ship/world is discovered on approach for the sun.\nA team of astronauts explore and attempt to understand the purpose of the ship.\n\nClarke does the best hard sci-fi that I've read.\n"
+module.exports = "<img src=\"../../public/images/book_covers/rama.jpg\" id=\"cover\" alt=\"Rendezvous with Rama\"/>\n<p id=\"title\">Rendezvous with Rama, Arthur C. Clarke</p>\n\nA 50 km long cylindrical rotating ship/world is discovered on approach for the sun.\nA team of astronauts explore and attempt to understand the purpose of the ship.\n\nClarke does the best hard sci-fi that I've read (until I read Egan).\n"
 
 /***/ }),
 /* 180 */
@@ -21587,7 +21587,7 @@ module.exports = "<img src=\"../../public/images/book_covers/tribe.jpg\" id=\"co
 /* 186 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/12rules.jpg\" id=\"cover\" alt=\"12 rules\"/>\n<p id=\"title\">12 Rules For Life, Jordan Peterson</p>\n\nLike one of Peterson's lectures this book is a weaving of evolutionary history, ancient religion, Nietzsche, Jung, Freud, practical \"life hacks\" (exposure therapy, how to deal with kids etc.), and answers to questions like \"how should one live?\".\n"
+module.exports = "<img src=\"../../public/images/book_covers/12rules.jpg\" id=\"cover\" alt=\"12 rules\"/>\n<p id=\"title\">12 Rules For Life, Jordan Peterson</p>\n\nLike Peterson's lectures this book is a weaving of evolutionary history, ancient religion, Nietzsche, Jung, Freud, practical \"life hacks\" (exposure therapy, how to deal with kids etc.), and answers to questions like \"how should one live?\".\n"
 
 /***/ }),
 /* 187 */
@@ -21599,7 +21599,7 @@ module.exports = "<img src=\"../../public/images/book_covers/roadtowiganpier.jpg
 /* 188 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/winbigly.jpeg\" id=\"cover\" alt=\"Win Bigly\"/>\n<p id=\"title\">Win Bigly, Scott Adams</p>\n\nWin Bigly recounts the election of Trump through a \"persuasion filter\".\nScott argues that especially in the realm of politics, policy and facts don't matter.\nHumans are not rational with momentary lapses of irrationality, they are irrational with momentary lapses of reason.\nThe race was never about policy, it was a marketing/persuasion competition.\nScott used his persuasion filter to accurately predict not only Trump's victory, but also an eerie number of other moves made by Trump and other candidates.\n"
+module.exports = "<img src=\"../../public/images/book_covers/winbigly.jpeg\" id=\"cover\" alt=\"Win Bigly\"/>\n<p id=\"title\">Win Bigly, Scott Adams</p>\n\nWin Bigly recounts the election of Trump through a \"persuasion filter\".\n\nScott argues that (especially) in the realm of politics, the policy and facts don't actually matter.\nHumans are not rational with momentary lapses of irrationality, they are irrational with momentary lapses of reason.\nThe race was never about policy, it was a marketing/persuasion competition (as it always is).\nScott used his persuasion filter to accurately predict not only Trump's victory, but also an eerie number of other moves made by Trump and other candidates.\n"
 
 /***/ }),
 /* 189 */
