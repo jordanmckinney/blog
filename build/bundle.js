@@ -21665,7 +21665,7 @@ module.exports = "<center><h2>Rand Quote</h2></center> \n\n<i className=\"fa fa-
 /* 199 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>VicBlockchain</h2> </center>\n\nVicBlockchain is a club and Slack group with ~50 members where we discuss all things crypto including technology advancements, Ethereum development, trading strategies, etc.\n\n<img src=\"/public/images/vicblockchain.jpg\" alt=\"VicBlockchain\"/>\n"
+module.exports = "<center> <h2>VicBlockchain</h2> </center>\n\nVicBlockchain is a club and Slack group with ~60 members where we discuss all things crypto including technology advancements, Ethereum development, trading strategies, etc.\n\nYou can join [here](https://vicblockchain.now.sh/).\n\n<img src=\"/public/images/vicblockchain.jpg\" alt=\"VicBlockchain\"/>\n"
 
 /***/ }),
 /* 200 */
