@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from '../../components/video/Video';
+import Podcast from '../../documents/videos/podcast.md';
 import Accelerators from '../../documents/videos/accelerators.md';
 import EOS from '../../documents/videos/eos.md';
 import FunToImagine from '../../documents/videos/funtoimagine.md';
@@ -15,9 +16,10 @@ import './Videos.scss';
 const Videos = () => (
   <div className="videos-container">
     <div id="preamble-container">
-      <div id="preamble">Videos of me talking.</div>
+      <div id="preamble">Videos (and audio) of me talking.</div>
     </div>
     <hr></hr>
+    <Video source={Podcast} />
     <Video source={Accelerators} />
     <Video source={EOS} />
     <div id="preamble-container">
