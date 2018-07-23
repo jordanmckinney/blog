@@ -21616,7 +21616,7 @@ module.exports = "<img src=\"../../public/images/book_covers/zerotoone.jpg\" id=
 /* 190 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI'm a 4th year Computer Science student at UVIC.\nI've worked for 1 year as a web developer co-op (4 months at Redbrick, 8 months at Bambora).\n\nMy main interest is in cryptocurrencies.\nI write blog posts and make YouTube videos on the subject of cryptocurrencies, and I run a Slack channel called VicBlockchain where we discuss all things crypto, organize meetups, and so on.\n\nMy goal once finished school is to move into the finance and investing side of crypto.\n"
+module.exports = "<center><h2>About Me</h2></center>\n\n<img src=\"/public/images/headshot.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI'm a 4th year Computer Science student at UVIC.\nI've worked for 1 year as a web developer co-op (4 months at Redbrick, 8 months at Bambora).\n\nI write blog posts and make YouTube videos on the subject of cryptocurrencies, and I run a Slack channel called VicBlockchain where we discuss all things crypto, organize meetups, and so on.\n\nMy goal once finished school is to move into the finance and investing side of crypto.\n"
 
 /***/ }),
 /* 191 */
