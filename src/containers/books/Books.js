@@ -1,6 +1,7 @@
 import React from 'react';
 import Book from '../../components/book/Book';
 
+import BobbyFischer from '../../documents/books/bobbyfischer.md';
 import Diaspora from '../../documents/books/diaspora.md';
 import Elephant from '../../documents/books/elephant.md';
 import Rama from '../../documents/books/rama.md';
@@ -30,6 +31,7 @@ const Books = () => (
   <div className="books-container">
     <h3 id="year">2018</h3>
     <hr></hr>
+    <Book source={BobbyFischer} />
     <Book source={Diaspora} />
     <Book source={Elephant} />
     <Book source={Rama} />
