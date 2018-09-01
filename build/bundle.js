@@ -12924,13 +12924,13 @@ var Footer = function Footer() {
             { className: 'footer' },
             _react2.default.createElement(
                 'a',
-                { href: 'https://github.com/jordanmmck', title: 'github', target: '_blank', rel: 'noopener noreferrer' },
-                _react2.default.createElement('i', { className: 'fa fa-github fa-lg' })
+                { href: 'https://twitter.com/@jordanmmck', title: 'twitter', target: '_blank', rel: 'noopener noreferrer' },
+                _react2.default.createElement('i', { className: 'fa fa-twitter fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
-                { href: 'https://twitter.com/@jordanmmck', title: 'twitter', target: '_blank', rel: 'noopener noreferrer' },
-                _react2.default.createElement('i', { className: 'fa fa-twitter fa-lg' })
+                { href: 'https://github.com/jordanmmck', title: 'github', target: '_blank', rel: 'noopener noreferrer' },
+                _react2.default.createElement('i', { className: 'fa fa-github fa-lg' })
             ),
             _react2.default.createElement(
                 'a',
