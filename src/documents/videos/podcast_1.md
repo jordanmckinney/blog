@@ -1,4 +1,4 @@
-[![Membran Labs Ep 2](/public/images/podcast_large.png)](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney)
+[![Membran Labs Ep 2](/public/images/podcast_1_med.jpg)](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney)
 
 <p id="title">Podcast: Membran Labs Ep. 2</p>
 
