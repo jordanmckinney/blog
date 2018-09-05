@@ -1,32 +1,31 @@
 .header-container {
-    background-color: #31334a;
+    background-color: #6f0fff;
     display: flex;
     justify-content: space-around;
     padding-top: 80px;
     padding-bottom: 15px;
 
     .header {
-      font-family: 'Lobster', 'Open Sans', 'Arial';
+      font-family: 'Knewave';
       font-size: 18pt;
       display: flex;
       justify-content: space-around;
       width: 700px;
 
       a {
-        color: #7e91fa;
+        color: #ffffff;
         text-decoration: none;
-        -o-transition:.4s;
-        -ms-transition:.4s;
-        -moz-transition:.4s;
-        -webkit-transition:.4s;
-        transition:.4s;
+        -o-transition:.1s;
+        -ms-transition:.1s;
+        -moz-transition:.1s;
+        -webkit-transition:.1s;
+        transition:.1s;
 
         &:hover {
-          color: #6377e8;
-          // color: #647cfc;
+          color: #8cfffd;
         }
         &:focus{
-          color: #596ee5;
+          color: #8cfffd;
         }
       }
     }

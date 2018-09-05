@@ -3,7 +3,6 @@
 
 By far the most intense, creative, mind-bending hard sci-fi I've encountered in print, film, or anywhere else. 
 I'm still blown away by how "right" Egan gets everything.
-
 Arthur C. Clarke's 2001 has been my model of "accurate", hard sci-fi.
 Diaspora is without a doubt the new standard.
 
