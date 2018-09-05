@@ -17318,7 +17318,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, ".header-container {\n  background-color: #6f0fff;\n  display: flex;\n  justify-content: space-around;\n  padding-top: 80px;\n  padding-bottom: 15px; }\n  .header-container .header {\n    font-family: 'Knewave';\n    font-size: 18pt;\n    display: flex;\n    justify-content: space-around;\n    width: 700px; }\n    .header-container .header a {\n      color: #ffffff;\n      text-decoration: none;\n      -o-transition: .1s;\n      -ms-transition: .1s;\n      -moz-transition: .1s;\n      -webkit-transition: .1s;\n      transition: .1s; }\n      .header-container .header a:hover {\n        color: #8cfffd; }\n      .header-container .header a:focus {\n        color: #8cfffd; }\n", ""]);
+exports.push([module.i, ".header-container {\n  background-color: #3f0fff;\n  display: flex;\n  justify-content: space-around;\n  padding-top: 80px;\n  padding-bottom: 15px; }\n  .header-container .header {\n    font-family: 'Knewave';\n    font-size: 18pt;\n    display: flex;\n    justify-content: space-around;\n    width: 700px; }\n    .header-container .header a {\n      color: #ffffff;\n      text-decoration: none;\n      -o-transition: .1s;\n      -ms-transition: .1s;\n      -moz-transition: .1s;\n      -webkit-transition: .1s;\n      transition: .1s; }\n      .header-container .header a:hover {\n        color: #8cfffd; }\n      .header-container .header a:focus {\n        color: #8cfffd; }\n", ""]);
 
 // exports
 
