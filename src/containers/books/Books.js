@@ -51,14 +51,12 @@ const Books = () => (
     <Book source={Siddhartha} />
     <Book source={GameTheory} />
     <Book source={DailyStoic} />
-    <h3 id="year">2016</h3>
+    <h3 id="year">Earlier</h3>
     <hr></hr>
     <Book source={Sapiens} />
     <Book source={ZeroToOne} />
     <Book source={Superintelligence} />
     <Book source={SurelyYoureJoking} />
-    <h3 id="year">Earlier</h3>
-    <hr></hr>
     <Book source={DoorsOfPerception} />
     <Book source={HowToWinFriends} />
   </div>
