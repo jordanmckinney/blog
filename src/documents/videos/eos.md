@@ -2,5 +2,5 @@
 
 <p id="title">EOS Explained (and Criticized)</p>
 
-I explain some of the key aspects of EOS and point out some issues that are rarely mentioned.
+[YouTube video](https://youtu.be/cXVZU2qKP50) in which I explain some of the key aspects of EOS and point out some issues that are rarely mentioned.
 

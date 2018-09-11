@@ -2,5 +2,4 @@
 
 <p id="title">5 Reasons Cryptocurrency Adoption will be Fast</p>
 
-I talk about 5 factors that I think will accelerate the transition from fiat money to cryptocurrencies.
-
+[YouTube video](https://youtu.be/_SICSy35OYI) where I talk about 5 factors that I think will accelerate the transition from fiat money to cryptocurrencies.
