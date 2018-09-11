@@ -20399,7 +20399,7 @@ module.exports = "<img src=\"../../public/images/book_covers/bobby_fischer.jpg\"
 /* 174 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/consider_phlebas.jpeg\" id=\"cover\" alt=\"Consider Phlebas\"/>\n<p id=\"title\">Consider Phlebas, Iain M. Banks</p>\n\nThe first in the highly-acclaimed many part Culture series. \nComplete with giant ring-worlds, aliens, hyperspace travel and super smart AIs.\nSpaceX named some of their drone ships after ships in this series, and Amazon is making Consider Phlebas into a TV series!\n"
+module.exports = "<img src=\"../../public/images/book_covers/consider_phlebas.jpeg\" id=\"cover\" alt=\"Consider Phlebas\"/>\n<p id=\"title\">Consider Phlebas, Iain M. Banks</p>\n\nThe first in the highly-acclaimed many-part Culture series. \nComplete with giant ring-worlds, aliens, hyperspace travel and super smart AIs.\nSpaceX named some of their drone ships after ships in this series, and Amazon is making Consider Phlebas into a TV series!\n"
 
 /***/ }),
 /* 175 */
@@ -20417,7 +20417,7 @@ module.exports = "<img src=\"../../public/images/book_covers/diaspora.jpg\" id=\
 /* 177 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/doorsofperception.jpg\" id=\"cover\" alt=\"Doors of Perception\"/>\n<p id=\"title\">The Doors of Perception, Aldous Huxley</p>\n\nHuxley takes mescalin and explains why Van Gogh painted a chair sitting in the middle of a room and what it means. Somehow it makes total sense. Fantastic.\n"
+module.exports = "<img src=\"../../public/images/book_covers/doors.jpg\" id=\"cover\" alt=\"Doors of Perception\"/>\n<p id=\"title\">The Doors of Perception, Aldous Huxley</p>\n\nHuxley takes mescalin and explains why Van Gogh painted a chair sitting in the middle of a room and what it means. Somehow it makes total sense. Fantastic.\n"
 
 /***/ }),
 /* 178 */
@@ -20429,7 +20429,7 @@ module.exports = "<img src=\"../../public/images/book_covers/elephant.jpg\" id=\
 /* 179 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/flashboys.jpg\" id=\"cover\" alt=\"Flash Boys\"/>\n<p id=\"title\">Flash Boys, Michael Lewis</p>\n\nLewis tells the bizarre and fascinating story of high frequency trading where high speed algorithms front run stock orders, shelter is sought from said algorithms in dark pools, and fiber optic lines are tunneled through mountains to save microseconds.\n"
+module.exports = "<img src=\"../../public/images/book_covers/flashboys.jpg\" id=\"cover\" alt=\"Flash Boys\"/>\n<p id=\"title\">Flash Boys, Michael Lewis</p>\n\nLewis tells the bizarre and fascinating story of high frequency trading where high speed algorithms front-run stock orders, shelter is sought from said algorithms in dark pools, and fiber optic lines are tunneled through mountains to save microseconds.\n"
 
 /***/ }),
 /* 180 */
@@ -20441,7 +20441,7 @@ module.exports = "<img src=\"../../public/images/book_covers/gametheory.jpg\" id
 /* 181 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/howtofail.jpg\" id=\"cover\" alt=\"How to Fail at Everything and Still Win Big\"/>\n<p id=\"title\">How to Fail at Everything and Still Win, Scott Adams</p>\n\nScott has a pretty unique approach to success. \nHe makes the case that systems are better than goals, that you need to \"allow luck to find you\", that you can succeed by being pretty good in a couple select areas (but world class in nothing), that you can re-program yourself to eat well and exercise, that mantras at least _seem_ to work (maybe because we live in a simulation) so they're worth using, etc.\n"
+module.exports = "<img src=\"../../public/images/book_covers/howtofail.jpg\" id=\"cover\" alt=\"How to Fail at Everything and Still Win Big\"/>\n<p id=\"title\">How to Fail at Everything and Still Win Big, Scott Adams</p>\n\nScott has a pretty unique approach to success. \nHe makes the case that systems are better than goals, that you need to \"allow luck to find you\", that you can succeed by being pretty good in a couple select areas (but world-class in nothing), that you can re-program yourself to eat well and exercise, that mantras at least _seem_ to work (maybe because we live in a simulation) so they're worth using, etc.\n"
 
 /***/ }),
 /* 182 */
@@ -20495,19 +20495,19 @@ module.exports = "<img src=\"../../public/images/book_covers/siddhartha.jpg\" id
 /* 190 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence, Nick Bostrom</p>\n\nI was very much an AI optimist until discovering Bostrom's work. Bostrom reasons through in terrifying detail all the ways in which we might try to make safe AI, and how almost all approaches would utterly fail. I don't know how anyone could come away from Superintelligence without a feeling of awestruck terror at what seems to be just around the corner for humanity.\n"
+module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence, Nick Bostrom</p>\n\nI was very much an AI optimist until discovering Bostrom's work. \nBostrom reasons through in terrifying detail all the ways in which we might try to make safe AI, and how almost all approaches would utterly fail. \nI don't know how anyone could come away from Superintelligence without a feeling of awestruck terror at what seems to be just around the corner for humanity.\n"
 
 /***/ }),
 /* 191 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/surelyyourejoking.jpg\" id=\"cover\" alt=\"Surely You're Joking Mr. Feynman\"/>\n<p id=\"title\">Surely You're Joking Mr. Feynman, Richard Feynman</p>\n\nFeynman is incredible. Listening to his stories gives a glimpse into one of the most brilliant, curious and eccentric minds to have ever lived. So much fun to read.\n"
+module.exports = "<img src=\"../../public/images/book_covers/surelyyourejoking.jpg\" id=\"cover\" alt=\"Surely You're Joking Mr. Feynman\"/>\n<p id=\"title\">Surely You're Joking Mr. Feynman, Richard Feynman</p>\n\nFeynman is incredible. \nListening to his stories gives a glimpse into one of the most brilliant, curious and eccentric minds to have ever lived. \nSo much fun to read.\n"
 
 /***/ }),
 /* 192 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/tribe.jpg\" id=\"cover\" alt=\"Tribe\"/>\n<p id=\"title\">Tribe, Sebastian Junger</p>\n\nWe evolved to live in tight-knit tribes where everyone knew everyone else, each person had a role, and what they did really mattered. Now we live alone in apartments and we have no tribe. No one depends on us.\n\nIt turns out that PTSD is common among military veterans who _never saw combat_. Junger argues this is because vets get a taste of how we are _supposed_ to live - in tight-knit tribes. Returning to modern society is the traumatic part.\n"
+module.exports = "<img src=\"../../public/images/book_covers/tribe.jpg\" id=\"cover\" alt=\"Tribe\"/>\n<p id=\"title\">Tribe, Sebastian Junger</p>\n\nWe evolved to live in tight-knit tribes where everyone knew everyone else, each person had a role, and what they did really mattered. Now we live alone in apartments and we have no tribe. No one depends on us.\n\nIt turns out that PTSD is common among military veterans who _never saw combat_. Junger argues this is because vets get a taste of how we are _supposed_ to live -- in tight-knit tribes. Returning to modern society is the traumatic part.\n"
 
 /***/ }),
 /* 193 */
@@ -20603,7 +20603,7 @@ module.exports = "<center> <h2>VicBlockchain</h2> </center>\n\nVicBlockchain is 
 /* 208 */
 /***/ (function(module, exports) {
 
-module.exports = "[![5 Reasons Cryptocurrency Adoption will be Fast](http://img.youtube.com/vi/_SICSy35OYI/0.jpg)](https://youtu.be/_SICSy35OYI \"5 Reasons Cryptocurrency Adoption will be Fast\")\n\n<p id=\"title\">5 Reasons Cryptocurrency Adoption will be Fast</p>\n\n[YouTube video](https://youtu.be/_SICSy35OYI) where I talk about 5 factors that I think will accelerate the transition from fiat money to cryptocurrencies.\n\n"
+module.exports = "[![5 Reasons Cryptocurrency Adoption will be Fast](http://img.youtube.com/vi/_SICSy35OYI/0.jpg)](https://youtu.be/_SICSy35OYI \"5 Reasons Cryptocurrency Adoption will be Fast\")\n\n<p id=\"title\">5 Reasons Cryptocurrency Adoption will be Fast</p>\n\n[YouTube video](https://youtu.be/_SICSy35OYI) where I talk about 5 factors that I think will accelerate the transition from fiat money to cryptocurrencies.\n"
 
 /***/ }),
 /* 209 */
