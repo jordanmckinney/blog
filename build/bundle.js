@@ -13331,14 +13331,10 @@ var Projects = function Projects() {
     'div',
     { className: 'projects-container' },
     _react2.default.createElement(_Article2.default, { source: _BTC2.default }),
-    _react2.default.createElement(_Article2.default, { source: _VicBlockchain2.default }),
-    _react2.default.createElement(_Article2.default, { source: _Notes2.default }),
     _react2.default.createElement(_Article2.default, { source: _DocChain2.default }),
     _react2.default.createElement(_Article2.default, { source: _PersonalSite2.default }),
     _react2.default.createElement(_Article2.default, { source: _TwitterBot2.default }),
-    _react2.default.createElement(_Article2.default, { source: _MachineLearning2.default }),
-    _react2.default.createElement(_Article2.default, { source: _DotFiles2.default }),
-    _react2.default.createElement(_Article2.default, { source: _HTTPClientServer2.default })
+    _react2.default.createElement(_Article2.default, { source: _DotFiles2.default })
   );
 };
 
@@ -20578,7 +20574,7 @@ module.exports = "<center> <h2>Doc Chain</h2> </center>\n\n[Doc Chain](https://g
 /* 203 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>DotFiles</h2> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using Vim/NeoVim, Zsh and Tmux for several months now, and have been continually making adjustments.\n\n<img src=\"/public/images/vimtmux.png\" alt=\"Drawing\" style=\"max-width: 100%;\"/>\n"
+module.exports = "<center> <h2>DotFiles</h2> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using NeoVim, Zsh and Tmux for a long time now, and have been continually making adjustments.\n\n<img src=\"/public/images/vimtmux.png\" alt=\"Drawing\" style=\"max-width: 100%;\"/>\n"
 
 /***/ }),
 /* 204 */
@@ -20632,7 +20628,7 @@ module.exports = "[![EOS Explained (and Criticized)](http://img.youtube.com/vi/c
 /* 212 */
 /***/ (function(module, exports) {
 
-module.exports = "[![Membran Labs Ep 2](/public/images/podcast_1_wide.jpg)](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney)\n\n<p id=\"title\">Podcast: Membran Labs Ep. 2</p>\n\nI was a guest on the [Membran Labs Podcast](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney) with Tyler Harndek.\nWe talked about a possible attack on Ethereum, EOS, decentralized gaming, and Augur.\n\n"
+module.exports = "[![Membran Labs Ep 2](/public/images/podcast_1_wide.jpg)](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney)\n\n<p id=\"title\">Podcast: Membran Labs Ep. 2</p>\n\nI was a guest on the [Membran Labs Podcast](https://soundcloud.com/tyler-harnadek-686048240/episode-2-july-20-2018-with-jordan-mckinney) with Tyler Harnadek.\nWe talked about a possible attack on Ethereum, EOS, decentralized gaming, and Augur.\n\n"
 
 /***/ }),
 /* 213 */
