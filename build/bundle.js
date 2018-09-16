@@ -20566,7 +20566,7 @@ module.exports = "<center> <h2>Markets, Money and Bitcoin</h2> </center>\n\n[Med
 /* 201 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Bitcoin Security Factor Projection</h2> </center>\n\nPython project to project and plot the Bitcoin \"security factor\" into the future (Medium post coming soon).\nCode is on [GitHub](https://github.com/jordanmmck/bitcoin_security_factor).\n\n<img src=\"/public/images/security_factor.png\" alt=\"Security Factor plot\"/>\n"
+module.exports = "<center> <h2>Bitcoin Security Factor Projection</h2> </center>\n\n[Python project](https://github.com/jordanmmck/bitcoin_security_factor) and [blog post]() extrapolating Bitcoin \"security factor\" into the future.\n\n<img src=\"/public/images/security_factor.png\" alt=\"Security Factor plot\"/>\n"
 
 /***/ }),
 /* 202 */
