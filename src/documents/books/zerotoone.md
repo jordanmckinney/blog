@@ -1,4 +1,5 @@
 <img src="../../public/images/book_covers/zerotoone.jpg" id="cover" alt="Zero to One"/>
 <p id="title">Zero to One - Peter Thiel</p>
 
-Who better to outline what makes a successful start-up than Peter Thiel. A short book full of distilled start-up wisdom.
+Peter Thiel gives his core insights into what makes a start-up successful.
+He argues that companies should avoid competition, they should start small and create monopolies, that the greatest value is in going from "zero to one" rather than "one to n".
