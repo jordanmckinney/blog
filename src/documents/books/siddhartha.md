@@ -1,4 +1,6 @@
 <img src="../../public/images/book_covers/siddhartha.jpg" id="cover" alt="Siddhartha"/>
 <p id="title">Siddhartha - Herman Hesse</p>
 
-A beautiful book about happiness, wisdom, enlightenment and life. One of Naval Ravikant's favourites. A short, pleasant read, but by no means lacking in depth. Worth returning to multiple times.
+A sublime book about seeking, wisdom, enlightenment and life. 
+Whenever I read Siddhartha I feel lighter, calmer, more enlightened -- as if I had gone on a mini-meditation retreat.
+I think there is deep wisdom in Siddhartha -- each time I read it I find more.

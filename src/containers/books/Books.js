@@ -22,20 +22,20 @@ import './Books.scss';
 
 const Books = () => (
   <div className="books-container">
-    <h3 id="year">Notable Books I've Read</h3>
+    <h3 id="year">Impactful Books I've Read</h3>
     <hr></hr>
     <Book source={Superintelligence} />
-    <Book source={Diaspora} />
     <Book source={Siddhartha} />
+    <Book source={Diaspora} />
     <Book source={SurelyYoureJoking} />
     <Book source={LessonsOfHistory} />
-    <Book source={Sapiens} />
     <Book source={ZeroToOne} />
+    <Book source={Sapiens} />
     <Book source={RationalOptimist} />
     <Book source={Elephant} />
     <Book source={DoorsOfPerception} />
-    <Book source={Tribe} />
     <Book source={HowToFail} />
+    <Book source={Tribe} />
     <Book source={HowToWinFriends} />
     <Book source={WiganPier} />
   </div>
