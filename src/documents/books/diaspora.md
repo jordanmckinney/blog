@@ -1,5 +1,5 @@
 <img src="../../public/images/book_covers/diaspora.jpg" id="cover" alt="Diaspora"/>
-<p id="title">Diaspora, Greg Egan</p>
+<p id="title">Diaspora - Greg Egan</p>
 
 By far the most intense, creative, mind-bending hard sci-fi I've encountered in print, film, or anywhere else. 
 I'm still blown away by how "right" Egan gets everything.

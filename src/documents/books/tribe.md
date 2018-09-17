@@ -1,5 +1,5 @@
 <img src="../../public/images/book_covers/tribe.jpg" id="cover" alt="Tribe"/>
-<p id="title">Tribe, Sebastian Junger</p>
+<p id="title">Tribe - Sebastian Junger</p>
 
 We evolved to live in tight-knit tribes where everyone knew everyone else, each person had a role, and what they did really mattered. Now we live alone in apartments and we have no tribe. No one depends on us.
 

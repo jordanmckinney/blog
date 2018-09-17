@@ -1,5 +1,5 @@
 <img src="../../public/images/book_covers/lessonsofhistory.jpg" id="cover" alt="Lessons of History"/>
-<p id="title">The Lessons of History, Will and Ariel Durant</p>
+<p id="title">The Lessons of History - Will and Ariel Durant</p>
 
 An insightful and even poetic high-level overview of human history from many angles. Some lines that stood out for me:
 
