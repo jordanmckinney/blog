@@ -20399,7 +20399,7 @@ module.exports = "<img src=\"../../public/images/book_covers/singularity.jpg\" i
 /* 184 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence - Nick Bostrom</p>\n\nI was an AI-optimist until reading this book.\nNow I believe AI to be humanity's greatest existential threat _by far_.\nBostrom reasons through many seemingly rock-solid strategies for AI-safety and shows how almost every one of them utterly fails.\nIf you're not afraid of AI, read this book.\n"
+module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence - Nick Bostrom</p>\n\nI was an AI-optimist until reading this book.\nNow I believe AI to be humanity's greatest existential threat by far.\nBostrom reasons through many seemingly rock-solid strategies for AI-safety and shows how almost every one of them utterly fails.\nIf you're not afraid of AI, read this book.\n"
 
 /***/ }),
 /* 185 */
