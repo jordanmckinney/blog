@@ -13194,10 +13194,13 @@ var Books = function Books() {
       'Impactful Books I\'ve Read'
     ),
     _react2.default.createElement('hr', null),
+    _react2.default.createElement(_Book2.default, { source: _geb2.default }),
     _react2.default.createElement(_Book2.default, { source: _superintelligence2.default }),
     _react2.default.createElement(_Book2.default, { source: _siddhartha2.default }),
     _react2.default.createElement(_Book2.default, { source: _diaspora2.default }),
     _react2.default.createElement(_Book2.default, { source: _surelyyourejoking2.default }),
+    _react2.default.createElement(_Book2.default, { source: _singularity2.default }),
+    _react2.default.createElement(_Book2.default, { source: _laws2.default }),
     _react2.default.createElement(_Book2.default, { source: _lessonsofhistory2.default }),
     _react2.default.createElement(_Book2.default, { source: _zerotoone2.default }),
     _react2.default.createElement(_Book2.default, { source: _sapiens2.default }),
@@ -20345,7 +20348,7 @@ module.exports = "<img src=\"../../public/images/book_covers/elephant.jpg\" id=\
 /* 175 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/geb.jpg\" id=\"cover\" alt=\"godel escher bach\"/>\n<p id=\"title\">Gödel, Escher, Bach - Douglas Hofstadter</p>\n\n...\n"
+module.exports = "<img src=\"../../public/images/book_covers/geb.jpg\" id=\"cover\" alt=\"godel escher bach\"/>\n<p id=\"title\">Gödel, Escher, Bach - Douglas Hofstadter</p>\n\nHofstadter weaves together mathematics, computer science, art, and music into an enigmatic explanation of consciousness as some kind of mind-bending self-referential loop.\nI've started the book over twice, taking notes throughout, but have yet to finish. \nHowever GEB is the strangest, most brilliant thing I've read, so I must include it.\n"
 
 /***/ }),
 /* 176 */
@@ -20363,7 +20366,7 @@ module.exports = "<img src=\"../../public/images/book_covers/howtowinfriends.jpg
 /* 178 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/laws.jpg\" id=\"cover\" alt=\"godel escher bach\"/>\n<p id=\"title\">48 Laws of Power - Robert Greene</p>\n\n...\n"
+module.exports = "<img src=\"../../public/images/book_covers/laws.jpg\" id=\"cover\" alt=\"godel escher bach\"/>\n<p id=\"title\">48 Laws of Power - Robert Greene</p>\n\n48 Laws is sometimes criticized for its Machiavellian nature, or lack of rigor in deriving of laws.\nBut the reason I love the book is that it's like a historic highlight reel of the most charismatic, ambitious, remarkable people who ever lived.\nIt is a rich collection of stories, spanning millenia, that gives a window into the great personalities of history.\n"
 
 /***/ }),
 /* 179 */
@@ -20393,13 +20396,13 @@ module.exports = "<img src=\"../../public/images/book_covers/siddhartha.jpg\" id
 /* 183 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/singularity.jpg\" id=\"cover\" alt=\"Singularity is Near\"/>\n<p id=\"title\">The Singularity is Near - Ray Kurzweil</p>\n\n...\n"
+module.exports = "<img src=\"../../public/images/book_covers/singularity.jpg\" id=\"cover\" alt=\"Singularity is Near\"/>\n<p id=\"title\">The Singularity is Near - Ray Kurzweil</p>\n\nThe creation of generally intelligent AI could be the most significant event in the history of life on Earth, excepting perhaps the genesis of life itself.\nEverything changes after AI, it is the last invention we need to make — for better or worse.\nKurzweil's timelines may be wrong, but it looks like we are heading toward something like what he describes as the singularity.\n"
 
 /***/ }),
 /* 184 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence - Nick Bostrom</p>\n\nI was an AI-optimist until reading this book.\nNow I believe AI to be humanity's greatest existential threat by far.\nBostrom reasons through many seemingly rock-solid strategies for AI-safety and shows how almost every one of them utterly fails.\nIf you're not afraid of AI, read this book.\n"
+module.exports = "<img src=\"../../public/images/book_covers/superintelligence.jpg\" id=\"cover\" alt=\"Superintelligence\"/>\n<p id=\"title\">Superintelligence - Nick Bostrom</p>\n\nI was an AI-optimist until reading this book.\nNow I believe AI to be humanity's greatest existential threat.\nBostrom reasons through many seemingly rock-solid strategies for AI-safety and shows how almost every one of them utterly fails.\nIf you're not afraid of AI, read this book.\n"
 
 /***/ }),
 /* 185 */
