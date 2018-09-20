@@ -1,5 +1,5 @@
 <img src="../../public/images/book_covers/superintelligence.jpg" id="cover" alt="Superintelligence"/>
-<p id="title">Superintelligence - Nick Bostrom</p>
+<p id="title">The Singularity is Near - Ray Kurzweil</p>
 
 I was an AI-optimist until reading this book.
 Now I believe AI to be humanity's greatest existential threat by far.

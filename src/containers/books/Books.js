@@ -24,10 +24,13 @@ const Books = () => (
   <div className="books-container">
     <h3 id="year">Impactful Books I've Read</h3>
     <hr></hr>
+    <Book source={GEB} />
     <Book source={Superintelligence} />
     <Book source={Siddhartha} />
     <Book source={Diaspora} />
     <Book source={SurelyYoureJoking} />
+    <Book source={Singularity} />
+    <Book source={Laws} />
     <Book source={LessonsOfHistory} />
     <Book source={ZeroToOne} />
     <Book source={Sapiens} />
