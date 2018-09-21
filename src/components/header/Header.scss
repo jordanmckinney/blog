@@ -5,6 +5,7 @@
     padding-top: 80px;
     padding-bottom: 15px;
 
+
     .header {
       font-family: 'Knewave';
       font-size: 18pt;
@@ -28,6 +29,11 @@
         &:focus{
           color: #8cfffd;
         }
+      }
+    }
+    @media (max-width: 480px) {
+      .header {
+        font-size: 14pt;
       }
     }
 }
