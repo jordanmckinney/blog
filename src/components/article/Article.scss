@@ -58,9 +58,16 @@
     border: none;
     margin-left: 0px;
   }
+  #title {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
   @media (max-width: 480px) {
     #headshot {
       max-height: none;
+    }
+    #title {
+      font-size: 1.15em;
     }
     p {
       margin-left: 10px;

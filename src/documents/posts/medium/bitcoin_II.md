@@ -1,4 +1,4 @@
-<center> <h2>Bitcoin Security in One Chart</h2> </center>
+<center> <p id="title">Bitcoin Security in One Chart</p> </center>
 
 [Medium post](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d) plotting Bitcoin "security factor" over time, and extrapolating into the future.
 

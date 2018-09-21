@@ -17211,7 +17211,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, ".article-container {\n  display: flex;\n  justify-content: space-around;\n  white-space: normal;\n  padding-bottom: 5px; }\n  .article-container .article {\n    white-space: normal;\n    margin-top: 20px;\n    color: #404040;\n    font-size: 1.0em;\n    line-height: 150%;\n    width: 650px;\n    padding: 5px; }\n  .article-container pre {\n    padding: 20px;\n    border-radius: 6px;\n    background-color: #e8eaff;\n    word-wrap: break-word; }\n  .article-container code {\n    /* These are technically the same, but use both */\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    -ms-word-break: break-all;\n    /* This is the dangerous one in WebKit, as it breaks things wherever */\n    word-break: break-all;\n    /* Instead use this non-standard one: */\n    word-break: break-word;\n    /* Adds a hyphen where the word breaks, if supported (No Blink) */\n    -ms-hyphens: auto;\n    -moz-hyphens: auto;\n    -webkit-hyphens: auto;\n    hyphens: auto; }\n  .article-container a {\n    text-decoration: none;\n    color: #306eff; }\n  .article-container img {\n    max-width: 100%;\n    border-radius: 6px;\n    margin-left: -3px;\n    border: 3px solid #3d3d3d; }\n  .article-container #headshot {\n    float: left;\n    max-height: 250px;\n    box-shadow: none;\n    margin-right: 14px;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    border-radius: 4px;\n    border: none;\n    margin-left: 0px; }\n  @media (max-width: 480px) {\n    .article-container #headshot {\n      max-height: none; }\n    .article-container p {\n      margin-left: 10px;\n      margin-right: 10px; }\n    .article-container pre {\n      margin-left: 10px;\n      margin-right: 10px; } }\n", ""]);
+exports.push([module.i, ".article-container {\n  display: flex;\n  justify-content: space-around;\n  white-space: normal;\n  padding-bottom: 5px; }\n  .article-container .article {\n    white-space: normal;\n    margin-top: 20px;\n    color: #404040;\n    font-size: 1.0em;\n    line-height: 150%;\n    width: 650px;\n    padding: 5px; }\n  .article-container pre {\n    padding: 20px;\n    border-radius: 6px;\n    background-color: #e8eaff;\n    word-wrap: break-word; }\n  .article-container code {\n    /* These are technically the same, but use both */\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n    -ms-word-break: break-all;\n    /* This is the dangerous one in WebKit, as it breaks things wherever */\n    word-break: break-all;\n    /* Instead use this non-standard one: */\n    word-break: break-word;\n    /* Adds a hyphen where the word breaks, if supported (No Blink) */\n    -ms-hyphens: auto;\n    -moz-hyphens: auto;\n    -webkit-hyphens: auto;\n    hyphens: auto; }\n  .article-container a {\n    text-decoration: none;\n    color: #306eff; }\n  .article-container img {\n    max-width: 100%;\n    border-radius: 6px;\n    margin-left: -3px;\n    border: 3px solid #3d3d3d; }\n  .article-container #headshot {\n    float: left;\n    max-height: 250px;\n    box-shadow: none;\n    margin-right: 14px;\n    margin-bottom: 8px;\n    margin-top: 8px;\n    border-radius: 4px;\n    border: none;\n    margin-left: 0px; }\n  .article-container #title {\n    font-size: 1.4em;\n    font-weight: bold; }\n  @media (max-width: 480px) {\n    .article-container #headshot {\n      max-height: none; }\n    .article-container #title {\n      font-size: 1.15em; }\n    .article-container p {\n      margin-left: 10px;\n      margin-right: 10px; }\n    .article-container pre {\n      margin-left: 10px;\n      margin-right: 10px; } }\n", ""]);
 
 // exports
 
@@ -17225,7 +17225,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, ".book-container {\n  display: flex;\n  justify-content: space-around; }\n  .book-container .book {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .book-container .book #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .book-container .book #cover {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 5px; }\n    @media (max-width: 480px) {\n      .book-container .book #title {\n        font-size: 17px; } }\n", ""]);
+exports.push([module.i, ".book-container {\n  display: flex;\n  justify-content: space-around; }\n  .book-container .book {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .book-container .book #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .book-container .book #cover {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 5px; }\n    @media (max-width: 480px) {\n      .book-container .book #title {\n        font-size: 16.5px; } }\n", ""]);
 
 // exports
 
@@ -17267,7 +17267,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, ".video-container {\n  display: flex;\n  justify-content: space-around; }\n  .video-container .video {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .video-container .video #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .video-container .video img {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 4px; }\n    @media (max-width: 480px) {\n      .video-container .video img {\n        display: block;\n        max-width: 150px;\n        height: auto; }\n      .video-container .video #title {\n        font-size: 17px; } }\n", ""]);
+exports.push([module.i, ".video-container {\n  display: flex;\n  justify-content: space-around; }\n  .video-container .video {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .video-container .video #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .video-container .video img {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 4px; }\n    @media (max-width: 480px) {\n      .video-container .video img {\n        display: block;\n        max-width: 150px;\n        height: auto; }\n      .video-container .video #title {\n        font-size: 16.5px; } }\n", ""]);
 
 // exports
 
@@ -20442,61 +20442,61 @@ module.exports = "<img src=\"/public/images/podcast_1_close.jpg\" id=\"headshot\
 /* 190 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Bitcoin Security: a Negative Exponential</h2> </center>\n\n[Medium post](https://medium.com/@jordanmmck/bitcoin-security-a-negative-exponential-95e78b6b575) on the consequences of Bitcoin's declining block reward. I argue that under proof-of-work, and given the current supply schedule, Bitcoin security will decline exponentially until it dies. \n\nThe post was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and was republished on [nakedtruth.in](http://www.nakedtruth.in/2018/08/31/the-unsolved-flaw-in-bitcoin/). I also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1034834965127557120).\n\n<img src=\"/public/images/btc_post_cover.jpg\" alt=\"rocks\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security: a Negative Exponential</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/bitcoin-security-a-negative-exponential-95e78b6b575) on the consequences of Bitcoin's declining block reward. I argue that under proof-of-work, and given the current supply schedule, Bitcoin security will decline exponentially until it dies. \n\nThe post was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and was republished on [nakedtruth.in](http://www.nakedtruth.in/2018/08/31/the-unsolved-flaw-in-bitcoin/). I also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1034834965127557120).\n\n<img src=\"/public/images/btc_post_cover.jpg\" alt=\"rocks\"/>\n"
 
 /***/ }),
 /* 191 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Bitcoin Security in One Chart</h2> </center>\n\n[Medium post](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d) plotting Bitcoin \"security factor\" over time, and extrapolating into the future.\n\nThis post, like the previous one, was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication. \nI also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1042074859977592833).\n\n<img src=\"/public/images/security_factor.png\" alt=\"security factor chart\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security in One Chart</p> </center>\n\n[Medium post](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d) plotting Bitcoin \"security factor\" over time, and extrapolating into the future.\n\nThis post, like the previous one, was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication. \nI also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1042074859977592833).\n\n<img src=\"/public/images/security_factor.png\" alt=\"security factor chart\"/>\n"
 
 /***/ }),
 /* 192 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Cryptocurrencies as Abstract Lifeforms</h2> </center>\n\n[Medium post](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons. Republished [here](https://goo.gl/Cu7gRN).\n\n<img src=\"/public/images/fractal.jpg\" alt=\"fractal\"/>\n"
+module.exports = "<center> <p id=\"title\">Cryptocurrencies as Abstract Lifeforms</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons. Republished [here](https://goo.gl/Cu7gRN).\n\n<img src=\"/public/images/fractal.jpg\" alt=\"fractal\"/>\n"
 
 /***/ }),
 /* 193 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Markets, Money and Bitcoin</h2> </center>\n\n[Medium post](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef) on how markets form, how money arises and the functions it serves, and how Bitcoin fulfills these functions.\n\n<img src=\"/public/images/money.jpg\" alt=\"money\"/>\n"
+module.exports = "<center> <p id=\"title\">Markets, Money and Bitcoin</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef) on how markets form, how money arises and the functions it serves, and how Bitcoin fulfills these functions.\n\n<img src=\"/public/images/money.jpg\" alt=\"money\"/>\n"
 
 /***/ }),
 /* 194 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Bitcoin Security Factor Projection</h2> </center>\n\n[Python project](https://github.com/jordanmmck/bitcoin_security_factor) and [blog post](https://medium.com/@jordanmmck/bitcoin-security-in-one-chart-694ee3ed8c2d) extrapolating Bitcoin \"security factor\" into the future.\n\n<img src=\"/public/images/security_factor.png\" alt=\"Security Factor plot\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security Factor Projection</p> </center>\n\n[Python project](https://github.com/jordanmmck/bitcoin_security_factor) and [blog post](https://medium.com/@jordanmmck/bitcoin-security-in-one-chart-694ee3ed8c2d) extrapolating Bitcoin \"security factor\" into the future.\n\n<img src=\"/public/images/security_factor.png\" alt=\"Security Factor plot\"/>\n"
 
 /***/ }),
 /* 195 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Doc Chain</h2> </center>\n\n[Doc Chain](https://github.com/jordanmmck/doc_chain) takes files as input and uses them to construct a blockchain. Each block consists of the hash of the previous block, the document name, the hash of the document and a nonce used for mining.\n\nMining autocalibrates to take at least 1 second. Mining uses SHA-256 to hash the block along with an incrementing nonce (like Bitcoin).\n\n<img src=\"/public/images/doc_chain.png\" alt=\"doc_chain\"/>\n"
+module.exports = "<center> <p id=\"title\">Doc Chain</p> </center>\n\n[Doc Chain](https://github.com/jordanmmck/doc_chain) takes files as input and uses them to construct a blockchain. Each block consists of the hash of the previous block, the document name, the hash of the document and a nonce used for mining.\n\nMining autocalibrates to take at least 1 second. Mining uses SHA-256 to hash the block along with an incrementing nonce (like Bitcoin).\n\n<img src=\"/public/images/doc_chain.png\" alt=\"doc_chain\"/>\n"
 
 /***/ }),
 /* 196 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>DotFiles</h2> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using NeoVim, Zsh and Tmux for a long time now, and have been continually making adjustments.\n\n<img src=\"/public/images/vimtmux.png\" alt=\"Drawing\" style=\"max-width: 100%;\"/>\n"
+module.exports = "<center> <p id=\"title\">DotFiles</p> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using NeoVim, Zsh and Tmux for a long time now, and have been continually making adjustments.\n\n<img src=\"/public/images/vimtmux.png\" alt=\"Drawing\" style=\"max-width: 100%;\"/>\n"
 
 /***/ }),
 /* 197 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <h2>Writing</h2> </center>\n\n[Writing](https://github.com/jordanmmck/writing) is an ongoing project to compile notes and essays on many topics from biology and evolution to markets and cryptocurrencies. Hosted on Github pages. Writing can be viewed [here](http://www.jordanmmck.com/writing/).\n\n<img src=\"/public/images/block_screen.png\" alt=\"notes\"/>\n"
+module.exports = "<center> <p id=\"title\">Writing</p> </center>\n\n[Writing](https://github.com/jordanmmck/writing) is an ongoing project to compile notes and essays on many topics from biology and evolution to markets and cryptocurrencies. Hosted on Github pages. Writing can be viewed [here](http://www.jordanmmck.com/writing/).\n\n<img src=\"/public/images/block_screen.png\" alt=\"notes\"/>\n"
 
 /***/ }),
 /* 198 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>This Site</h2></center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n\n<img src=\"/public/images/this_site.png\" alt=\"this site\"/>\n"
+module.exports = "<center> <p id=\"title\">This Site</p> </center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n\n<img src=\"/public/images/this_site.png\" alt=\"this site\"/>\n"
 
 /***/ }),
 /* 199 */
 /***/ (function(module, exports) {
 
-module.exports = "<center><h2>Rand Quote</h2></center> \n\n<i className=\"fa fa-twitter fa-lg\"></i>\n\nA [Twitter bot](https://github.com/jordanmckinney/twitter_bot) ([@rand_quote](https://twitter.com/rand_quote)) running on a RaspberryPi that tweets every few hours from a list of ~36,000 quotes. [No longer active]\n\n<img src=\"/public/images/tweets.png\" alt=\"twitter\"/>\n"
+module.exports = "<center> <p id=\"title\">Rand Quote</p> </center>\n\n<i className=\"fa fa-twitter fa-lg\"></i>\n\nA [Twitter bot](https://github.com/jordanmckinney/twitter_bot) ([@rand_quote](https://twitter.com/rand_quote)) running on a RaspberryPi that tweets every few hours from a list of ~36,000 quotes. [No longer active]\n\n<img src=\"/public/images/tweets.png\" alt=\"twitter\"/>\n"
 
 /***/ }),
 /* 200 */

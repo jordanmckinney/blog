@@ -1,4 +1,4 @@
-<center> <h2>Doc Chain</h2> </center>
+<center> <p id="title">Doc Chain</p> </center>
 
 [Doc Chain](https://github.com/jordanmmck/doc_chain) takes files as input and uses them to construct a blockchain. Each block consists of the hash of the previous block, the document name, the hash of the document and a nonce used for mining.
 
