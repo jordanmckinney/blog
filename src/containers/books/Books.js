@@ -22,7 +22,9 @@ import './Books.scss';
 
 const Books = () => (
   <div className="books-container">
-    <h3 id="year">Impactful Books I've Read</h3>
+    <div id="preamble-container">
+        <div id="preamble">Impactful books I've read.</div>
+    </div>
     <hr></hr>
     <Book source={GEB} />
     <Book source={Superintelligence} />

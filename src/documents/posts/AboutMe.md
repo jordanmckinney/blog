@@ -1,5 +1,3 @@
-<center><h2>About Me</h2></center>
-
 <img src="/public/images/podcast_1_close.jpg" id="headshot" alt="headshot"/>
 
 I'm a 4th year Computer Science student at UVIC.
