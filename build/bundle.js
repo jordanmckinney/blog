@@ -17225,7 +17225,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, ".book-container {\n  display: flex;\n  justify-content: space-around; }\n  .book-container .book {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .book-container .book #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .book-container .book #cover {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 5px; }\n", ""]);
+exports.push([module.i, ".book-container {\n  display: flex;\n  justify-content: space-around; }\n  .book-container .book {\n    padding-left: 18px;\n    padding-right: 6px;\n    color: #404040;\n    font-size: 1.00em;\n    line-height: 150%;\n    width: 650px;\n    margin-bottom: 10px; }\n    .book-container .book #title {\n      font-size: 18px;\n      font-weight: bold; }\n    .book-container .book #cover {\n      float: left;\n      max-height: 150px;\n      margin-right: 18px;\n      border-radius: 5px; }\n    @media (max-width: 480px) {\n      .book-container .book #title {\n        font-size: 17px; } }\n", ""]);
 
 // exports
 
