@@ -20459,7 +20459,7 @@ module.exports = "<center> <p id=\"title\">Bitcoin Security in One Chart</p> </c
 /* 192 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Bitcoin Security Budget: ASIC Edition</p> </center>\n\n[Part III](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529) of my Bitcoin series. \nIn this post I derive an approximate attack cost for an ASIC-mined cryptocurrency ike Bitcoin.\nThe motivation of this post was to explore the relationship between security budget and attack cost when ASICs are present.\n\nI summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1046780961562624000).\n\n[![Post](/public/images/equation_screen.png)](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529)\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security Budget: ASIC Edition</p> </center>\n\n[Part III](https://medium.com/coinmonks/bitcoin-security-budget-asic-edition-59a8323f9529) of my Bitcoin series.\nIn this post I derive an approximate attack cost for an ASIC-mined cryptocurrency ike Bitcoin.\nThe motivation of this post was to explore the relationship between security budget and attack cost when ASICs are present.\n\nThis post was published under the [Coinmonks](https://medium.com/coinmonks) publication and featured in the [CryptoChat](https://us16.campaign-archive.com/?u=1f5a2ff3f60a10d68aea34a25&id=581cedad6e) newsletter.\nI summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1046780961562624000).\n\n[![Post](/public/images/equation_screen.png)](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529)\n"
 
 /***/ }),
 /* 193 */
