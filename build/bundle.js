@@ -20477,37 +20477,37 @@ module.exports = "<center> <p id=\"title\">Markets, Money and Bitcoin</p> </cent
 /* 195 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Bitcoin Security Factor Projection</p> </center>\n\n[Python project](https://github.com/jordanmmck/bitcoin_security_factor) and [blog post](https://medium.com/@jordanmmck/bitcoin-security-in-one-chart-694ee3ed8c2d) extrapolating Bitcoin \"security factor\" into the future.\n\n<img src=\"/public/images/security_factor.png\" alt=\"Security Factor plot\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security Factor Projection</p> </center>\n\n[Python project](https://github.com/jordanmmck/bitcoin_security_factor) and [blog post](https://medium.com/@jordanmmck/bitcoin-security-in-one-chart-694ee3ed8c2d) extrapolating Bitcoin \"security factor\" into the future.\n\n[![Github](/public/images/security_factor.png)](https://github.com/jordanmmck/bitcoin_security_factor)\n"
 
 /***/ }),
 /* 196 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Doc Chain</p> </center>\n\n[Doc Chain](https://github.com/jordanmmck/doc_chain) takes files as input and uses them to construct a blockchain. Each block consists of the hash of the previous block, the document name, the hash of the document and a nonce used for mining.\n\nMining autocalibrates to take at least 1 second. Mining uses SHA-256 to hash the block along with an incrementing nonce (like Bitcoin).\n\n<img src=\"/public/images/doc_chain.png\" alt=\"doc_chain\"/>\n"
+module.exports = "<center> <p id=\"title\">Doc Chain</p> </center>\n\n[Doc Chain](https://github.com/jordanmmck/doc_chain) takes files as input and uses them to construct a blockchain. Each block consists of the hash of the previous block, the document name, the hash of the document and a nonce used for mining.\n\nMining autocalibrates to take at least 1 second. Mining uses SHA-256 to hash the block along with an incrementing nonce (like Bitcoin).\n\n[![Github](/public/images/doc_chain.png)](https://github.com/jordanmmck/doc_chain)\n"
 
 /***/ }),
 /* 197 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">DotFiles</p> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using NeoVim, Zsh and Tmux for a long time now, and have been continually making adjustments.\n\n<img src=\"/public/images/vimtmux.png\" alt=\"Drawing\" style=\"max-width: 100%;\"/>\n"
+module.exports = "<center> <p id=\"title\">DotFiles</p> </center>\n\nMy [DotFiles](www.github.com/jordanmmck/DotFiles) are the result of an ongoing project to perfect my development tools. I've been using NeoVim, Zsh and Tmux for a long time now, and have been continually making adjustments.\n\n[![Github](/public/images/vimtmux.png)](https://www.github.com/jordanmmck/DotFiles)\n"
 
 /***/ }),
 /* 198 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Writing</p> </center>\n\n[Writing](https://github.com/jordanmmck/writing) is an ongoing project to compile notes and essays on many topics from biology and evolution to markets and cryptocurrencies. Hosted on Github pages. Writing can be viewed [here](http://www.jordanmmck.com/writing/).\n\n<img src=\"/public/images/block_screen.png\" alt=\"notes\"/>\n"
+module.exports = "<center> <p id=\"title\">Writing</p> </center>\n\n[Writing](https://github.com/jordanmmck/notes) is an ongoing project to compile notes and essays on many topics from biology and evolution to markets and cryptocurrencies. Hosted on Github pages. Writing can be viewed [here](http://www.jordanmmck.com/writing/).\n\n[![Github](/public/images/block_screen.png)](https://github.com/jordanmmck/notes)\n"
 
 /***/ }),
 /* 199 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">This Site</p> </center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n\n<img src=\"/public/images/this_site.png\" alt=\"this site\"/>\n"
+module.exports = "<center> <p id=\"title\">This Site</p> </center>\n\n[This site](https://github.com/jordanmmck/blog) was built using React, Yarn and Webpack. It was designed to be simple and lightweight, and is a constant work in progress. The site is hosted for free on Github.\n\n[![Github](/public/images/this_site.png)](https://github.com/jordanmmck/jordanmmck.github.io)\n"
 
 /***/ }),
 /* 200 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Rand Quote</p> </center>\n\n<i className=\"fa fa-twitter fa-lg\"></i>\n\nA [Twitter bot](https://github.com/jordanmckinney/twitter_bot) ([@rand_quote](https://twitter.com/rand_quote)) running on a RaspberryPi that tweets every few hours from a list of ~36,000 quotes. [No longer active]\n\n<img src=\"/public/images/tweets.png\" alt=\"twitter\"/>\n"
+module.exports = "<center> <p id=\"title\">Rand Quote</p> </center>\n\n<i className=\"fa fa-twitter fa-lg\"></i>\n\nA [Twitter bot](https://github.com/jordanmckinney/twitter_bot) ([@rand_quote](https://twitter.com/rand_quote)) running on a RaspberryPi that tweets every few hours from a list of ~36,000 quotes. [No longer active]\n\n[![Github](/public/images/tweets.png)](https://github.com/jordanmckinney/twitter_bot)\n"
 
 /***/ }),
 /* 201 */

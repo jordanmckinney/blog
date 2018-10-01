@@ -4,4 +4,4 @@
 
 Mining autocalibrates to take at least 1 second. Mining uses SHA-256 to hash the block along with an incrementing nonce (like Bitcoin).
 
-<img src="/public/images/doc_chain.png" alt="doc_chain"/>
+[![Github](/public/images/doc_chain.png)](https://github.com/jordanmmck/doc_chain)
