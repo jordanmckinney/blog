@@ -6,4 +6,4 @@ The motivation of this post was to explore the relationship between security bud
 
 I summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1046780961562624000).
 
-<img src="/public/images/equation_screen.png" alt="attack cost equation"/>
+[![Post](/public/images/equation_screen.png)](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529)

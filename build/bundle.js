@@ -20447,31 +20447,31 @@ module.exports = "<img src=\"/public/images/podcast_1_close.jpg\" id=\"headshot\
 /* 190 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Bitcoin Security: a Negative Exponential</p> </center>\n\n[Part I](https://medium.com/@jordanmmck/bitcoin-security-a-negative-exponential-95e78b6b575) in my series on the consequences of Bitcoin's declining block reward. I argue that under proof-of-work, and given the current supply schedule, Bitcoin security will decline exponentially until it dies. \n\nThe post was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and was republished on [nakedtruth.in](http://www.nakedtruth.in/2018/08/31/the-unsolved-flaw-in-bitcoin/). I also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1034834965127557120).\n\n<img src=\"/public/images/btc_post_cover.jpg\" alt=\"rocks\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security: a Negative Exponential</p> </center>\n\n[Part I](https://medium.com/@jordanmmck/bitcoin-security-a-negative-exponential-95e78b6b575) of my series on the consequences of Bitcoin's declining block reward. I argue that under proof-of-work, and given the current supply schedule, Bitcoin security will decline exponentially until it dies. \n\nThe post was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and was republished on [nakedtruth.in](http://www.nakedtruth.in/2018/08/31/the-unsolved-flaw-in-bitcoin/). I also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1034834965127557120).\n\n[![Post](/public/images/btc_post_cover.jpg)](https://medium.com/@jordanmmck/bitcoin-security-a-negative-exponential-95e78b6b575)\n"
 
 /***/ }),
 /* 191 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Bitcoin Security in One Chart</p> </center>\n\n[Part II](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d) of my Bitcoin series. \nHere I plot Bitcoin \"security factor\" over time, and extrapolating into the future.\n\nThis post, like the previous one, was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and it was featured in the [CryptoChat](https://us16.campaign-archive.com/?u=1f5a2ff3f60a10d68aea34a25&id=2344913960) newsletter. \nI also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1042074859977592833).\n\n<img src=\"/public/images/security_factor.png\" alt=\"security factor chart\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security in One Chart</p> </center>\n\n[Part II](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d) of my Bitcoin series. \nHere I plot Bitcoin \"security factor\" over time, and extrapolating into the future.\n\nThis post, like the previous one, was added to the [Coinmonks](https://medium.com/coinmonks) Medium publication, and it was featured in the [CryptoChat](https://us16.campaign-archive.com/?u=1f5a2ff3f60a10d68aea34a25&id=2344913960) newsletter. \nI also summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1042074859977592833).\n\n[![Post](/public/images/security_factor.png)](https://medium.com/coinmonks/bitcoin-security-in-one-chart-694ee3ed8c2d)\n"
 
 /***/ }),
 /* 192 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Bitcoin Security Budget: ASIC Edition</p> </center>\n\n[Part III](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529) of my Bitcoin series. \nIn this post I derive an approximate attack cost for an ASIC-mined cryptocurrency ike Bitcoin.\nThe motivation of this post was to explore the relationship between security budget and attack cost when ASICs are present.\n\nI summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1046780961562624000).\n\n<img src=\"/public/images/equation_screen.png\" alt=\"attack cost equation\"/>\n"
+module.exports = "<center> <p id=\"title\">Bitcoin Security Budget: ASIC Edition</p> </center>\n\n[Part III](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529) of my Bitcoin series. \nIn this post I derive an approximate attack cost for an ASIC-mined cryptocurrency ike Bitcoin.\nThe motivation of this post was to explore the relationship between security budget and attack cost when ASICs are present.\n\nI summarized the post via [Tweetstorm](https://twitter.com/jordanmmck/status/1046780961562624000).\n\n[![Post](/public/images/equation_screen.png)](https://medium.com/@jordanmmck/bitcoin-security-budget-asic-edition-59a8323f9529)\n"
 
 /***/ }),
 /* 193 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Cryptocurrencies as Abstract Lifeforms</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons. Republished [here](https://goo.gl/Cu7gRN).\n\n<img src=\"/public/images/fractal.jpg\" alt=\"fractal\"/>\n"
+module.exports = "<center> <p id=\"title\">Cryptocurrencies as Abstract Lifeforms</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed) on cryptoeconomic systems and how they grow, evolve, and speciate like organisms, as well as Ethereum smart contracts and how they function like abstract machines or automatons. Republished [here](https://goo.gl/Cu7gRN).\n\n[![Post](/public/images/fractal.jpg)](https://medium.com/@jordanmmck/cryptocurrencies-as-abstract-lifeforms-9e35138d63ed)\n"
 
 /***/ }),
 /* 194 */
 /***/ (function(module, exports) {
 
-module.exports = "<center> <p id=\"title\">Markets, Money and Bitcoin</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef) on how markets form, how money arises and the functions it serves, and how Bitcoin fulfills these functions.\n\n<img src=\"/public/images/money.jpg\" alt=\"money\"/>\n"
+module.exports = "<center> <p id=\"title\">Markets, Money and Bitcoin</p> </center>\n\n[Medium post](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef) on how markets form, how money arises and the functions it serves, and how Bitcoin fulfills these functions.\n\n[![Post](/public/images/money.jpg)](https://medium.com/@jordanmmck/markets-money-bitcoin-96e5539bceef)\n"
 
 /***/ }),
 /* 195 */
