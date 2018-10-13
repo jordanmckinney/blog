@@ -10,4 +10,4 @@ When some topic is well understood the relevant notes are either removed or comp
 
 Notes uses [Gitbook](https://www.gitbook.com) and can be viewed at [notes.jordanmmck.com](https://notes.jordanmmck.com/).
 
-[![Github](/public/images/notes.png)](https://github.com/jordanmmck/notes)
+[![Github](/public/images/notes.png)](https://notes.jordanmmck.com/)
