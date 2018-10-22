@@ -18,6 +18,7 @@ import HowToWinFriends from '../../documents/books/howtowinfriends.md';
 import GEB from '../../documents/books/geb.md';
 import Laws from '../../documents/books/laws.md';
 import Singularity from '../../documents/books/singularity.md';
+import Principles from '../../documents/books/principles.md';
 import './Books.scss';
 
 const Books = () => (
@@ -34,6 +35,7 @@ const Books = () => (
     <Book source={Singularity} />
     <Book source={Laws} />
     <Book source={LessonsOfHistory} />
+    <Book source={Principles} />
     <Book source={ZeroToOne} />
     <Book source={Sapiens} />
     <Book source={RationalOptimist} />
