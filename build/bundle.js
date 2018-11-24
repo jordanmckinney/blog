@@ -5638,7 +5638,7 @@ module.exports = canDefineProperty;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _react = __webpack_require__(4);
@@ -5654,16 +5654,16 @@ __webpack_require__(318);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Article = function Article(_ref) {
-    var source = _ref.source;
-    return _react2.default.createElement(
-        'div',
-        { className: 'article-container' },
-        _react2.default.createElement(
-            'div',
-            { className: 'article' },
-            _react2.default.createElement(_reactMarkdown2.default, { source: source })
-        )
-    );
+  var source = _ref.source;
+  return _react2.default.createElement(
+    "div",
+    { className: "article-container" },
+    _react2.default.createElement(
+      "div",
+      { className: "article" },
+      _react2.default.createElement(_reactMarkdown2.default, { source: source })
+    )
+  );
 };
 
 exports.default = Article;
