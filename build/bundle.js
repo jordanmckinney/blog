@@ -5638,7 +5638,7 @@ module.exports = canDefineProperty;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = __webpack_require__(4);
@@ -5654,16 +5654,16 @@ __webpack_require__(318);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Article = function Article(_ref) {
-  var source = _ref.source;
-  return _react2.default.createElement(
-    "div",
-    { className: "article-container" },
-    _react2.default.createElement(
-      "div",
-      { className: "article" },
-      _react2.default.createElement(_reactMarkdown2.default, { source: source })
-    )
-  );
+    var source = _ref.source;
+    return _react2.default.createElement(
+        'div',
+        { className: 'article-container' },
+        _react2.default.createElement(
+            'div',
+            { className: 'article' },
+            _react2.default.createElement(_reactMarkdown2.default, { source: source })
+        )
+    );
 };
 
 exports.default = Article;
@@ -20552,7 +20552,7 @@ module.exports = "<img src=\"../../public/images/book_covers/zerotoone.jpg\" id=
 /* 195 */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"/public/images/podcast_1_close.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI'm a 4th year Computer Science student at UVIC, and part-time researcher at [Storecoin](http://storeco.in/).\nI've done web development coops at [Redbrick](https://rdbrck.com/) and [Bambora](https://www.bambora.com/en/us/).\n\nI write [blog posts](https://medium.com/@jordanmmck) and make [YouTube videos](https://www.youtube.com/user/Brock34Landers) on the subject of cryptocurrencies, and I run a [Slack channel](https://vicblockchain.now.sh/) called VicBlockchain where we discuss all things crypto, organize meetups, etc.\n\nAfter graduating in December I hope to work as an analyst at a crypto investment fund.\nI can be reached at [jordanmmck@gmail.com](mailto:jordanmmck@gmail.com).\n"
+module.exports = "<img src=\"/public/images/podcast_1_close.jpg\" id=\"headshot\" alt=\"headshot\"/>\n\nI'm a 4th year Computer Science student at UVIC, and part-time researcher at [Storecoin](http://storeco.in/).\nI've done web development coops at [Redbrick](https://rdbrck.com/) and [Bambora](https://www.bambora.com/en/us/).\n\nI write [blog posts](https://medium.com/@jordanmmck) and make [YouTube videos](https://www.youtube.com/user/Brock34Landers) on the subject of cryptocurrencies, and I run a [Slack channel](https://vicblockchain.now.sh/) called VicBlockchain where we discuss all things crypto, organize meetups, etc.\n\nAfter graduating in December I hope to work as an ethereum developer.\nI can be reached at [jordanmmck@gmail.com](mailto:jordanmmck@gmail.com).\n"
 
 /***/ }),
 /* 196 */
