@@ -1,4 +1,4 @@
-[![Fault Tolerant Ep 1](/public/images/fault_tolerant_1.jpg)](https://anchor.fm/fault-tolerant/episodes/Constantinople-and-Grin-e30gac/a-a96og2)
+[![Fault Tolerant Ep 1](/public/images/fault_tolerant.png)](https://anchor.fm/fault-tolerant/episodes/Constantinople-and-Grin-e30gac/a-a96og2)
 
 <p id="title">Podcast: Fault Tolerant Ep. 1</p>
 
