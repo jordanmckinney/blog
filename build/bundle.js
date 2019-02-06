@@ -20646,7 +20646,7 @@ module.exports = "[![Fault Tolerant Ep 1](/public/images/fault_tolerant.png)](ht
 /* 209 */
 /***/ (function(module, exports) {
 
-module.exports = "[![Fault Tolerant Ep 2](/public/images/fault_tolerant_2_headshot_2.jpg)](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg)\n\n<p id=\"title\">Podcast: Fault Tolerant Ep. 2</p>\n\nI hosted episode 2 of [Fault Tolerant](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg).\nEric and I talked about the MolochDAO and Ethereum clients.\n"
+module.exports = "[![Fault Tolerant Ep 2](/public/images/fault_tolerant_headshot.jpg)](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg)\n\n<p id=\"title\">Podcast: Fault Tolerant Ep. 2</p>\n\nI hosted episode 2 of [Fault Tolerant](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg).\nEric and I talked about the MolochDAO and Ethereum clients.\n"
 
 /***/ }),
 /* 210 */

@@ -1,4 +1,4 @@
-[![Fault Tolerant Ep 2](/public/images/fault_tolerant_2_headshot_2.jpg)](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg)
+[![Fault Tolerant Ep 2](/public/images/fault_tolerant_headshot.jpg)](https://anchor.fm/fault-tolerant/episodes/MolochDAO-and-Ethereum-Clients-e33okq/a-a9voqg)
 
 <p id="title">Podcast: Fault Tolerant Ep. 2</p>
 
